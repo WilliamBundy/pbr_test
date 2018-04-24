@@ -1,0 +1,3618 @@
+ALLOC_API	src/wb_alloc.h	167;"	d
+ALLOC_API	src/wb_alloc.h	169;"	d
+ALLOC_BACKEND_API	src/wb_alloc.h	174;"	d
+ALLOC_CPLUSPLUS_FEATURES	src/wb_alloc.h	149;"	d
+ALLOC_ERROR_HANDLER	src/wb_alloc.h	143;"	d
+ALLOC_EXTENDED_INFO	src/wb_alloc.h	191;"	d
+ALLOC_MEMCPY	src/wb_alloc.h	207;"	d
+ALLOC_MEMSET	src/wb_alloc.h	203;"	d
+ALLOC_POSIX	src/wb_alloc.h	158;"	d
+ALLOC_POSIX	src/wb_alloc.h	161;"	d
+ALLOC_STACK_PTR	src/wb_alloc.h	187;"	d
+ALLOC_TAGGEDHEAP_MAX_TAG_COUNT	src/wb_alloc.h	216;"	d
+ALLOC_WINDOWS	src/wb_alloc.h	155;"	d
+BOOL	src/wb_alloc.h	/^typedef int BOOL;$/;"	t
+CTL_HW	src/wb_alloc.h	739;"	d
+CalcGigabytes	src/wb_alloc.h	221;"	d
+CalcKilobytes	src/wb_alloc.h	219;"	d
+CalcMegabytes	src/wb_alloc.h	220;"	d
+Camera	src/render.c	/^struct Camera$/;"	s	file:
+Camera	src/render.c	/^typedef struct Camera Camera;$/;"	t	typeref:struct:Camera	file:
+Camera	src/render_util.c	/^struct Camera$/;"	s	file:
+Camera	src/render_util.c	/^typedef struct Camera Camera;$/;"	t	typeref:struct:Camera	file:
+CameraDefaultUp	src/main.cc	52;"	d	file:
+CameraDefaultUp	src/render_util.c	2;"	d	file:
+DWORD	src/wb_alloc.h	/^typedef unsigned int DWORD;$/;"	t
+DWORD_PTR	src/wb_alloc.h	/^typedef DWORD* DWORD_PTR;$/;"	t
+Execute	src/wb_alloc.h	227;"	d
+Fenum	src/wb_fbx.cc	81;"	d	file:
+FlagArenaExtended	src/wb_alloc.h	232;"	d
+FlagArenaFixedSize	src/wb_alloc.h	230;"	d
+FlagArenaNoRecommit	src/wb_alloc.h	234;"	d
+FlagArenaNoZeroMemory	src/wb_alloc.h	233;"	d
+FlagArenaNormal	src/wb_alloc.h	229;"	d
+FlagArenaStack	src/wb_alloc.h	231;"	d
+FlagPoolCompacting	src/wb_alloc.h	238;"	d
+FlagPoolFixedSize	src/wb_alloc.h	237;"	d
+FlagPoolNoDoubleFreeCheck	src/wb_alloc.h	240;"	d
+FlagPoolNoZeroMemory	src/wb_alloc.h	239;"	d
+FlagPoolNormal	src/wb_alloc.h	236;"	d
+FlagTaggedHeapFixedSize	src/wb_alloc.h	243;"	d
+FlagTaggedHeapNoSetCommitSize	src/wb_alloc.h	245;"	d
+FlagTaggedHeapNoZeroMemory	src/wb_alloc.h	244;"	d
+FlagTaggedHeapNormal	src/wb_alloc.h	242;"	d
+FlagTaggedHeapSearchForBestFit	src/wb_alloc.h	246;"	d
+GLDEBUGPROC	src/wb_gl.h	/^typedef void (*GLDEBUGPROC)(void);$/;"	t
+GLDEBUGPROC	src/wb_gl_loader.h	/^typedef void* GLDEBUGPROC;$/;"	t
+GL_2D	src/wb_gl.h	534;"	d
+GL_2D	src/wb_gl_loader.h	1375;"	d
+GL_2_BYTES	src/wb_gl.h	708;"	d
+GL_2_BYTES	src/wb_gl_loader.h	1586;"	d
+GL_3D	src/wb_gl.h	535;"	d
+GL_3D	src/wb_gl_loader.h	1376;"	d
+GL_3D_COLOR	src/wb_gl.h	536;"	d
+GL_3D_COLOR	src/wb_gl_loader.h	1377;"	d
+GL_3D_COLOR_TEXTURE	src/wb_gl.h	537;"	d
+GL_3D_COLOR_TEXTURE	src/wb_gl_loader.h	1378;"	d
+GL_3_BYTES	src/wb_gl.h	709;"	d
+GL_3_BYTES	src/wb_gl_loader.h	1587;"	d
+GL_4D_COLOR_TEXTURE	src/wb_gl.h	538;"	d
+GL_4D_COLOR_TEXTURE	src/wb_gl_loader.h	1379;"	d
+GL_4_BYTES	src/wb_gl.h	710;"	d
+GL_4_BYTES	src/wb_gl_loader.h	1588;"	d
+GL_ACCUM	src/wb_gl.h	525;"	d
+GL_ACCUM	src/wb_gl_loader.h	1366;"	d
+GL_ACCUM_ALPHA_BITS	src/wb_gl.h	669;"	d
+GL_ACCUM_ALPHA_BITS	src/wb_gl_loader.h	1520;"	d
+GL_ACCUM_BLUE_BITS	src/wb_gl.h	668;"	d
+GL_ACCUM_BLUE_BITS	src/wb_gl_loader.h	1519;"	d
+GL_ACCUM_BUFFER_BIT	src/wb_gl.h	513;"	d
+GL_ACCUM_BUFFER_BIT	src/wb_gl_loader.h	1351;"	d
+GL_ACCUM_CLEAR_VALUE	src/wb_gl.h	597;"	d
+GL_ACCUM_CLEAR_VALUE	src/wb_gl_loader.h	1446;"	d
+GL_ACCUM_GREEN_BITS	src/wb_gl.h	667;"	d
+GL_ACCUM_GREEN_BITS	src/wb_gl_loader.h	1518;"	d
+GL_ACCUM_RED_BITS	src/wb_gl.h	666;"	d
+GL_ACCUM_RED_BITS	src/wb_gl_loader.h	1517;"	d
+GL_ACTIVE_ATOMIC_COUNTER_BUFFERS	src/wb_gl.h	1734;"	d
+GL_ACTIVE_ATTRIBUTES	src/wb_gl.h	1166;"	d
+GL_ACTIVE_ATTRIBUTES	src/wb_gl_loader.h	1971;"	d
+GL_ACTIVE_ATTRIBUTE_MAX_LENGTH	src/wb_gl.h	1167;"	d
+GL_ACTIVE_ATTRIBUTE_MAX_LENGTH	src/wb_gl_loader.h	1972;"	d
+GL_ACTIVE_PROGRAM	src/wb_gl.h	1686;"	d
+GL_ACTIVE_RESOURCES	src/wb_gl.h	2003;"	d
+GL_ACTIVE_SUBROUTINES	src/wb_gl.h	1613;"	d
+GL_ACTIVE_SUBROUTINE_MAX_LENGTH	src/wb_gl.h	1616;"	d
+GL_ACTIVE_SUBROUTINE_UNIFORMS	src/wb_gl.h	1614;"	d
+GL_ACTIVE_SUBROUTINE_UNIFORM_LOCATIONS	src/wb_gl.h	1615;"	d
+GL_ACTIVE_SUBROUTINE_UNIFORM_MAX_LENGTH	src/wb_gl.h	1617;"	d
+GL_ACTIVE_TEXTURE	src/wb_gl.h	933;"	d
+GL_ACTIVE_TEXTURE	src/wb_gl_loader.h	1740;"	d
+GL_ACTIVE_UNIFORMS	src/wb_gl.h	1163;"	d
+GL_ACTIVE_UNIFORMS	src/wb_gl_loader.h	1968;"	d
+GL_ACTIVE_UNIFORM_BLOCKS	src/wb_gl.h	1484;"	d
+GL_ACTIVE_UNIFORM_BLOCKS	src/wb_gl_loader.h	2289;"	d
+GL_ACTIVE_UNIFORM_BLOCK_MAX_NAME_LENGTH	src/wb_gl.h	1483;"	d
+GL_ACTIVE_UNIFORM_BLOCK_MAX_NAME_LENGTH	src/wb_gl_loader.h	2288;"	d
+GL_ACTIVE_UNIFORM_MAX_LENGTH	src/wb_gl.h	1164;"	d
+GL_ACTIVE_UNIFORM_MAX_LENGTH	src/wb_gl_loader.h	1969;"	d
+GL_ACTIVE_VARIABLES	src/wb_gl.h	2019;"	d
+GL_ADD	src/wb_gl.h	529;"	d
+GL_ADD	src/wb_gl_loader.h	1370;"	d
+GL_ADD_SIGNED	src/wb_gl.h	989;"	d
+GL_ADD_SIGNED	src/wb_gl_loader.h	1796;"	d
+GL_ALIASED_LINE_WIDTH_RANGE	src/wb_gl.h	895;"	d
+GL_ALIASED_LINE_WIDTH_RANGE	src/wb_gl_loader.h	1702;"	d
+GL_ALIASED_POINT_SIZE_RANGE	src/wb_gl.h	900;"	d
+GL_ALIASED_POINT_SIZE_RANGE	src/wb_gl_loader.h	1707;"	d
+GL_ALL_ATTRIB_BITS	src/wb_gl.h	522;"	d
+GL_ALL_ATTRIB_BITS	src/wb_gl_loader.h	1360;"	d
+GL_ALL_BARRIER_BITS	src/wb_gl.h	1749;"	d
+GL_ALL_SHADER_BITS	src/wb_gl.h	1684;"	d
+GL_ALPHA	src/wb_gl.h	480;"	d
+GL_ALPHA	src/wb_gl_loader.h	1302;"	d
+GL_ALPHA12	src/wb_gl.h	829;"	d
+GL_ALPHA12	src/wb_gl_loader.h	1622;"	d
+GL_ALPHA16	src/wb_gl.h	830;"	d
+GL_ALPHA16	src/wb_gl_loader.h	1623;"	d
+GL_ALPHA4	src/wb_gl.h	827;"	d
+GL_ALPHA4	src/wb_gl_loader.h	1620;"	d
+GL_ALPHA8	src/wb_gl.h	828;"	d
+GL_ALPHA8	src/wb_gl_loader.h	1621;"	d
+GL_ALPHA_BIAS	src/wb_gl.h	647;"	d
+GL_ALPHA_BIAS	src/wb_gl_loader.h	1497;"	d
+GL_ALPHA_BITS	src/wb_gl.h	663;"	d
+GL_ALPHA_BITS	src/wb_gl_loader.h	1514;"	d
+GL_ALPHA_INTEGER	src/wb_gl.h	1440;"	d
+GL_ALPHA_INTEGER	src/wb_gl_loader.h	2245;"	d
+GL_ALPHA_SCALE	src/wb_gl.h	646;"	d
+GL_ALPHA_SCALE	src/wb_gl_loader.h	1496;"	d
+GL_ALPHA_TEST	src/wb_gl.h	607;"	d
+GL_ALPHA_TEST	src/wb_gl_loader.h	1457;"	d
+GL_ALPHA_TEST_FUNC	src/wb_gl.h	608;"	d
+GL_ALPHA_TEST_FUNC	src/wb_gl_loader.h	1458;"	d
+GL_ALPHA_TEST_REF	src/wb_gl.h	609;"	d
+GL_ALPHA_TEST_REF	src/wb_gl_loader.h	1459;"	d
+GL_ALREADY_SIGNALED	src/wb_gl.h	1539;"	d
+GL_ALREADY_SIGNALED	src/wb_gl_loader.h	2344;"	d
+GL_ALWAYS	src/wb_gl.h	352;"	d
+GL_ALWAYS	src/wb_gl_loader.h	1160;"	d
+GL_AMBIENT	src/wb_gl.h	696;"	d
+GL_AMBIENT	src/wb_gl_loader.h	1574;"	d
+GL_AMBIENT_AND_DIFFUSE	src/wb_gl.h	713;"	d
+GL_AMBIENT_AND_DIFFUSE	src/wb_gl_loader.h	1591;"	d
+GL_AND	src/wb_gl.h	456;"	d
+GL_AND	src/wb_gl_loader.h	1278;"	d
+GL_AND_INVERTED	src/wb_gl.h	459;"	d
+GL_AND_INVERTED	src/wb_gl_loader.h	1281;"	d
+GL_AND_REVERSE	src/wb_gl.h	457;"	d
+GL_AND_REVERSE	src/wb_gl_loader.h	1279;"	d
+GL_ANY_SAMPLES_PASSED	src/wb_gl.h	1571;"	d
+GL_ANY_SAMPLES_PASSED	src/wb_gl_loader.h	2376;"	d
+GL_ANY_SAMPLES_PASSED_CONSERVATIVE	src/wb_gl.h	1819;"	d
+GL_ARRAY_BUFFER	src/wb_gl.h	1053;"	d
+GL_ARRAY_BUFFER	src/wb_gl_loader.h	1858;"	d
+GL_ARRAY_BUFFER_BINDING	src/wb_gl.h	1055;"	d
+GL_ARRAY_BUFFER_BINDING	src/wb_gl_loader.h	1860;"	d
+GL_ARRAY_SIZE	src/wb_gl.h	2009;"	d
+GL_ARRAY_STRIDE	src/wb_gl.h	2012;"	d
+GL_ATOMIC_COUNTER_BARRIER_BIT	src/wb_gl.h	1748;"	d
+GL_ATOMIC_COUNTER_BUFFER	src/wb_gl.h	1708;"	d
+GL_ATOMIC_COUNTER_BUFFER_ACTIVE_ATOMIC_COUNTERS	src/wb_gl.h	1713;"	d
+GL_ATOMIC_COUNTER_BUFFER_ACTIVE_ATOMIC_COUNTER_INDICES	src/wb_gl.h	1714;"	d
+GL_ATOMIC_COUNTER_BUFFER_BINDING	src/wb_gl.h	1709;"	d
+GL_ATOMIC_COUNTER_BUFFER_DATA_SIZE	src/wb_gl.h	1712;"	d
+GL_ATOMIC_COUNTER_BUFFER_INDEX	src/wb_gl.h	2015;"	d
+GL_ATOMIC_COUNTER_BUFFER_REFERENCED_BY_COMPUTE_SHADER	src/wb_gl.h	1835;"	d
+GL_ATOMIC_COUNTER_BUFFER_REFERENCED_BY_FRAGMENT_SHADER	src/wb_gl.h	1719;"	d
+GL_ATOMIC_COUNTER_BUFFER_REFERENCED_BY_GEOMETRY_SHADER	src/wb_gl.h	1718;"	d
+GL_ATOMIC_COUNTER_BUFFER_REFERENCED_BY_TESS_CONTROL_SHADER	src/wb_gl.h	1716;"	d
+GL_ATOMIC_COUNTER_BUFFER_REFERENCED_BY_TESS_EVALUATION_SHADER	src/wb_gl.h	1717;"	d
+GL_ATOMIC_COUNTER_BUFFER_REFERENCED_BY_VERTEX_SHADER	src/wb_gl.h	1715;"	d
+GL_ATOMIC_COUNTER_BUFFER_SIZE	src/wb_gl.h	1711;"	d
+GL_ATOMIC_COUNTER_BUFFER_START	src/wb_gl.h	1710;"	d
+GL_ATTACHED_SHADERS	src/wb_gl.h	1162;"	d
+GL_ATTACHED_SHADERS	src/wb_gl_loader.h	1967;"	d
+GL_ATTRIB_STACK_DEPTH	src/wb_gl.h	606;"	d
+GL_ATTRIB_STACK_DEPTH	src/wb_gl_loader.h	1455;"	d
+GL_AUTO_GENERATE_MIPMAP	src/wb_gl.h	1924;"	d
+GL_AUTO_NORMAL	src/wb_gl.h	671;"	d
+GL_AUTO_NORMAL	src/wb_gl_loader.h	1522;"	d
+GL_AUX0	src/wb_gl.h	530;"	d
+GL_AUX0	src/wb_gl_loader.h	1371;"	d
+GL_AUX1	src/wb_gl.h	531;"	d
+GL_AUX1	src/wb_gl_loader.h	1372;"	d
+GL_AUX2	src/wb_gl.h	532;"	d
+GL_AUX2	src/wb_gl_loader.h	1373;"	d
+GL_AUX3	src/wb_gl.h	533;"	d
+GL_AUX3	src/wb_gl_loader.h	1374;"	d
+GL_AUX_BUFFERS	src/wb_gl.h	611;"	d
+GL_AUX_BUFFERS	src/wb_gl_loader.h	1461;"	d
+GL_BACK	src/wb_gl.h	370;"	d
+GL_BACK	src/wb_gl_loader.h	1178;"	d
+GL_BACK_LEFT	src/wb_gl.h	367;"	d
+GL_BACK_LEFT	src/wb_gl_loader.h	1175;"	d
+GL_BACK_RIGHT	src/wb_gl.h	368;"	d
+GL_BACK_RIGHT	src/wb_gl_loader.h	1176;"	d
+GL_BGR	src/wb_gl.h	882;"	d
+GL_BGR	src/wb_gl_loader.h	1689;"	d
+GL_BGRA	src/wb_gl.h	883;"	d
+GL_BGRA	src/wb_gl_loader.h	1690;"	d
+GL_BGRA_INTEGER	src/wb_gl.h	1276;"	d
+GL_BGRA_INTEGER	src/wb_gl_loader.h	2081;"	d
+GL_BGR_INTEGER	src/wb_gl.h	1275;"	d
+GL_BGR_INTEGER	src/wb_gl_loader.h	2080;"	d
+GL_BITMAP	src/wb_gl.h	720;"	d
+GL_BITMAP	src/wb_gl_loader.h	1598;"	d
+GL_BITMAP_TOKEN	src/wb_gl.h	543;"	d
+GL_BITMAP_TOKEN	src/wb_gl_loader.h	1384;"	d
+GL_BLEND	src/wb_gl.h	411;"	d
+GL_BLEND	src/wb_gl_loader.h	1219;"	d
+GL_BLEND_COLOR	src/wb_gl.h	1036;"	d
+GL_BLEND_DST	src/wb_gl.h	409;"	d
+GL_BLEND_DST	src/wb_gl_loader.h	1217;"	d
+GL_BLEND_DST_ALPHA	src/wb_gl.h	999;"	d
+GL_BLEND_DST_ALPHA	src/wb_gl_loader.h	1806;"	d
+GL_BLEND_DST_RGB	src/wb_gl.h	997;"	d
+GL_BLEND_DST_RGB	src/wb_gl_loader.h	1804;"	d
+GL_BLEND_EQUATION	src/wb_gl.h	1037;"	d
+GL_BLEND_EQUATION_ALPHA	src/wb_gl.h	1126;"	d
+GL_BLEND_EQUATION_ALPHA	src/wb_gl_loader.h	1931;"	d
+GL_BLEND_EQUATION_RGB	src/wb_gl.h	1097;"	d
+GL_BLEND_EQUATION_RGB	src/wb_gl_loader.h	1902;"	d
+GL_BLEND_SRC	src/wb_gl.h	410;"	d
+GL_BLEND_SRC	src/wb_gl_loader.h	1218;"	d
+GL_BLEND_SRC_ALPHA	src/wb_gl.h	1000;"	d
+GL_BLEND_SRC_ALPHA	src/wb_gl_loader.h	1807;"	d
+GL_BLEND_SRC_RGB	src/wb_gl.h	998;"	d
+GL_BLEND_SRC_RGB	src/wb_gl_loader.h	1805;"	d
+GL_BLOCK_INDEX	src/wb_gl.h	2011;"	d
+GL_BLUE	src/wb_gl.h	479;"	d
+GL_BLUE	src/wb_gl_loader.h	1301;"	d
+GL_BLUE_BIAS	src/wb_gl.h	645;"	d
+GL_BLUE_BIAS	src/wb_gl_loader.h	1495;"	d
+GL_BLUE_BITS	src/wb_gl.h	662;"	d
+GL_BLUE_BITS	src/wb_gl_loader.h	1513;"	d
+GL_BLUE_INTEGER	src/wb_gl.h	1272;"	d
+GL_BLUE_INTEGER	src/wb_gl_loader.h	2077;"	d
+GL_BLUE_SCALE	src/wb_gl.h	644;"	d
+GL_BLUE_SCALE	src/wb_gl_loader.h	1494;"	d
+GL_BOOL	src/wb_gl.h	1144;"	d
+GL_BOOL	src/wb_gl_loader.h	1949;"	d
+GL_BOOL_VEC2	src/wb_gl.h	1145;"	d
+GL_BOOL_VEC2	src/wb_gl_loader.h	1950;"	d
+GL_BOOL_VEC3	src/wb_gl.h	1146;"	d
+GL_BOOL_VEC3	src/wb_gl_loader.h	1951;"	d
+GL_BOOL_VEC4	src/wb_gl.h	1147;"	d
+GL_BOOL_VEC4	src/wb_gl_loader.h	1952;"	d
+GL_BUFFER	src/wb_gl.h	1867;"	d
+GL_BUFFER_ACCESS	src/wb_gl.h	1061;"	d
+GL_BUFFER_ACCESS	src/wb_gl_loader.h	1866;"	d
+GL_BUFFER_ACCESS_FLAGS	src/wb_gl.h	1301;"	d
+GL_BUFFER_ACCESS_FLAGS	src/wb_gl_loader.h	2106;"	d
+GL_BUFFER_BINDING	src/wb_gl.h	2016;"	d
+GL_BUFFER_DATA_SIZE	src/wb_gl.h	2017;"	d
+GL_BUFFER_MAPPED	src/wb_gl.h	1062;"	d
+GL_BUFFER_MAPPED	src/wb_gl_loader.h	1867;"	d
+GL_BUFFER_MAP_LENGTH	src/wb_gl.h	1302;"	d
+GL_BUFFER_MAP_LENGTH	src/wb_gl_loader.h	2107;"	d
+GL_BUFFER_MAP_OFFSET	src/wb_gl.h	1303;"	d
+GL_BUFFER_MAP_OFFSET	src/wb_gl_loader.h	2108;"	d
+GL_BUFFER_MAP_POINTER	src/wb_gl.h	1063;"	d
+GL_BUFFER_MAP_POINTER	src/wb_gl_loader.h	1868;"	d
+GL_BUFFER_SIZE	src/wb_gl.h	1047;"	d
+GL_BUFFER_SIZE	src/wb_gl_loader.h	1852;"	d
+GL_BUFFER_UPDATE_BARRIER_BIT	src/wb_gl.h	1745;"	d
+GL_BUFFER_USAGE	src/wb_gl.h	1048;"	d
+GL_BUFFER_USAGE	src/wb_gl_loader.h	1853;"	d
+GL_BUFFER_VARIABLE	src/wb_gl.h	1988;"	d
+GL_BYTE	src/wb_gl.h	446;"	d
+GL_BYTE	src/wb_gl_loader.h	1267;"	d
+GL_C3F_V3F	src/wb_gl.h	850;"	d
+GL_C3F_V3F	src/wb_gl_loader.h	1643;"	d
+GL_C4F_N3F_V3F	src/wb_gl.h	852;"	d
+GL_C4F_N3F_V3F	src/wb_gl_loader.h	1645;"	d
+GL_C4UB_V2F	src/wb_gl.h	848;"	d
+GL_C4UB_V2F	src/wb_gl_loader.h	1641;"	d
+GL_C4UB_V3F	src/wb_gl.h	849;"	d
+GL_C4UB_V3F	src/wb_gl_loader.h	1642;"	d
+GL_CAVEAT_SUPPORT	src/wb_gl.h	1956;"	d
+GL_CCW	src/wb_gl.h	380;"	d
+GL_CCW	src/wb_gl_loader.h	1188;"	d
+GL_CLAMP	src/wb_gl.h	741;"	d
+GL_CLAMP	src/wb_gl_loader.h	1619;"	d
+GL_CLAMP_FRAGMENT_COLOR	src/wb_gl.h	1439;"	d
+GL_CLAMP_FRAGMENT_COLOR	src/wb_gl_loader.h	2244;"	d
+GL_CLAMP_READ_COLOR	src/wb_gl.h	1229;"	d
+GL_CLAMP_READ_COLOR	src/wb_gl_loader.h	2034;"	d
+GL_CLAMP_TO_BORDER	src/wb_gl.h	959;"	d
+GL_CLAMP_TO_BORDER	src/wb_gl_loader.h	1766;"	d
+GL_CLAMP_TO_EDGE	src/wb_gl.h	886;"	d
+GL_CLAMP_TO_EDGE	src/wb_gl_loader.h	1693;"	d
+GL_CLAMP_VERTEX_COLOR	src/wb_gl.h	1438;"	d
+GL_CLAMP_VERTEX_COLOR	src/wb_gl_loader.h	2243;"	d
+GL_CLEAR	src/wb_gl.h	455;"	d
+GL_CLEAR	src/wb_gl_loader.h	1277;"	d
+GL_CLEAR_BUFFER	src/wb_gl.h	1952;"	d
+GL_CLIENT_ACTIVE_TEXTURE	src/wb_gl.h	960;"	d
+GL_CLIENT_ACTIVE_TEXTURE	src/wb_gl_loader.h	1767;"	d
+GL_CLIENT_ALL_ATTRIB_BITS	src/wb_gl.h	788;"	d
+GL_CLIENT_ALL_ATTRIB_BITS	src/wb_gl_loader.h	1363;"	d
+GL_CLIENT_ATTRIB_STACK_DEPTH	src/wb_gl.h	797;"	d
+GL_CLIENT_ATTRIB_STACK_DEPTH	src/wb_gl_loader.h	1456;"	d
+GL_CLIENT_PIXEL_STORE_BIT	src/wb_gl.h	786;"	d
+GL_CLIENT_PIXEL_STORE_BIT	src/wb_gl_loader.h	1361;"	d
+GL_CLIENT_VERTEX_ARRAY_BIT	src/wb_gl.h	787;"	d
+GL_CLIENT_VERTEX_ARRAY_BIT	src/wb_gl_loader.h	1362;"	d
+GL_CLIP_DISTANCE0	src/wb_gl.h	1205;"	d
+GL_CLIP_DISTANCE0	src/wb_gl_loader.h	2010;"	d
+GL_CLIP_DISTANCE1	src/wb_gl.h	1206;"	d
+GL_CLIP_DISTANCE1	src/wb_gl_loader.h	2011;"	d
+GL_CLIP_DISTANCE2	src/wb_gl.h	1207;"	d
+GL_CLIP_DISTANCE2	src/wb_gl_loader.h	2012;"	d
+GL_CLIP_DISTANCE3	src/wb_gl.h	1208;"	d
+GL_CLIP_DISTANCE3	src/wb_gl_loader.h	2013;"	d
+GL_CLIP_DISTANCE4	src/wb_gl.h	1209;"	d
+GL_CLIP_DISTANCE4	src/wb_gl_loader.h	2014;"	d
+GL_CLIP_DISTANCE5	src/wb_gl.h	1210;"	d
+GL_CLIP_DISTANCE5	src/wb_gl_loader.h	2015;"	d
+GL_CLIP_DISTANCE6	src/wb_gl.h	1211;"	d
+GL_CLIP_DISTANCE6	src/wb_gl_loader.h	2016;"	d
+GL_CLIP_DISTANCE7	src/wb_gl.h	1212;"	d
+GL_CLIP_DISTANCE7	src/wb_gl_loader.h	2017;"	d
+GL_CLIP_PLANE0	src/wb_gl.h	742;"	d
+GL_CLIP_PLANE0	src/wb_gl_loader.h	1653;"	d
+GL_CLIP_PLANE1	src/wb_gl.h	743;"	d
+GL_CLIP_PLANE1	src/wb_gl_loader.h	1654;"	d
+GL_CLIP_PLANE2	src/wb_gl.h	744;"	d
+GL_CLIP_PLANE2	src/wb_gl_loader.h	1655;"	d
+GL_CLIP_PLANE3	src/wb_gl.h	745;"	d
+GL_CLIP_PLANE3	src/wb_gl_loader.h	1656;"	d
+GL_CLIP_PLANE4	src/wb_gl.h	746;"	d
+GL_CLIP_PLANE4	src/wb_gl_loader.h	1657;"	d
+GL_CLIP_PLANE5	src/wb_gl.h	747;"	d
+GL_CLIP_PLANE5	src/wb_gl_loader.h	1658;"	d
+GL_COEFF	src/wb_gl.h	549;"	d
+GL_COEFF	src/wb_gl_loader.h	1390;"	d
+GL_COLOR	src/wb_gl.h	472;"	d
+GL_COLOR	src/wb_gl_loader.h	1294;"	d
+GL_COLOR_ARRAY	src/wb_gl.h	805;"	d
+GL_COLOR_ARRAY	src/wb_gl_loader.h	1550;"	d
+GL_COLOR_ARRAY_BUFFER_BINDING	src/wb_gl.h	1077;"	d
+GL_COLOR_ARRAY_BUFFER_BINDING	src/wb_gl_loader.h	1882;"	d
+GL_COLOR_ARRAY_POINTER	src/wb_gl.h	791;"	d
+GL_COLOR_ARRAY_POINTER	src/wb_gl_loader.h	1405;"	d
+GL_COLOR_ARRAY_SIZE	src/wb_gl.h	814;"	d
+GL_COLOR_ARRAY_SIZE	src/wb_gl_loader.h	1559;"	d
+GL_COLOR_ARRAY_STRIDE	src/wb_gl.h	816;"	d
+GL_COLOR_ARRAY_STRIDE	src/wb_gl_loader.h	1561;"	d
+GL_COLOR_ARRAY_TYPE	src/wb_gl.h	815;"	d
+GL_COLOR_ARRAY_TYPE	src/wb_gl_loader.h	1560;"	d
+GL_COLOR_ATTACHMENT0	src/wb_gl.h	1349;"	d
+GL_COLOR_ATTACHMENT0	src/wb_gl_loader.h	2154;"	d
+GL_COLOR_ATTACHMENT1	src/wb_gl.h	1350;"	d
+GL_COLOR_ATTACHMENT1	src/wb_gl_loader.h	2155;"	d
+GL_COLOR_ATTACHMENT10	src/wb_gl.h	1359;"	d
+GL_COLOR_ATTACHMENT10	src/wb_gl_loader.h	2164;"	d
+GL_COLOR_ATTACHMENT11	src/wb_gl.h	1360;"	d
+GL_COLOR_ATTACHMENT11	src/wb_gl_loader.h	2165;"	d
+GL_COLOR_ATTACHMENT12	src/wb_gl.h	1361;"	d
+GL_COLOR_ATTACHMENT12	src/wb_gl_loader.h	2166;"	d
+GL_COLOR_ATTACHMENT13	src/wb_gl.h	1362;"	d
+GL_COLOR_ATTACHMENT13	src/wb_gl_loader.h	2167;"	d
+GL_COLOR_ATTACHMENT14	src/wb_gl.h	1363;"	d
+GL_COLOR_ATTACHMENT14	src/wb_gl_loader.h	2168;"	d
+GL_COLOR_ATTACHMENT15	src/wb_gl.h	1364;"	d
+GL_COLOR_ATTACHMENT15	src/wb_gl_loader.h	2169;"	d
+GL_COLOR_ATTACHMENT16	src/wb_gl.h	1365;"	d
+GL_COLOR_ATTACHMENT16	src/wb_gl_loader.h	2170;"	d
+GL_COLOR_ATTACHMENT17	src/wb_gl.h	1366;"	d
+GL_COLOR_ATTACHMENT17	src/wb_gl_loader.h	2171;"	d
+GL_COLOR_ATTACHMENT18	src/wb_gl.h	1367;"	d
+GL_COLOR_ATTACHMENT18	src/wb_gl_loader.h	2172;"	d
+GL_COLOR_ATTACHMENT19	src/wb_gl.h	1368;"	d
+GL_COLOR_ATTACHMENT19	src/wb_gl_loader.h	2173;"	d
+GL_COLOR_ATTACHMENT2	src/wb_gl.h	1351;"	d
+GL_COLOR_ATTACHMENT2	src/wb_gl_loader.h	2156;"	d
+GL_COLOR_ATTACHMENT20	src/wb_gl.h	1369;"	d
+GL_COLOR_ATTACHMENT20	src/wb_gl_loader.h	2174;"	d
+GL_COLOR_ATTACHMENT21	src/wb_gl.h	1370;"	d
+GL_COLOR_ATTACHMENT21	src/wb_gl_loader.h	2175;"	d
+GL_COLOR_ATTACHMENT22	src/wb_gl.h	1371;"	d
+GL_COLOR_ATTACHMENT22	src/wb_gl_loader.h	2176;"	d
+GL_COLOR_ATTACHMENT23	src/wb_gl.h	1372;"	d
+GL_COLOR_ATTACHMENT23	src/wb_gl_loader.h	2177;"	d
+GL_COLOR_ATTACHMENT24	src/wb_gl.h	1373;"	d
+GL_COLOR_ATTACHMENT24	src/wb_gl_loader.h	2178;"	d
+GL_COLOR_ATTACHMENT25	src/wb_gl.h	1374;"	d
+GL_COLOR_ATTACHMENT25	src/wb_gl_loader.h	2179;"	d
+GL_COLOR_ATTACHMENT26	src/wb_gl.h	1375;"	d
+GL_COLOR_ATTACHMENT26	src/wb_gl_loader.h	2180;"	d
+GL_COLOR_ATTACHMENT27	src/wb_gl.h	1376;"	d
+GL_COLOR_ATTACHMENT27	src/wb_gl_loader.h	2181;"	d
+GL_COLOR_ATTACHMENT28	src/wb_gl.h	1377;"	d
+GL_COLOR_ATTACHMENT28	src/wb_gl_loader.h	2182;"	d
+GL_COLOR_ATTACHMENT29	src/wb_gl.h	1378;"	d
+GL_COLOR_ATTACHMENT29	src/wb_gl_loader.h	2183;"	d
+GL_COLOR_ATTACHMENT3	src/wb_gl.h	1352;"	d
+GL_COLOR_ATTACHMENT3	src/wb_gl_loader.h	2157;"	d
+GL_COLOR_ATTACHMENT30	src/wb_gl.h	1379;"	d
+GL_COLOR_ATTACHMENT30	src/wb_gl_loader.h	2184;"	d
+GL_COLOR_ATTACHMENT31	src/wb_gl.h	1380;"	d
+GL_COLOR_ATTACHMENT31	src/wb_gl_loader.h	2185;"	d
+GL_COLOR_ATTACHMENT4	src/wb_gl.h	1353;"	d
+GL_COLOR_ATTACHMENT4	src/wb_gl_loader.h	2158;"	d
+GL_COLOR_ATTACHMENT5	src/wb_gl.h	1354;"	d
+GL_COLOR_ATTACHMENT5	src/wb_gl_loader.h	2159;"	d
+GL_COLOR_ATTACHMENT6	src/wb_gl.h	1355;"	d
+GL_COLOR_ATTACHMENT6	src/wb_gl_loader.h	2160;"	d
+GL_COLOR_ATTACHMENT7	src/wb_gl.h	1356;"	d
+GL_COLOR_ATTACHMENT7	src/wb_gl_loader.h	2161;"	d
+GL_COLOR_ATTACHMENT8	src/wb_gl.h	1357;"	d
+GL_COLOR_ATTACHMENT8	src/wb_gl_loader.h	2162;"	d
+GL_COLOR_ATTACHMENT9	src/wb_gl.h	1358;"	d
+GL_COLOR_ATTACHMENT9	src/wb_gl_loader.h	2163;"	d
+GL_COLOR_BUFFER_BIT	src/wb_gl.h	334;"	d
+GL_COLOR_BUFFER_BIT	src/wb_gl_loader.h	1142;"	d
+GL_COLOR_CLEAR_VALUE	src/wb_gl.h	417;"	d
+GL_COLOR_CLEAR_VALUE	src/wb_gl_loader.h	1226;"	d
+GL_COLOR_COMPONENTS	src/wb_gl.h	1906;"	d
+GL_COLOR_ENCODING	src/wb_gl.h	1925;"	d
+GL_COLOR_INDEX	src/wb_gl.h	717;"	d
+GL_COLOR_INDEX	src/wb_gl_loader.h	1595;"	d
+GL_COLOR_INDEXES	src/wb_gl.h	714;"	d
+GL_COLOR_INDEXES	src/wb_gl_loader.h	1592;"	d
+GL_COLOR_LOGIC_OP	src/wb_gl.h	756;"	d
+GL_COLOR_LOGIC_OP	src/wb_gl_loader.h	1221;"	d
+GL_COLOR_MATERIAL	src/wb_gl.h	589;"	d
+GL_COLOR_MATERIAL	src/wb_gl_loader.h	1438;"	d
+GL_COLOR_MATERIAL_FACE	src/wb_gl.h	587;"	d
+GL_COLOR_MATERIAL_FACE	src/wb_gl_loader.h	1436;"	d
+GL_COLOR_MATERIAL_PARAMETER	src/wb_gl.h	588;"	d
+GL_COLOR_MATERIAL_PARAMETER	src/wb_gl_loader.h	1437;"	d
+GL_COLOR_RENDERABLE	src/wb_gl.h	1909;"	d
+GL_COLOR_SUM	src/wb_gl.h	1026;"	d
+GL_COLOR_SUM	src/wb_gl_loader.h	1833;"	d
+GL_COLOR_WRITEMASK	src/wb_gl.h	418;"	d
+GL_COLOR_WRITEMASK	src/wb_gl_loader.h	1227;"	d
+GL_COMBINE	src/wb_gl.h	973;"	d
+GL_COMBINE	src/wb_gl_loader.h	1780;"	d
+GL_COMBINE_ALPHA	src/wb_gl.h	975;"	d
+GL_COMBINE_ALPHA	src/wb_gl_loader.h	1782;"	d
+GL_COMBINE_RGB	src/wb_gl.h	974;"	d
+GL_COMBINE_RGB	src/wb_gl_loader.h	1781;"	d
+GL_COMMAND_BARRIER_BIT	src/wb_gl.h	1742;"	d
+GL_COMPARE_REF_TO_TEXTURE	src/wb_gl.h	1204;"	d
+GL_COMPARE_REF_TO_TEXTURE	src/wb_gl_loader.h	2009;"	d
+GL_COMPARE_R_TO_TEXTURE	src/wb_gl.h	1035;"	d
+GL_COMPARE_R_TO_TEXTURE	src/wb_gl_loader.h	1842;"	d
+GL_COMPATIBLE_SUBROUTINES	src/wb_gl.h	1621;"	d
+GL_COMPILE	src/wb_gl.h	706;"	d
+GL_COMPILE	src/wb_gl_loader.h	1584;"	d
+GL_COMPILE_AND_EXECUTE	src/wb_gl.h	707;"	d
+GL_COMPILE_AND_EXECUTE	src/wb_gl_loader.h	1585;"	d
+GL_COMPILE_STATUS	src/wb_gl.h	1158;"	d
+GL_COMPILE_STATUS	src/wb_gl_loader.h	1963;"	d
+GL_COMPRESSED_ALPHA	src/wb_gl.h	969;"	d
+GL_COMPRESSED_ALPHA	src/wb_gl_loader.h	1776;"	d
+GL_COMPRESSED_INTENSITY	src/wb_gl.h	972;"	d
+GL_COMPRESSED_INTENSITY	src/wb_gl_loader.h	1779;"	d
+GL_COMPRESSED_LUMINANCE	src/wb_gl.h	970;"	d
+GL_COMPRESSED_LUMINANCE	src/wb_gl_loader.h	1777;"	d
+GL_COMPRESSED_LUMINANCE_ALPHA	src/wb_gl.h	971;"	d
+GL_COMPRESSED_LUMINANCE_ALPHA	src/wb_gl_loader.h	1778;"	d
+GL_COMPRESSED_R11_EAC	src/wb_gl.h	1814;"	d
+GL_COMPRESSED_RED	src/wb_gl.h	1218;"	d
+GL_COMPRESSED_RED	src/wb_gl_loader.h	2023;"	d
+GL_COMPRESSED_RED_RGTC1	src/wb_gl.h	1411;"	d
+GL_COMPRESSED_RED_RGTC1	src/wb_gl_loader.h	2216;"	d
+GL_COMPRESSED_RG	src/wb_gl.h	1219;"	d
+GL_COMPRESSED_RG	src/wb_gl_loader.h	2024;"	d
+GL_COMPRESSED_RG11_EAC	src/wb_gl.h	1816;"	d
+GL_COMPRESSED_RGB	src/wb_gl.h	952;"	d
+GL_COMPRESSED_RGB	src/wb_gl_loader.h	1759;"	d
+GL_COMPRESSED_RGB8_ETC2	src/wb_gl.h	1808;"	d
+GL_COMPRESSED_RGB8_PUNCHTHROUGH_ALPHA1_ETC2	src/wb_gl.h	1810;"	d
+GL_COMPRESSED_RGBA	src/wb_gl.h	953;"	d
+GL_COMPRESSED_RGBA	src/wb_gl_loader.h	1760;"	d
+GL_COMPRESSED_RGBA8_ETC2_EAC	src/wb_gl.h	1812;"	d
+GL_COMPRESSED_RGBA_BPTC_UNORM	src/wb_gl.h	1801;"	d
+GL_COMPRESSED_RGB_BPTC_SIGNED_FLOAT	src/wb_gl.h	1803;"	d
+GL_COMPRESSED_RGB_BPTC_UNSIGNED_FLOAT	src/wb_gl.h	1804;"	d
+GL_COMPRESSED_RG_RGTC2	src/wb_gl.h	1413;"	d
+GL_COMPRESSED_RG_RGTC2	src/wb_gl_loader.h	2218;"	d
+GL_COMPRESSED_SIGNED_R11_EAC	src/wb_gl.h	1815;"	d
+GL_COMPRESSED_SIGNED_RED_RGTC1	src/wb_gl.h	1412;"	d
+GL_COMPRESSED_SIGNED_RED_RGTC1	src/wb_gl_loader.h	2217;"	d
+GL_COMPRESSED_SIGNED_RG11_EAC	src/wb_gl.h	1817;"	d
+GL_COMPRESSED_SIGNED_RG_RGTC2	src/wb_gl.h	1414;"	d
+GL_COMPRESSED_SIGNED_RG_RGTC2	src/wb_gl_loader.h	2219;"	d
+GL_COMPRESSED_SLUMINANCE	src/wb_gl.h	1202;"	d
+GL_COMPRESSED_SLUMINANCE	src/wb_gl_loader.h	2007;"	d
+GL_COMPRESSED_SLUMINANCE_ALPHA	src/wb_gl.h	1203;"	d
+GL_COMPRESSED_SLUMINANCE_ALPHA	src/wb_gl_loader.h	2008;"	d
+GL_COMPRESSED_SRGB	src/wb_gl.h	1195;"	d
+GL_COMPRESSED_SRGB	src/wb_gl_loader.h	2000;"	d
+GL_COMPRESSED_SRGB8_ALPHA8_ETC2_EAC	src/wb_gl.h	1813;"	d
+GL_COMPRESSED_SRGB8_ETC2	src/wb_gl.h	1809;"	d
+GL_COMPRESSED_SRGB8_PUNCHTHROUGH_ALPHA1_ETC2	src/wb_gl.h	1811;"	d
+GL_COMPRESSED_SRGB_ALPHA	src/wb_gl.h	1196;"	d
+GL_COMPRESSED_SRGB_ALPHA	src/wb_gl_loader.h	2001;"	d
+GL_COMPRESSED_SRGB_ALPHA_BPTC_UNORM	src/wb_gl.h	1802;"	d
+GL_COMPRESSED_TEXTURE_FORMATS	src/wb_gl.h	958;"	d
+GL_COMPRESSED_TEXTURE_FORMATS	src/wb_gl_loader.h	1765;"	d
+GL_COMPUTE_SHADER	src/wb_gl.h	1821;"	d
+GL_COMPUTE_SHADER_BIT	src/wb_gl.h	1838;"	d
+GL_COMPUTE_SUBROUTINE	src/wb_gl.h	1995;"	d
+GL_COMPUTE_SUBROUTINE_UNIFORM	src/wb_gl.h	2001;"	d
+GL_COMPUTE_TEXTURE	src/wb_gl.h	1934;"	d
+GL_COMPUTE_WORK_GROUP_SIZE	src/wb_gl.h	1833;"	d
+GL_CONDITION_SATISFIED	src/wb_gl.h	1541;"	d
+GL_CONDITION_SATISFIED	src/wb_gl_loader.h	2346;"	d
+GL_CONSTANT	src/wb_gl.h	992;"	d
+GL_CONSTANT	src/wb_gl_loader.h	1799;"	d
+GL_CONSTANT_ALPHA	src/wb_gl.h	1040;"	d
+GL_CONSTANT_ALPHA	src/wb_gl_loader.h	1850;"	d
+GL_CONSTANT_ATTENUATION	src/wb_gl.h	703;"	d
+GL_CONSTANT_ATTENUATION	src/wb_gl_loader.h	1581;"	d
+GL_CONSTANT_COLOR	src/wb_gl.h	1038;"	d
+GL_CONSTANT_COLOR	src/wb_gl_loader.h	1848;"	d
+GL_CONTEXT_COMPATIBILITY_PROFILE_BIT	src/wb_gl.h	1503;"	d
+GL_CONTEXT_COMPATIBILITY_PROFILE_BIT	src/wb_gl_loader.h	2308;"	d
+GL_CONTEXT_CORE_PROFILE_BIT	src/wb_gl.h	1502;"	d
+GL_CONTEXT_CORE_PROFILE_BIT	src/wb_gl_loader.h	2307;"	d
+GL_CONTEXT_FLAGS	src/wb_gl.h	1217;"	d
+GL_CONTEXT_FLAGS	src/wb_gl_loader.h	2022;"	d
+GL_CONTEXT_FLAG_DEBUG_BIT	src/wb_gl.h	1875;"	d
+GL_CONTEXT_FLAG_FORWARD_COMPATIBLE_BIT	src/wb_gl.h	1220;"	d
+GL_CONTEXT_FLAG_FORWARD_COMPATIBLE_BIT	src/wb_gl_loader.h	2025;"	d
+GL_CONTEXT_PROFILE_MASK	src/wb_gl.h	1523;"	d
+GL_CONTEXT_PROFILE_MASK	src/wb_gl_loader.h	2328;"	d
+GL_COORD_REPLACE	src/wb_gl.h	1179;"	d
+GL_COORD_REPLACE	src/wb_gl_loader.h	1984;"	d
+GL_COPY	src/wb_gl.h	458;"	d
+GL_COPY	src/wb_gl_loader.h	1280;"	d
+GL_COPY_INVERTED	src/wb_gl.h	467;"	d
+GL_COPY_INVERTED	src/wb_gl_loader.h	1289;"	d
+GL_COPY_PIXEL_TOKEN	src/wb_gl.h	545;"	d
+GL_COPY_PIXEL_TOKEN	src/wb_gl_loader.h	1386;"	d
+GL_COPY_READ_BUFFER	src/wb_gl.h	1467;"	d
+GL_COPY_READ_BUFFER	src/wb_gl_loader.h	2272;"	d
+GL_COPY_READ_BUFFER_BINDING	src/wb_gl.h	1694;"	d
+GL_COPY_WRITE_BUFFER	src/wb_gl.h	1468;"	d
+GL_COPY_WRITE_BUFFER	src/wb_gl_loader.h	2273;"	d
+GL_COPY_WRITE_BUFFER_BINDING	src/wb_gl.h	1695;"	d
+GL_CULL_FACE	src/wb_gl.h	390;"	d
+GL_CULL_FACE	src/wb_gl_loader.h	1198;"	d
+GL_CULL_FACE_MODE	src/wb_gl.h	391;"	d
+GL_CULL_FACE_MODE	src/wb_gl_loader.h	1199;"	d
+GL_CURRENT_BIT	src/wb_gl.h	505;"	d
+GL_CURRENT_BIT	src/wb_gl_loader.h	1343;"	d
+GL_CURRENT_COLOR	src/wb_gl.h	562;"	d
+GL_CURRENT_COLOR	src/wb_gl_loader.h	1411;"	d
+GL_CURRENT_FOG_COORD	src/wb_gl.h	1086;"	d
+GL_CURRENT_FOG_COORD	src/wb_gl_loader.h	1891;"	d
+GL_CURRENT_FOG_COORDINATE	src/wb_gl.h	1021;"	d
+GL_CURRENT_FOG_COORDINATE	src/wb_gl_loader.h	1828;"	d
+GL_CURRENT_INDEX	src/wb_gl.h	563;"	d
+GL_CURRENT_INDEX	src/wb_gl_loader.h	1412;"	d
+GL_CURRENT_NORMAL	src/wb_gl.h	564;"	d
+GL_CURRENT_NORMAL	src/wb_gl_loader.h	1413;"	d
+GL_CURRENT_PROGRAM	src/wb_gl.h	1170;"	d
+GL_CURRENT_PROGRAM	src/wb_gl_loader.h	1975;"	d
+GL_CURRENT_QUERY	src/wb_gl.h	1050;"	d
+GL_CURRENT_QUERY	src/wb_gl_loader.h	1855;"	d
+GL_CURRENT_RASTER_COLOR	src/wb_gl.h	566;"	d
+GL_CURRENT_RASTER_COLOR	src/wb_gl_loader.h	1415;"	d
+GL_CURRENT_RASTER_DISTANCE	src/wb_gl.h	571;"	d
+GL_CURRENT_RASTER_DISTANCE	src/wb_gl_loader.h	1420;"	d
+GL_CURRENT_RASTER_INDEX	src/wb_gl.h	567;"	d
+GL_CURRENT_RASTER_INDEX	src/wb_gl_loader.h	1416;"	d
+GL_CURRENT_RASTER_POSITION	src/wb_gl.h	569;"	d
+GL_CURRENT_RASTER_POSITION	src/wb_gl_loader.h	1418;"	d
+GL_CURRENT_RASTER_POSITION_VALID	src/wb_gl.h	570;"	d
+GL_CURRENT_RASTER_POSITION_VALID	src/wb_gl_loader.h	1419;"	d
+GL_CURRENT_RASTER_SECONDARY_COLOR	src/wb_gl.h	1197;"	d
+GL_CURRENT_RASTER_SECONDARY_COLOR	src/wb_gl_loader.h	2002;"	d
+GL_CURRENT_RASTER_TEXTURE_COORDS	src/wb_gl.h	568;"	d
+GL_CURRENT_RASTER_TEXTURE_COORDS	src/wb_gl_loader.h	1417;"	d
+GL_CURRENT_SECONDARY_COLOR	src/wb_gl.h	1027;"	d
+GL_CURRENT_SECONDARY_COLOR	src/wb_gl_loader.h	1834;"	d
+GL_CURRENT_TEXTURE_COORDS	src/wb_gl.h	565;"	d
+GL_CURRENT_TEXTURE_COORDS	src/wb_gl_loader.h	1414;"	d
+GL_CURRENT_VERTEX_ATTRIB	src/wb_gl.h	1102;"	d
+GL_CURRENT_VERTEX_ATTRIB	src/wb_gl_loader.h	1907;"	d
+GL_CW	src/wb_gl.h	379;"	d
+GL_CW	src/wb_gl_loader.h	1187;"	d
+GL_DEBUG_CALLBACK_FUNCTION	src/wb_gl.h	1841;"	d
+GL_DEBUG_CALLBACK_USER_PARAM	src/wb_gl.h	1842;"	d
+GL_DEBUG_GROUP_STACK_DEPTH	src/wb_gl.h	1866;"	d
+GL_DEBUG_LOGGED_MESSAGES	src/wb_gl.h	1857;"	d
+GL_DEBUG_NEXT_LOGGED_MESSAGE_LENGTH	src/wb_gl.h	1840;"	d
+GL_DEBUG_OUTPUT	src/wb_gl.h	1874;"	d
+GL_DEBUG_OUTPUT_SYNCHRONOUS	src/wb_gl.h	1839;"	d
+GL_DEBUG_SEVERITY_HIGH	src/wb_gl.h	1858;"	d
+GL_DEBUG_SEVERITY_LOW	src/wb_gl.h	1860;"	d
+GL_DEBUG_SEVERITY_MEDIUM	src/wb_gl.h	1859;"	d
+GL_DEBUG_SEVERITY_NOTIFICATION	src/wb_gl.h	1864;"	d
+GL_DEBUG_SOURCE_API	src/wb_gl.h	1843;"	d
+GL_DEBUG_SOURCE_APPLICATION	src/wb_gl.h	1847;"	d
+GL_DEBUG_SOURCE_OTHER	src/wb_gl.h	1848;"	d
+GL_DEBUG_SOURCE_SHADER_COMPILER	src/wb_gl.h	1845;"	d
+GL_DEBUG_SOURCE_THIRD_PARTY	src/wb_gl.h	1846;"	d
+GL_DEBUG_SOURCE_WINDOW_SYSTEM	src/wb_gl.h	1844;"	d
+GL_DEBUG_TYPE_DEPRECATED_BEHAVIOR	src/wb_gl.h	1850;"	d
+GL_DEBUG_TYPE_ERROR	src/wb_gl.h	1849;"	d
+GL_DEBUG_TYPE_MARKER	src/wb_gl.h	1861;"	d
+GL_DEBUG_TYPE_OTHER	src/wb_gl.h	1854;"	d
+GL_DEBUG_TYPE_PERFORMANCE	src/wb_gl.h	1853;"	d
+GL_DEBUG_TYPE_POP_GROUP	src/wb_gl.h	1863;"	d
+GL_DEBUG_TYPE_PORTABILITY	src/wb_gl.h	1852;"	d
+GL_DEBUG_TYPE_PUSH_GROUP	src/wb_gl.h	1862;"	d
+GL_DEBUG_TYPE_UNDEFINED_BEHAVIOR	src/wb_gl.h	1851;"	d
+GL_DECAL	src/wb_gl.h	731;"	d
+GL_DECAL	src/wb_gl_loader.h	1609;"	d
+GL_DECR	src/wb_gl.h	489;"	d
+GL_DECR	src/wb_gl_loader.h	1311;"	d
+GL_DECR_WRAP	src/wb_gl.h	1009;"	d
+GL_DECR_WRAP	src/wb_gl_loader.h	1816;"	d
+GL_DELETE_STATUS	src/wb_gl.h	1157;"	d
+GL_DELETE_STATUS	src/wb_gl_loader.h	1962;"	d
+GL_DEPTH	src/wb_gl.h	473;"	d
+GL_DEPTH	src/wb_gl_loader.h	1295;"	d
+GL_DEPTH24_STENCIL8	src/wb_gl.h	1322;"	d
+GL_DEPTH24_STENCIL8	src/wb_gl_loader.h	2127;"	d
+GL_DEPTH32F_STENCIL8	src/wb_gl.h	1305;"	d
+GL_DEPTH32F_STENCIL8	src/wb_gl_loader.h	2110;"	d
+GL_DEPTH_ATTACHMENT	src/wb_gl.h	1381;"	d
+GL_DEPTH_ATTACHMENT	src/wb_gl_loader.h	2186;"	d
+GL_DEPTH_BIAS	src/wb_gl.h	649;"	d
+GL_DEPTH_BIAS	src/wb_gl_loader.h	1499;"	d
+GL_DEPTH_BITS	src/wb_gl.h	664;"	d
+GL_DEPTH_BITS	src/wb_gl_loader.h	1515;"	d
+GL_DEPTH_BUFFER_BIT	src/wb_gl.h	332;"	d
+GL_DEPTH_BUFFER_BIT	src/wb_gl_loader.h	1140;"	d
+GL_DEPTH_CLAMP	src/wb_gl.h	1524;"	d
+GL_DEPTH_CLAMP	src/wb_gl_loader.h	2329;"	d
+GL_DEPTH_CLEAR_VALUE	src/wb_gl.h	396;"	d
+GL_DEPTH_CLEAR_VALUE	src/wb_gl_loader.h	1204;"	d
+GL_DEPTH_COMPONENT	src/wb_gl.h	476;"	d
+GL_DEPTH_COMPONENT	src/wb_gl_loader.h	1298;"	d
+GL_DEPTH_COMPONENT16	src/wb_gl.h	1002;"	d
+GL_DEPTH_COMPONENT16	src/wb_gl_loader.h	1809;"	d
+GL_DEPTH_COMPONENT24	src/wb_gl.h	1003;"	d
+GL_DEPTH_COMPONENT24	src/wb_gl_loader.h	1810;"	d
+GL_DEPTH_COMPONENT32	src/wb_gl.h	1004;"	d
+GL_DEPTH_COMPONENT32	src/wb_gl_loader.h	1811;"	d
+GL_DEPTH_COMPONENT32F	src/wb_gl.h	1304;"	d
+GL_DEPTH_COMPONENT32F	src/wb_gl_loader.h	2109;"	d
+GL_DEPTH_COMPONENTS	src/wb_gl.h	1907;"	d
+GL_DEPTH_FUNC	src/wb_gl.h	397;"	d
+GL_DEPTH_FUNC	src/wb_gl_loader.h	1205;"	d
+GL_DEPTH_RANGE	src/wb_gl.h	393;"	d
+GL_DEPTH_RANGE	src/wb_gl_loader.h	1201;"	d
+GL_DEPTH_RENDERABLE	src/wb_gl.h	1910;"	d
+GL_DEPTH_SCALE	src/wb_gl.h	648;"	d
+GL_DEPTH_SCALE	src/wb_gl_loader.h	1498;"	d
+GL_DEPTH_STENCIL	src/wb_gl.h	1320;"	d
+GL_DEPTH_STENCIL	src/wb_gl_loader.h	2125;"	d
+GL_DEPTH_STENCIL_ATTACHMENT	src/wb_gl.h	1318;"	d
+GL_DEPTH_STENCIL_ATTACHMENT	src/wb_gl_loader.h	2123;"	d
+GL_DEPTH_STENCIL_TEXTURE_MODE	src/wb_gl.h	2047;"	d
+GL_DEPTH_TEST	src/wb_gl.h	394;"	d
+GL_DEPTH_TEST	src/wb_gl_loader.h	1202;"	d
+GL_DEPTH_TEXTURE_MODE	src/wb_gl.h	1034;"	d
+GL_DEPTH_TEXTURE_MODE	src/wb_gl_loader.h	1841;"	d
+GL_DEPTH_WRITEMASK	src/wb_gl.h	395;"	d
+GL_DEPTH_WRITEMASK	src/wb_gl_loader.h	1203;"	d
+GL_DIFFUSE	src/wb_gl.h	697;"	d
+GL_DIFFUSE	src/wb_gl_loader.h	1575;"	d
+GL_DISPATCH_INDIRECT_BUFFER	src/wb_gl.h	1836;"	d
+GL_DISPATCH_INDIRECT_BUFFER_BINDING	src/wb_gl.h	1837;"	d
+GL_DISPLAY_LIST	src/wb_gl.h	2064;"	d
+GL_DITHER	src/wb_gl.h	408;"	d
+GL_DITHER	src/wb_gl_loader.h	1216;"	d
+GL_DOMAIN	src/wb_gl.h	551;"	d
+GL_DOMAIN	src/wb_gl_loader.h	1392;"	d
+GL_DONT_CARE	src/wb_gl.h	443;"	d
+GL_DONT_CARE	src/wb_gl_loader.h	1264;"	d
+GL_DOT3_RGB	src/wb_gl.h	995;"	d
+GL_DOT3_RGB	src/wb_gl_loader.h	1802;"	d
+GL_DOT3_RGBA	src/wb_gl.h	996;"	d
+GL_DOT3_RGBA	src/wb_gl_loader.h	1803;"	d
+GL_DOUBLE	src/wb_gl.h	769;"	d
+GL_DOUBLE	src/wb_gl_loader.h	1274;"	d
+GL_DOUBLEBUFFER	src/wb_gl.h	419;"	d
+GL_DOUBLEBUFFER	src/wb_gl_loader.h	1228;"	d
+GL_DOUBLE_MAT2	src/wb_gl.h	1604;"	d
+GL_DOUBLE_MAT2x3	src/wb_gl.h	1607;"	d
+GL_DOUBLE_MAT2x4	src/wb_gl.h	1608;"	d
+GL_DOUBLE_MAT3	src/wb_gl.h	1605;"	d
+GL_DOUBLE_MAT3x2	src/wb_gl.h	1609;"	d
+GL_DOUBLE_MAT3x4	src/wb_gl.h	1610;"	d
+GL_DOUBLE_MAT4	src/wb_gl.h	1606;"	d
+GL_DOUBLE_MAT4x2	src/wb_gl.h	1611;"	d
+GL_DOUBLE_MAT4x3	src/wb_gl.h	1612;"	d
+GL_DOUBLE_VEC2	src/wb_gl.h	1601;"	d
+GL_DOUBLE_VEC3	src/wb_gl.h	1602;"	d
+GL_DOUBLE_VEC4	src/wb_gl.h	1603;"	d
+GL_DRAW_BUFFER	src/wb_gl.h	413;"	d
+GL_DRAW_BUFFER	src/wb_gl_loader.h	1222;"	d
+GL_DRAW_BUFFER0	src/wb_gl.h	1110;"	d
+GL_DRAW_BUFFER0	src/wb_gl_loader.h	1915;"	d
+GL_DRAW_BUFFER1	src/wb_gl.h	1111;"	d
+GL_DRAW_BUFFER1	src/wb_gl_loader.h	1916;"	d
+GL_DRAW_BUFFER10	src/wb_gl.h	1120;"	d
+GL_DRAW_BUFFER10	src/wb_gl_loader.h	1925;"	d
+GL_DRAW_BUFFER11	src/wb_gl.h	1121;"	d
+GL_DRAW_BUFFER11	src/wb_gl_loader.h	1926;"	d
+GL_DRAW_BUFFER12	src/wb_gl.h	1122;"	d
+GL_DRAW_BUFFER12	src/wb_gl_loader.h	1927;"	d
+GL_DRAW_BUFFER13	src/wb_gl.h	1123;"	d
+GL_DRAW_BUFFER13	src/wb_gl_loader.h	1928;"	d
+GL_DRAW_BUFFER14	src/wb_gl.h	1124;"	d
+GL_DRAW_BUFFER14	src/wb_gl_loader.h	1929;"	d
+GL_DRAW_BUFFER15	src/wb_gl.h	1125;"	d
+GL_DRAW_BUFFER15	src/wb_gl_loader.h	1930;"	d
+GL_DRAW_BUFFER2	src/wb_gl.h	1112;"	d
+GL_DRAW_BUFFER2	src/wb_gl_loader.h	1917;"	d
+GL_DRAW_BUFFER3	src/wb_gl.h	1113;"	d
+GL_DRAW_BUFFER3	src/wb_gl_loader.h	1918;"	d
+GL_DRAW_BUFFER4	src/wb_gl.h	1114;"	d
+GL_DRAW_BUFFER4	src/wb_gl_loader.h	1919;"	d
+GL_DRAW_BUFFER5	src/wb_gl.h	1115;"	d
+GL_DRAW_BUFFER5	src/wb_gl_loader.h	1920;"	d
+GL_DRAW_BUFFER6	src/wb_gl.h	1116;"	d
+GL_DRAW_BUFFER6	src/wb_gl_loader.h	1921;"	d
+GL_DRAW_BUFFER7	src/wb_gl.h	1117;"	d
+GL_DRAW_BUFFER7	src/wb_gl_loader.h	1922;"	d
+GL_DRAW_BUFFER8	src/wb_gl.h	1118;"	d
+GL_DRAW_BUFFER8	src/wb_gl_loader.h	1923;"	d
+GL_DRAW_BUFFER9	src/wb_gl.h	1119;"	d
+GL_DRAW_BUFFER9	src/wb_gl_loader.h	1924;"	d
+GL_DRAW_FRAMEBUFFER	src/wb_gl.h	1334;"	d
+GL_DRAW_FRAMEBUFFER	src/wb_gl_loader.h	2139;"	d
+GL_DRAW_FRAMEBUFFER_BINDING	src/wb_gl.h	1331;"	d
+GL_DRAW_FRAMEBUFFER_BINDING	src/wb_gl_loader.h	2136;"	d
+GL_DRAW_INDIRECT_BUFFER	src/wb_gl.h	1593;"	d
+GL_DRAW_INDIRECT_BUFFER_BINDING	src/wb_gl.h	1594;"	d
+GL_DRAW_PIXEL_TOKEN	src/wb_gl.h	544;"	d
+GL_DRAW_PIXEL_TOKEN	src/wb_gl_loader.h	1385;"	d
+GL_DST_ALPHA	src/wb_gl.h	359;"	d
+GL_DST_ALPHA	src/wb_gl_loader.h	1167;"	d
+GL_DST_COLOR	src/wb_gl.h	361;"	d
+GL_DST_COLOR	src/wb_gl_loader.h	1169;"	d
+GL_DYNAMIC_COPY	src/wb_gl.h	1072;"	d
+GL_DYNAMIC_COPY	src/wb_gl_loader.h	1877;"	d
+GL_DYNAMIC_DRAW	src/wb_gl.h	1070;"	d
+GL_DYNAMIC_DRAW	src/wb_gl_loader.h	1875;"	d
+GL_DYNAMIC_READ	src/wb_gl.h	1071;"	d
+GL_DYNAMIC_READ	src/wb_gl_loader.h	1876;"	d
+GL_EDGE_FLAG	src/wb_gl.h	581;"	d
+GL_EDGE_FLAG	src/wb_gl_loader.h	1430;"	d
+GL_EDGE_FLAG_ARRAY	src/wb_gl.h	808;"	d
+GL_EDGE_FLAG_ARRAY	src/wb_gl_loader.h	1553;"	d
+GL_EDGE_FLAG_ARRAY_BUFFER_BINDING	src/wb_gl.h	1080;"	d
+GL_EDGE_FLAG_ARRAY_BUFFER_BINDING	src/wb_gl_loader.h	1885;"	d
+GL_EDGE_FLAG_ARRAY_POINTER	src/wb_gl.h	794;"	d
+GL_EDGE_FLAG_ARRAY_POINTER	src/wb_gl_loader.h	1408;"	d
+GL_EDGE_FLAG_ARRAY_STRIDE	src/wb_gl.h	822;"	d
+GL_EDGE_FLAG_ARRAY_STRIDE	src/wb_gl_loader.h	1567;"	d
+GL_ELEMENT_ARRAY_BARRIER_BIT	src/wb_gl.h	1738;"	d
+GL_ELEMENT_ARRAY_BUFFER	src/wb_gl.h	1054;"	d
+GL_ELEMENT_ARRAY_BUFFER	src/wb_gl_loader.h	1859;"	d
+GL_ELEMENT_ARRAY_BUFFER_BINDING	src/wb_gl.h	1056;"	d
+GL_ELEMENT_ARRAY_BUFFER_BINDING	src/wb_gl_loader.h	1861;"	d
+GL_EMISSION	src/wb_gl.h	711;"	d
+GL_EMISSION	src/wb_gl_loader.h	1589;"	d
+GL_ENABLE_BIT	src/wb_gl.h	516;"	d
+GL_ENABLE_BIT	src/wb_gl_loader.h	1354;"	d
+GL_EQUAL	src/wb_gl.h	347;"	d
+GL_EQUAL	src/wb_gl_loader.h	1155;"	d
+GL_EQUIV	src/wb_gl.h	464;"	d
+GL_EQUIV	src/wb_gl_loader.h	1286;"	d
+GL_EVAL_BIT	src/wb_gl.h	518;"	d
+GL_EVAL_BIT	src/wb_gl_loader.h	1356;"	d
+GL_EXP	src/wb_gl.h	547;"	d
+GL_EXP	src/wb_gl_loader.h	1388;"	d
+GL_EXP2	src/wb_gl.h	548;"	d
+GL_EXP2	src/wb_gl_loader.h	1389;"	d
+GL_EXTENSIONS	src/wb_gl.h	493;"	d
+GL_EXTENSIONS	src/wb_gl_loader.h	1315;"	d
+GL_EYE_LINEAR	src/wb_gl.h	735;"	d
+GL_EYE_LINEAR	src/wb_gl_loader.h	1613;"	d
+GL_EYE_PLANE	src/wb_gl.h	740;"	d
+GL_EYE_PLANE	src/wb_gl_loader.h	1618;"	d
+GL_FALSE	src/wb_gl.h	335;"	d
+GL_FALSE	src/wb_gl_loader.h	1143;"	d
+GL_FASTEST	src/wb_gl.h	444;"	d
+GL_FASTEST	src/wb_gl_loader.h	1265;"	d
+GL_FEEDBACK	src/wb_gl.h	722;"	d
+GL_FEEDBACK	src/wb_gl_loader.h	1600;"	d
+GL_FEEDBACK_BUFFER_POINTER	src/wb_gl.h	795;"	d
+GL_FEEDBACK_BUFFER_POINTER	src/wb_gl_loader.h	1409;"	d
+GL_FEEDBACK_BUFFER_SIZE	src/wb_gl.h	800;"	d
+GL_FEEDBACK_BUFFER_SIZE	src/wb_gl_loader.h	1545;"	d
+GL_FEEDBACK_BUFFER_TYPE	src/wb_gl.h	801;"	d
+GL_FEEDBACK_BUFFER_TYPE	src/wb_gl_loader.h	1546;"	d
+GL_FILL	src/wb_gl.h	485;"	d
+GL_FILL	src/wb_gl_loader.h	1307;"	d
+GL_FILTER	src/wb_gl.h	1928;"	d
+GL_FIRST_VERTEX_CONVENTION	src/wb_gl.h	1526;"	d
+GL_FIRST_VERTEX_CONVENTION	src/wb_gl_loader.h	2331;"	d
+GL_FIXED	src/wb_gl.h	1659;"	d
+GL_FIXED_ONLY	src/wb_gl.h	1230;"	d
+GL_FIXED_ONLY	src/wb_gl_loader.h	2035;"	d
+GL_FLAT	src/wb_gl.h	724;"	d
+GL_FLAT	src/wb_gl_loader.h	1602;"	d
+GL_FLOAT	src/wb_gl.h	452;"	d
+GL_FLOAT	src/wb_gl_loader.h	1273;"	d
+GL_FLOAT_32_UNSIGNED_INT_24_8_REV	src/wb_gl.h	1306;"	d
+GL_FLOAT_32_UNSIGNED_INT_24_8_REV	src/wb_gl_loader.h	2111;"	d
+GL_FLOAT_MAT2	src/wb_gl.h	1148;"	d
+GL_FLOAT_MAT2	src/wb_gl_loader.h	1953;"	d
+GL_FLOAT_MAT2x3	src/wb_gl.h	1185;"	d
+GL_FLOAT_MAT2x3	src/wb_gl_loader.h	1990;"	d
+GL_FLOAT_MAT2x4	src/wb_gl.h	1186;"	d
+GL_FLOAT_MAT2x4	src/wb_gl_loader.h	1991;"	d
+GL_FLOAT_MAT3	src/wb_gl.h	1149;"	d
+GL_FLOAT_MAT3	src/wb_gl_loader.h	1954;"	d
+GL_FLOAT_MAT3x2	src/wb_gl.h	1187;"	d
+GL_FLOAT_MAT3x2	src/wb_gl_loader.h	1992;"	d
+GL_FLOAT_MAT3x4	src/wb_gl.h	1188;"	d
+GL_FLOAT_MAT3x4	src/wb_gl_loader.h	1993;"	d
+GL_FLOAT_MAT4	src/wb_gl.h	1150;"	d
+GL_FLOAT_MAT4	src/wb_gl_loader.h	1955;"	d
+GL_FLOAT_MAT4x2	src/wb_gl.h	1189;"	d
+GL_FLOAT_MAT4x2	src/wb_gl_loader.h	1994;"	d
+GL_FLOAT_MAT4x3	src/wb_gl.h	1190;"	d
+GL_FLOAT_MAT4x3	src/wb_gl_loader.h	1995;"	d
+GL_FLOAT_VEC2	src/wb_gl.h	1138;"	d
+GL_FLOAT_VEC2	src/wb_gl_loader.h	1943;"	d
+GL_FLOAT_VEC3	src/wb_gl.h	1139;"	d
+GL_FLOAT_VEC3	src/wb_gl_loader.h	1944;"	d
+GL_FLOAT_VEC4	src/wb_gl.h	1140;"	d
+GL_FLOAT_VEC4	src/wb_gl_loader.h	1945;"	d
+GL_FOG	src/wb_gl.h	590;"	d
+GL_FOG	src/wb_gl_loader.h	1439;"	d
+GL_FOG_BIT	src/wb_gl.h	512;"	d
+GL_FOG_BIT	src/wb_gl_loader.h	1350;"	d
+GL_FOG_COLOR	src/wb_gl.h	596;"	d
+GL_FOG_COLOR	src/wb_gl_loader.h	1445;"	d
+GL_FOG_COORD	src/wb_gl.h	1085;"	d
+GL_FOG_COORD	src/wb_gl_loader.h	1890;"	d
+GL_FOG_COORDINATE	src/wb_gl.h	1019;"	d
+GL_FOG_COORDINATE	src/wb_gl_loader.h	1826;"	d
+GL_FOG_COORDINATE_ARRAY	src/wb_gl.h	1025;"	d
+GL_FOG_COORDINATE_ARRAY	src/wb_gl_loader.h	1832;"	d
+GL_FOG_COORDINATE_ARRAY_BUFFER_BINDING	src/wb_gl.h	1082;"	d
+GL_FOG_COORDINATE_ARRAY_BUFFER_BINDING	src/wb_gl_loader.h	1887;"	d
+GL_FOG_COORDINATE_ARRAY_POINTER	src/wb_gl.h	1024;"	d
+GL_FOG_COORDINATE_ARRAY_POINTER	src/wb_gl_loader.h	1831;"	d
+GL_FOG_COORDINATE_ARRAY_STRIDE	src/wb_gl.h	1023;"	d
+GL_FOG_COORDINATE_ARRAY_STRIDE	src/wb_gl_loader.h	1830;"	d
+GL_FOG_COORDINATE_ARRAY_TYPE	src/wb_gl.h	1022;"	d
+GL_FOG_COORDINATE_ARRAY_TYPE	src/wb_gl_loader.h	1829;"	d
+GL_FOG_COORDINATE_SOURCE	src/wb_gl.h	1018;"	d
+GL_FOG_COORDINATE_SOURCE	src/wb_gl_loader.h	1825;"	d
+GL_FOG_COORD_ARRAY	src/wb_gl.h	1090;"	d
+GL_FOG_COORD_ARRAY	src/wb_gl_loader.h	1895;"	d
+GL_FOG_COORD_ARRAY_BUFFER_BINDING	src/wb_gl.h	1091;"	d
+GL_FOG_COORD_ARRAY_BUFFER_BINDING	src/wb_gl_loader.h	1896;"	d
+GL_FOG_COORD_ARRAY_POINTER	src/wb_gl.h	1089;"	d
+GL_FOG_COORD_ARRAY_POINTER	src/wb_gl_loader.h	1894;"	d
+GL_FOG_COORD_ARRAY_STRIDE	src/wb_gl.h	1088;"	d
+GL_FOG_COORD_ARRAY_STRIDE	src/wb_gl_loader.h	1893;"	d
+GL_FOG_COORD_ARRAY_TYPE	src/wb_gl.h	1087;"	d
+GL_FOG_COORD_ARRAY_TYPE	src/wb_gl_loader.h	1892;"	d
+GL_FOG_COORD_SRC	src/wb_gl.h	1084;"	d
+GL_FOG_COORD_SRC	src/wb_gl_loader.h	1889;"	d
+GL_FOG_DENSITY	src/wb_gl.h	592;"	d
+GL_FOG_DENSITY	src/wb_gl_loader.h	1441;"	d
+GL_FOG_END	src/wb_gl.h	594;"	d
+GL_FOG_END	src/wb_gl_loader.h	1443;"	d
+GL_FOG_HINT	src/wb_gl.h	619;"	d
+GL_FOG_HINT	src/wb_gl_loader.h	1469;"	d
+GL_FOG_INDEX	src/wb_gl.h	591;"	d
+GL_FOG_INDEX	src/wb_gl_loader.h	1440;"	d
+GL_FOG_MODE	src/wb_gl.h	595;"	d
+GL_FOG_MODE	src/wb_gl_loader.h	1444;"	d
+GL_FOG_START	src/wb_gl.h	593;"	d
+GL_FOG_START	src/wb_gl_loader.h	1442;"	d
+GL_FRACTIONAL_EVEN	src/wb_gl.h	1633;"	d
+GL_FRACTIONAL_ODD	src/wb_gl.h	1632;"	d
+GL_FRAGMENT_DEPTH	src/wb_gl.h	1020;"	d
+GL_FRAGMENT_DEPTH	src/wb_gl_loader.h	1827;"	d
+GL_FRAGMENT_INTERPOLATION_OFFSET_BITS	src/wb_gl.h	1599;"	d
+GL_FRAGMENT_SHADER	src/wb_gl.h	1130;"	d
+GL_FRAGMENT_SHADER	src/wb_gl_loader.h	1935;"	d
+GL_FRAGMENT_SHADER_BIT	src/wb_gl.h	1680;"	d
+GL_FRAGMENT_SHADER_DERIVATIVE_HINT	src/wb_gl.h	1168;"	d
+GL_FRAGMENT_SHADER_DERIVATIVE_HINT	src/wb_gl_loader.h	1973;"	d
+GL_FRAGMENT_SUBROUTINE	src/wb_gl.h	1994;"	d
+GL_FRAGMENT_SUBROUTINE_UNIFORM	src/wb_gl.h	2000;"	d
+GL_FRAGMENT_TEXTURE	src/wb_gl.h	1933;"	d
+GL_FRAMEBUFFER	src/wb_gl.h	1383;"	d
+GL_FRAMEBUFFER	src/wb_gl_loader.h	2188;"	d
+GL_FRAMEBUFFER_ATTACHMENT_ALPHA_SIZE	src/wb_gl.h	1313;"	d
+GL_FRAMEBUFFER_ATTACHMENT_ALPHA_SIZE	src/wb_gl_loader.h	2118;"	d
+GL_FRAMEBUFFER_ATTACHMENT_BLUE_SIZE	src/wb_gl.h	1312;"	d
+GL_FRAMEBUFFER_ATTACHMENT_BLUE_SIZE	src/wb_gl_loader.h	2117;"	d
+GL_FRAMEBUFFER_ATTACHMENT_COLOR_ENCODING	src/wb_gl.h	1308;"	d
+GL_FRAMEBUFFER_ATTACHMENT_COLOR_ENCODING	src/wb_gl_loader.h	2113;"	d
+GL_FRAMEBUFFER_ATTACHMENT_COMPONENT_TYPE	src/wb_gl.h	1309;"	d
+GL_FRAMEBUFFER_ATTACHMENT_COMPONENT_TYPE	src/wb_gl_loader.h	2114;"	d
+GL_FRAMEBUFFER_ATTACHMENT_DEPTH_SIZE	src/wb_gl.h	1314;"	d
+GL_FRAMEBUFFER_ATTACHMENT_DEPTH_SIZE	src/wb_gl_loader.h	2119;"	d
+GL_FRAMEBUFFER_ATTACHMENT_GREEN_SIZE	src/wb_gl.h	1311;"	d
+GL_FRAMEBUFFER_ATTACHMENT_GREEN_SIZE	src/wb_gl_loader.h	2116;"	d
+GL_FRAMEBUFFER_ATTACHMENT_LAYERED	src/wb_gl.h	1510;"	d
+GL_FRAMEBUFFER_ATTACHMENT_LAYERED	src/wb_gl_loader.h	2315;"	d
+GL_FRAMEBUFFER_ATTACHMENT_OBJECT_NAME	src/wb_gl.h	1338;"	d
+GL_FRAMEBUFFER_ATTACHMENT_OBJECT_NAME	src/wb_gl_loader.h	2143;"	d
+GL_FRAMEBUFFER_ATTACHMENT_OBJECT_TYPE	src/wb_gl.h	1337;"	d
+GL_FRAMEBUFFER_ATTACHMENT_OBJECT_TYPE	src/wb_gl_loader.h	2142;"	d
+GL_FRAMEBUFFER_ATTACHMENT_RED_SIZE	src/wb_gl.h	1310;"	d
+GL_FRAMEBUFFER_ATTACHMENT_RED_SIZE	src/wb_gl_loader.h	2115;"	d
+GL_FRAMEBUFFER_ATTACHMENT_STENCIL_SIZE	src/wb_gl.h	1315;"	d
+GL_FRAMEBUFFER_ATTACHMENT_STENCIL_SIZE	src/wb_gl_loader.h	2120;"	d
+GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_CUBE_MAP_FACE	src/wb_gl.h	1340;"	d
+GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_CUBE_MAP_FACE	src/wb_gl_loader.h	2145;"	d
+GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_LAYER	src/wb_gl.h	1341;"	d
+GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_LAYER	src/wb_gl_loader.h	2146;"	d
+GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_LEVEL	src/wb_gl.h	1339;"	d
+GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_LEVEL	src/wb_gl_loader.h	2144;"	d
+GL_FRAMEBUFFER_BARRIER_BIT	src/wb_gl.h	1746;"	d
+GL_FRAMEBUFFER_BINDING	src/wb_gl.h	1330;"	d
+GL_FRAMEBUFFER_BINDING	src/wb_gl_loader.h	2135;"	d
+GL_FRAMEBUFFER_BLEND	src/wb_gl.h	1914;"	d
+GL_FRAMEBUFFER_COMPLETE	src/wb_gl.h	1342;"	d
+GL_FRAMEBUFFER_COMPLETE	src/wb_gl_loader.h	2147;"	d
+GL_FRAMEBUFFER_DEFAULT	src/wb_gl.h	1316;"	d
+GL_FRAMEBUFFER_DEFAULT	src/wb_gl_loader.h	2121;"	d
+GL_FRAMEBUFFER_DEFAULT_FIXED_SAMPLE_LOCATIONS	src/wb_gl.h	1881;"	d
+GL_FRAMEBUFFER_DEFAULT_HEIGHT	src/wb_gl.h	1878;"	d
+GL_FRAMEBUFFER_DEFAULT_LAYERS	src/wb_gl.h	1879;"	d
+GL_FRAMEBUFFER_DEFAULT_SAMPLES	src/wb_gl.h	1880;"	d
+GL_FRAMEBUFFER_DEFAULT_WIDTH	src/wb_gl.h	1877;"	d
+GL_FRAMEBUFFER_INCOMPLETE_ATTACHMENT	src/wb_gl.h	1343;"	d
+GL_FRAMEBUFFER_INCOMPLETE_ATTACHMENT	src/wb_gl_loader.h	2148;"	d
+GL_FRAMEBUFFER_INCOMPLETE_DRAW_BUFFER	src/wb_gl.h	1345;"	d
+GL_FRAMEBUFFER_INCOMPLETE_DRAW_BUFFER	src/wb_gl_loader.h	2150;"	d
+GL_FRAMEBUFFER_INCOMPLETE_LAYER_TARGETS	src/wb_gl.h	1511;"	d
+GL_FRAMEBUFFER_INCOMPLETE_LAYER_TARGETS	src/wb_gl_loader.h	2316;"	d
+GL_FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT	src/wb_gl.h	1344;"	d
+GL_FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT	src/wb_gl_loader.h	2149;"	d
+GL_FRAMEBUFFER_INCOMPLETE_MULTISAMPLE	src/wb_gl.h	1398;"	d
+GL_FRAMEBUFFER_INCOMPLETE_MULTISAMPLE	src/wb_gl_loader.h	2203;"	d
+GL_FRAMEBUFFER_INCOMPLETE_READ_BUFFER	src/wb_gl.h	1346;"	d
+GL_FRAMEBUFFER_INCOMPLETE_READ_BUFFER	src/wb_gl_loader.h	2151;"	d
+GL_FRAMEBUFFER_RENDERABLE	src/wb_gl.h	1912;"	d
+GL_FRAMEBUFFER_RENDERABLE_LAYERED	src/wb_gl.h	1913;"	d
+GL_FRAMEBUFFER_SRGB	src/wb_gl.h	1403;"	d
+GL_FRAMEBUFFER_SRGB	src/wb_gl_loader.h	2208;"	d
+GL_FRAMEBUFFER_UNDEFINED	src/wb_gl.h	1317;"	d
+GL_FRAMEBUFFER_UNDEFINED	src/wb_gl_loader.h	2122;"	d
+GL_FRAMEBUFFER_UNSUPPORTED	src/wb_gl.h	1347;"	d
+GL_FRAMEBUFFER_UNSUPPORTED	src/wb_gl_loader.h	2152;"	d
+GL_FRONT	src/wb_gl.h	369;"	d
+GL_FRONT	src/wb_gl_loader.h	1177;"	d
+GL_FRONT_AND_BACK	src/wb_gl.h	373;"	d
+GL_FRONT_AND_BACK	src/wb_gl_loader.h	1181;"	d
+GL_FRONT_FACE	src/wb_gl.h	392;"	d
+GL_FRONT_FACE	src/wb_gl_loader.h	1200;"	d
+GL_FRONT_LEFT	src/wb_gl.h	365;"	d
+GL_FRONT_LEFT	src/wb_gl_loader.h	1173;"	d
+GL_FRONT_RIGHT	src/wb_gl.h	366;"	d
+GL_FRONT_RIGHT	src/wb_gl_loader.h	1174;"	d
+GL_FULL_SUPPORT	src/wb_gl.h	1955;"	d
+GL_FUNC_ADD	src/wb_gl.h	1042;"	d
+GL_FUNC_ADD	src/wb_gl_loader.h	1843;"	d
+GL_FUNC_REVERSE_SUBTRACT	src/wb_gl.h	1043;"	d
+GL_FUNC_REVERSE_SUBTRACT	src/wb_gl_loader.h	1845;"	d
+GL_FUNC_SUBTRACT	src/wb_gl.h	1044;"	d
+GL_FUNC_SUBTRACT	src/wb_gl_loader.h	1844;"	d
+GL_GENERATE_MIPMAP	src/wb_gl.h	1016;"	d
+GL_GENERATE_MIPMAP	src/wb_gl_loader.h	1823;"	d
+GL_GENERATE_MIPMAP_HINT	src/wb_gl.h	1017;"	d
+GL_GENERATE_MIPMAP_HINT	src/wb_gl_loader.h	1824;"	d
+GL_GEOMETRY_INPUT_TYPE	src/wb_gl.h	1514;"	d
+GL_GEOMETRY_INPUT_TYPE	src/wb_gl_loader.h	2319;"	d
+GL_GEOMETRY_OUTPUT_TYPE	src/wb_gl.h	1515;"	d
+GL_GEOMETRY_OUTPUT_TYPE	src/wb_gl_loader.h	2320;"	d
+GL_GEOMETRY_SHADER	src/wb_gl.h	1512;"	d
+GL_GEOMETRY_SHADER	src/wb_gl_loader.h	2317;"	d
+GL_GEOMETRY_SHADER_BIT	src/wb_gl.h	1681;"	d
+GL_GEOMETRY_SHADER_INVOCATIONS	src/wb_gl.h	1595;"	d
+GL_GEOMETRY_SUBROUTINE	src/wb_gl.h	1993;"	d
+GL_GEOMETRY_SUBROUTINE_UNIFORM	src/wb_gl.h	1999;"	d
+GL_GEOMETRY_TEXTURE	src/wb_gl.h	1932;"	d
+GL_GEOMETRY_VERTICES_OUT	src/wb_gl.h	1513;"	d
+GL_GEOMETRY_VERTICES_OUT	src/wb_gl_loader.h	2318;"	d
+GL_GEQUAL	src/wb_gl.h	351;"	d
+GL_GEQUAL	src/wb_gl_loader.h	1159;"	d
+GL_GET_TEXTURE_IMAGE_FORMAT	src/wb_gl.h	1920;"	d
+GL_GET_TEXTURE_IMAGE_TYPE	src/wb_gl.h	1921;"	d
+GL_GREATER	src/wb_gl.h	349;"	d
+GL_GREATER	src/wb_gl_loader.h	1157;"	d
+GL_GREEN	src/wb_gl.h	478;"	d
+GL_GREEN	src/wb_gl_loader.h	1300;"	d
+GL_GREEN_BIAS	src/wb_gl.h	643;"	d
+GL_GREEN_BIAS	src/wb_gl_loader.h	1493;"	d
+GL_GREEN_BITS	src/wb_gl.h	661;"	d
+GL_GREEN_BITS	src/wb_gl_loader.h	1512;"	d
+GL_GREEN_INTEGER	src/wb_gl.h	1271;"	d
+GL_GREEN_INTEGER	src/wb_gl_loader.h	2076;"	d
+GL_GREEN_SCALE	src/wb_gl.h	642;"	d
+GL_GREEN_SCALE	src/wb_gl_loader.h	1492;"	d
+GL_HALF_FLOAT	src/wb_gl.h	1404;"	d
+GL_HALF_FLOAT	src/wb_gl_loader.h	2209;"	d
+GL_HIGH_FLOAT	src/wb_gl.h	1664;"	d
+GL_HIGH_INT	src/wb_gl.h	1667;"	d
+GL_HINT_BIT	src/wb_gl.h	517;"	d
+GL_HINT_BIT	src/wb_gl_loader.h	1355;"	d
+GL_IMAGE_1D	src/wb_gl.h	1757;"	d
+GL_IMAGE_1D_ARRAY	src/wb_gl.h	1763;"	d
+GL_IMAGE_2D	src/wb_gl.h	1758;"	d
+GL_IMAGE_2D_ARRAY	src/wb_gl.h	1764;"	d
+GL_IMAGE_2D_MULTISAMPLE	src/wb_gl.h	1766;"	d
+GL_IMAGE_2D_MULTISAMPLE_ARRAY	src/wb_gl.h	1767;"	d
+GL_IMAGE_2D_RECT	src/wb_gl.h	1760;"	d
+GL_IMAGE_3D	src/wb_gl.h	1759;"	d
+GL_IMAGE_BINDING_ACCESS	src/wb_gl.h	1756;"	d
+GL_IMAGE_BINDING_FORMAT	src/wb_gl.h	1791;"	d
+GL_IMAGE_BINDING_LAYER	src/wb_gl.h	1755;"	d
+GL_IMAGE_BINDING_LAYERED	src/wb_gl.h	1754;"	d
+GL_IMAGE_BINDING_LEVEL	src/wb_gl.h	1753;"	d
+GL_IMAGE_BINDING_NAME	src/wb_gl.h	1752;"	d
+GL_IMAGE_BUFFER	src/wb_gl.h	1762;"	d
+GL_IMAGE_CLASS_10_10_10_2	src/wb_gl.h	1967;"	d
+GL_IMAGE_CLASS_11_11_10	src/wb_gl.h	1966;"	d
+GL_IMAGE_CLASS_1_X_16	src/wb_gl.h	1962;"	d
+GL_IMAGE_CLASS_1_X_32	src/wb_gl.h	1959;"	d
+GL_IMAGE_CLASS_1_X_8	src/wb_gl.h	1965;"	d
+GL_IMAGE_CLASS_2_X_16	src/wb_gl.h	1961;"	d
+GL_IMAGE_CLASS_2_X_32	src/wb_gl.h	1958;"	d
+GL_IMAGE_CLASS_2_X_8	src/wb_gl.h	1964;"	d
+GL_IMAGE_CLASS_4_X_16	src/wb_gl.h	1960;"	d
+GL_IMAGE_CLASS_4_X_32	src/wb_gl.h	1957;"	d
+GL_IMAGE_CLASS_4_X_8	src/wb_gl.h	1963;"	d
+GL_IMAGE_COMPATIBILITY_CLASS	src/wb_gl.h	1942;"	d
+GL_IMAGE_CUBE	src/wb_gl.h	1761;"	d
+GL_IMAGE_CUBE_MAP_ARRAY	src/wb_gl.h	1765;"	d
+GL_IMAGE_FORMAT_COMPATIBILITY_BY_CLASS	src/wb_gl.h	1794;"	d
+GL_IMAGE_FORMAT_COMPATIBILITY_BY_SIZE	src/wb_gl.h	1793;"	d
+GL_IMAGE_FORMAT_COMPATIBILITY_TYPE	src/wb_gl.h	1792;"	d
+GL_IMAGE_PIXEL_FORMAT	src/wb_gl.h	1943;"	d
+GL_IMAGE_PIXEL_TYPE	src/wb_gl.h	1944;"	d
+GL_IMAGE_TEXEL_SIZE	src/wb_gl.h	1941;"	d
+GL_IMPLEMENTATION_COLOR_READ_FORMAT	src/wb_gl.h	1661;"	d
+GL_IMPLEMENTATION_COLOR_READ_TYPE	src/wb_gl.h	1660;"	d
+GL_INCR	src/wb_gl.h	488;"	d
+GL_INCR	src/wb_gl_loader.h	1310;"	d
+GL_INCR_WRAP	src/wb_gl.h	1008;"	d
+GL_INCR_WRAP	src/wb_gl_loader.h	1815;"	d
+GL_INDEX	src/wb_gl.h	1400;"	d
+GL_INDEX	src/wb_gl_loader.h	2205;"	d
+GL_INDEX_ARRAY	src/wb_gl.h	806;"	d
+GL_INDEX_ARRAY	src/wb_gl_loader.h	1551;"	d
+GL_INDEX_ARRAY_BUFFER_BINDING	src/wb_gl.h	1078;"	d
+GL_INDEX_ARRAY_BUFFER_BINDING	src/wb_gl_loader.h	1883;"	d
+GL_INDEX_ARRAY_POINTER	src/wb_gl.h	792;"	d
+GL_INDEX_ARRAY_POINTER	src/wb_gl_loader.h	1406;"	d
+GL_INDEX_ARRAY_STRIDE	src/wb_gl.h	818;"	d
+GL_INDEX_ARRAY_STRIDE	src/wb_gl_loader.h	1563;"	d
+GL_INDEX_ARRAY_TYPE	src/wb_gl.h	817;"	d
+GL_INDEX_ARRAY_TYPE	src/wb_gl_loader.h	1562;"	d
+GL_INDEX_BITS	src/wb_gl.h	659;"	d
+GL_INDEX_BITS	src/wb_gl_loader.h	1510;"	d
+GL_INDEX_CLEAR_VALUE	src/wb_gl.h	612;"	d
+GL_INDEX_CLEAR_VALUE	src/wb_gl_loader.h	1462;"	d
+GL_INDEX_LOGIC_OP	src/wb_gl.h	798;"	d
+GL_INDEX_MODE	src/wb_gl.h	614;"	d
+GL_INDEX_MODE	src/wb_gl_loader.h	1464;"	d
+GL_INDEX_OFFSET	src/wb_gl.h	637;"	d
+GL_INDEX_OFFSET	src/wb_gl_loader.h	1487;"	d
+GL_INDEX_SHIFT	src/wb_gl.h	636;"	d
+GL_INDEX_SHIFT	src/wb_gl_loader.h	1486;"	d
+GL_INDEX_WRITEMASK	src/wb_gl.h	613;"	d
+GL_INDEX_WRITEMASK	src/wb_gl_loader.h	1463;"	d
+GL_INFO_LOG_LENGTH	src/wb_gl.h	1161;"	d
+GL_INFO_LOG_LENGTH	src/wb_gl_loader.h	1966;"	d
+GL_INT	src/wb_gl.h	450;"	d
+GL_INT	src/wb_gl_loader.h	1271;"	d
+GL_INTENSITY	src/wb_gl.h	841;"	d
+GL_INTENSITY	src/wb_gl_loader.h	1634;"	d
+GL_INTENSITY12	src/wb_gl.h	844;"	d
+GL_INTENSITY12	src/wb_gl_loader.h	1637;"	d
+GL_INTENSITY16	src/wb_gl.h	845;"	d
+GL_INTENSITY16	src/wb_gl_loader.h	1638;"	d
+GL_INTENSITY4	src/wb_gl.h	842;"	d
+GL_INTENSITY4	src/wb_gl_loader.h	1635;"	d
+GL_INTENSITY8	src/wb_gl.h	843;"	d
+GL_INTENSITY8	src/wb_gl_loader.h	1636;"	d
+GL_INTERLEAVED_ATTRIBS	src/wb_gl.h	1254;"	d
+GL_INTERLEAVED_ATTRIBS	src/wb_gl_loader.h	2059;"	d
+GL_INTERNALFORMAT_ALPHA_SIZE	src/wb_gl.h	1891;"	d
+GL_INTERNALFORMAT_ALPHA_TYPE	src/wb_gl.h	1898;"	d
+GL_INTERNALFORMAT_BLUE_SIZE	src/wb_gl.h	1890;"	d
+GL_INTERNALFORMAT_BLUE_TYPE	src/wb_gl.h	1897;"	d
+GL_INTERNALFORMAT_DEPTH_SIZE	src/wb_gl.h	1892;"	d
+GL_INTERNALFORMAT_DEPTH_TYPE	src/wb_gl.h	1899;"	d
+GL_INTERNALFORMAT_GREEN_SIZE	src/wb_gl.h	1889;"	d
+GL_INTERNALFORMAT_GREEN_TYPE	src/wb_gl.h	1896;"	d
+GL_INTERNALFORMAT_PREFERRED	src/wb_gl.h	1887;"	d
+GL_INTERNALFORMAT_RED_SIZE	src/wb_gl.h	1888;"	d
+GL_INTERNALFORMAT_RED_TYPE	src/wb_gl.h	1895;"	d
+GL_INTERNALFORMAT_SHARED_SIZE	src/wb_gl.h	1894;"	d
+GL_INTERNALFORMAT_STENCIL_SIZE	src/wb_gl.h	1893;"	d
+GL_INTERNALFORMAT_STENCIL_TYPE	src/wb_gl.h	1900;"	d
+GL_INTERNALFORMAT_SUPPORTED	src/wb_gl.h	1886;"	d
+GL_INTERPOLATE	src/wb_gl.h	990;"	d
+GL_INTERPOLATE	src/wb_gl_loader.h	1797;"	d
+GL_INT_2_10_10_10_REV	src/wb_gl.h	1581;"	d
+GL_INT_2_10_10_10_REV	src/wb_gl_loader.h	2386;"	d
+GL_INT_IMAGE_1D	src/wb_gl.h	1768;"	d
+GL_INT_IMAGE_1D_ARRAY	src/wb_gl.h	1774;"	d
+GL_INT_IMAGE_2D	src/wb_gl.h	1769;"	d
+GL_INT_IMAGE_2D_ARRAY	src/wb_gl.h	1775;"	d
+GL_INT_IMAGE_2D_MULTISAMPLE	src/wb_gl.h	1777;"	d
+GL_INT_IMAGE_2D_MULTISAMPLE_ARRAY	src/wb_gl.h	1778;"	d
+GL_INT_IMAGE_2D_RECT	src/wb_gl.h	1771;"	d
+GL_INT_IMAGE_3D	src/wb_gl.h	1770;"	d
+GL_INT_IMAGE_BUFFER	src/wb_gl.h	1773;"	d
+GL_INT_IMAGE_CUBE	src/wb_gl.h	1772;"	d
+GL_INT_IMAGE_CUBE_MAP_ARRAY	src/wb_gl.h	1776;"	d
+GL_INT_SAMPLER_1D	src/wb_gl.h	1285;"	d
+GL_INT_SAMPLER_1D	src/wb_gl_loader.h	2090;"	d
+GL_INT_SAMPLER_1D_ARRAY	src/wb_gl.h	1289;"	d
+GL_INT_SAMPLER_1D_ARRAY	src/wb_gl_loader.h	2094;"	d
+GL_INT_SAMPLER_2D	src/wb_gl.h	1286;"	d
+GL_INT_SAMPLER_2D	src/wb_gl_loader.h	2091;"	d
+GL_INT_SAMPLER_2D_ARRAY	src/wb_gl.h	1290;"	d
+GL_INT_SAMPLER_2D_ARRAY	src/wb_gl_loader.h	2095;"	d
+GL_INT_SAMPLER_2D_MULTISAMPLE	src/wb_gl.h	1558;"	d
+GL_INT_SAMPLER_2D_MULTISAMPLE	src/wb_gl_loader.h	2363;"	d
+GL_INT_SAMPLER_2D_MULTISAMPLE_ARRAY	src/wb_gl.h	1561;"	d
+GL_INT_SAMPLER_2D_MULTISAMPLE_ARRAY	src/wb_gl_loader.h	2366;"	d
+GL_INT_SAMPLER_2D_RECT	src/wb_gl.h	1444;"	d
+GL_INT_SAMPLER_2D_RECT	src/wb_gl_loader.h	2249;"	d
+GL_INT_SAMPLER_3D	src/wb_gl.h	1287;"	d
+GL_INT_SAMPLER_3D	src/wb_gl_loader.h	2092;"	d
+GL_INT_SAMPLER_BUFFER	src/wb_gl.h	1445;"	d
+GL_INT_SAMPLER_BUFFER	src/wb_gl_loader.h	2250;"	d
+GL_INT_SAMPLER_CUBE	src/wb_gl.h	1288;"	d
+GL_INT_SAMPLER_CUBE	src/wb_gl_loader.h	2093;"	d
+GL_INT_SAMPLER_CUBE_MAP_ARRAY	src/wb_gl.h	1591;"	d
+GL_INT_VEC2	src/wb_gl.h	1141;"	d
+GL_INT_VEC2	src/wb_gl_loader.h	1946;"	d
+GL_INT_VEC3	src/wb_gl.h	1142;"	d
+GL_INT_VEC3	src/wb_gl_loader.h	1947;"	d
+GL_INT_VEC4	src/wb_gl.h	1143;"	d
+GL_INT_VEC4	src/wb_gl_loader.h	1948;"	d
+GL_INVALID_ENUM	src/wb_gl.h	375;"	d
+GL_INVALID_ENUM	src/wb_gl_loader.h	1183;"	d
+GL_INVALID_FRAMEBUFFER_OPERATION	src/wb_gl.h	1307;"	d
+GL_INVALID_FRAMEBUFFER_OPERATION	src/wb_gl_loader.h	2112;"	d
+GL_INVALID_INDEX	src/wb_gl.h	1501;"	d
+GL_INVALID_INDEX	src/wb_gl_loader.h	2306;"	d
+GL_INVALID_OPERATION	src/wb_gl.h	377;"	d
+GL_INVALID_OPERATION	src/wb_gl_loader.h	1185;"	d
+GL_INVALID_VALUE	src/wb_gl.h	376;"	d
+GL_INVALID_VALUE	src/wb_gl_loader.h	1184;"	d
+GL_INVERT	src/wb_gl.h	465;"	d
+GL_INVERT	src/wb_gl_loader.h	1287;"	d
+GL_ISOLINES	src/wb_gl.h	1631;"	d
+GL_IS_PER_PATCH	src/wb_gl.h	2030;"	d
+GL_IS_ROW_MAJOR	src/wb_gl.h	2014;"	d
+GL_KEEP	src/wb_gl.h	486;"	d
+GL_KEEP	src/wb_gl_loader.h	1308;"	d
+GL_LAST_VERTEX_CONVENTION	src/wb_gl.h	1527;"	d
+GL_LAST_VERTEX_CONVENTION	src/wb_gl_loader.h	2332;"	d
+GL_LAYER_PROVOKING_VERTEX	src/wb_gl.h	1691;"	d
+GL_LEFT	src/wb_gl.h	371;"	d
+GL_LEFT	src/wb_gl_loader.h	1179;"	d
+GL_LEQUAL	src/wb_gl.h	348;"	d
+GL_LEQUAL	src/wb_gl_loader.h	1156;"	d
+GL_LESS	src/wb_gl.h	346;"	d
+GL_LESS	src/wb_gl_loader.h	1154;"	d
+GL_LIGHT0	src/wb_gl.h	748;"	d
+GL_LIGHT0	src/wb_gl_loader.h	1659;"	d
+GL_LIGHT1	src/wb_gl.h	749;"	d
+GL_LIGHT1	src/wb_gl_loader.h	1660;"	d
+GL_LIGHT2	src/wb_gl.h	750;"	d
+GL_LIGHT2	src/wb_gl_loader.h	1661;"	d
+GL_LIGHT3	src/wb_gl.h	751;"	d
+GL_LIGHT3	src/wb_gl_loader.h	1662;"	d
+GL_LIGHT4	src/wb_gl.h	752;"	d
+GL_LIGHT4	src/wb_gl_loader.h	1663;"	d
+GL_LIGHT5	src/wb_gl.h	753;"	d
+GL_LIGHT5	src/wb_gl_loader.h	1664;"	d
+GL_LIGHT6	src/wb_gl.h	754;"	d
+GL_LIGHT6	src/wb_gl_loader.h	1665;"	d
+GL_LIGHT7	src/wb_gl.h	755;"	d
+GL_LIGHT7	src/wb_gl_loader.h	1666;"	d
+GL_LIGHTING	src/wb_gl.h	582;"	d
+GL_LIGHTING	src/wb_gl_loader.h	1431;"	d
+GL_LIGHTING_BIT	src/wb_gl.h	511;"	d
+GL_LIGHTING_BIT	src/wb_gl_loader.h	1349;"	d
+GL_LIGHT_MODEL_AMBIENT	src/wb_gl.h	585;"	d
+GL_LIGHT_MODEL_AMBIENT	src/wb_gl_loader.h	1434;"	d
+GL_LIGHT_MODEL_COLOR_CONTROL	src/wb_gl.h	897;"	d
+GL_LIGHT_MODEL_COLOR_CONTROL	src/wb_gl_loader.h	1704;"	d
+GL_LIGHT_MODEL_LOCAL_VIEWER	src/wb_gl.h	583;"	d
+GL_LIGHT_MODEL_LOCAL_VIEWER	src/wb_gl_loader.h	1432;"	d
+GL_LIGHT_MODEL_TWO_SIDE	src/wb_gl.h	584;"	d
+GL_LIGHT_MODEL_TWO_SIDE	src/wb_gl_loader.h	1433;"	d
+GL_LINE	src/wb_gl.h	484;"	d
+GL_LINE	src/wb_gl_loader.h	1306;"	d
+GL_LINEAR	src/wb_gl.h	495;"	d
+GL_LINEAR	src/wb_gl_loader.h	1317;"	d
+GL_LINEAR_ATTENUATION	src/wb_gl.h	704;"	d
+GL_LINEAR_ATTENUATION	src/wb_gl_loader.h	1582;"	d
+GL_LINEAR_MIPMAP_LINEAR	src/wb_gl.h	499;"	d
+GL_LINEAR_MIPMAP_LINEAR	src/wb_gl_loader.h	1321;"	d
+GL_LINEAR_MIPMAP_NEAREST	src/wb_gl.h	497;"	d
+GL_LINEAR_MIPMAP_NEAREST	src/wb_gl_loader.h	1319;"	d
+GL_LINES	src/wb_gl.h	338;"	d
+GL_LINES	src/wb_gl_loader.h	1146;"	d
+GL_LINES_ADJACENCY	src/wb_gl.h	1504;"	d
+GL_LINES_ADJACENCY	src/wb_gl_loader.h	2309;"	d
+GL_LINE_BIT	src/wb_gl.h	507;"	d
+GL_LINE_BIT	src/wb_gl_loader.h	1345;"	d
+GL_LINE_LOOP	src/wb_gl.h	339;"	d
+GL_LINE_LOOP	src/wb_gl_loader.h	1147;"	d
+GL_LINE_RESET_TOKEN	src/wb_gl.h	546;"	d
+GL_LINE_RESET_TOKEN	src/wb_gl_loader.h	1387;"	d
+GL_LINE_SMOOTH	src/wb_gl.h	384;"	d
+GL_LINE_SMOOTH	src/wb_gl_loader.h	1192;"	d
+GL_LINE_SMOOTH_HINT	src/wb_gl.h	421;"	d
+GL_LINE_SMOOTH_HINT	src/wb_gl_loader.h	1230;"	d
+GL_LINE_STIPPLE	src/wb_gl.h	573;"	d
+GL_LINE_STIPPLE	src/wb_gl_loader.h	1422;"	d
+GL_LINE_STIPPLE_PATTERN	src/wb_gl.h	574;"	d
+GL_LINE_STIPPLE_PATTERN	src/wb_gl_loader.h	1423;"	d
+GL_LINE_STIPPLE_REPEAT	src/wb_gl.h	575;"	d
+GL_LINE_STIPPLE_REPEAT	src/wb_gl_loader.h	1424;"	d
+GL_LINE_STRIP	src/wb_gl.h	340;"	d
+GL_LINE_STRIP	src/wb_gl_loader.h	1148;"	d
+GL_LINE_STRIP_ADJACENCY	src/wb_gl.h	1505;"	d
+GL_LINE_STRIP_ADJACENCY	src/wb_gl_loader.h	2310;"	d
+GL_LINE_TOKEN	src/wb_gl.h	541;"	d
+GL_LINE_TOKEN	src/wb_gl_loader.h	1382;"	d
+GL_LINE_WIDTH	src/wb_gl.h	385;"	d
+GL_LINE_WIDTH	src/wb_gl_loader.h	1193;"	d
+GL_LINE_WIDTH_GRANULARITY	src/wb_gl.h	387;"	d
+GL_LINE_WIDTH_GRANULARITY	src/wb_gl_loader.h	1195;"	d
+GL_LINE_WIDTH_RANGE	src/wb_gl.h	386;"	d
+GL_LINE_WIDTH_RANGE	src/wb_gl_loader.h	1194;"	d
+GL_LINK_STATUS	src/wb_gl.h	1159;"	d
+GL_LINK_STATUS	src/wb_gl_loader.h	1964;"	d
+GL_LIST_BASE	src/wb_gl.h	578;"	d
+GL_LIST_BASE	src/wb_gl_loader.h	1427;"	d
+GL_LIST_BIT	src/wb_gl.h	519;"	d
+GL_LIST_BIT	src/wb_gl_loader.h	1357;"	d
+GL_LIST_INDEX	src/wb_gl.h	579;"	d
+GL_LIST_INDEX	src/wb_gl_loader.h	1428;"	d
+GL_LIST_MODE	src/wb_gl.h	576;"	d
+GL_LIST_MODE	src/wb_gl_loader.h	1425;"	d
+GL_LOAD	src/wb_gl.h	526;"	d
+GL_LOAD	src/wb_gl_loader.h	1367;"	d
+GL_LOCATION	src/wb_gl.h	2028;"	d
+GL_LOCATION_INDEX	src/wb_gl.h	2029;"	d
+GL_LOGIC_OP	src/wb_gl.h	610;"	d
+GL_LOGIC_OP	src/wb_gl_loader.h	1460;"	d
+GL_LOGIC_OP_MODE	src/wb_gl.h	412;"	d
+GL_LOGIC_OP_MODE	src/wb_gl_loader.h	1220;"	d
+GL_LOWER_LEFT	src/wb_gl.h	1172;"	d
+GL_LOWER_LEFT	src/wb_gl_loader.h	1977;"	d
+GL_LOW_FLOAT	src/wb_gl.h	1662;"	d
+GL_LOW_INT	src/wb_gl.h	1665;"	d
+GL_LUMINANCE	src/wb_gl.h	718;"	d
+GL_LUMINANCE	src/wb_gl_loader.h	1596;"	d
+GL_LUMINANCE12	src/wb_gl.h	833;"	d
+GL_LUMINANCE12	src/wb_gl_loader.h	1626;"	d
+GL_LUMINANCE12_ALPHA12	src/wb_gl.h	839;"	d
+GL_LUMINANCE12_ALPHA12	src/wb_gl_loader.h	1632;"	d
+GL_LUMINANCE12_ALPHA4	src/wb_gl.h	838;"	d
+GL_LUMINANCE12_ALPHA4	src/wb_gl_loader.h	1631;"	d
+GL_LUMINANCE16	src/wb_gl.h	834;"	d
+GL_LUMINANCE16	src/wb_gl_loader.h	1627;"	d
+GL_LUMINANCE16_ALPHA16	src/wb_gl.h	840;"	d
+GL_LUMINANCE16_ALPHA16	src/wb_gl_loader.h	1633;"	d
+GL_LUMINANCE4	src/wb_gl.h	831;"	d
+GL_LUMINANCE4	src/wb_gl_loader.h	1624;"	d
+GL_LUMINANCE4_ALPHA4	src/wb_gl.h	835;"	d
+GL_LUMINANCE4_ALPHA4	src/wb_gl_loader.h	1628;"	d
+GL_LUMINANCE6_ALPHA2	src/wb_gl.h	836;"	d
+GL_LUMINANCE6_ALPHA2	src/wb_gl_loader.h	1629;"	d
+GL_LUMINANCE8	src/wb_gl.h	832;"	d
+GL_LUMINANCE8	src/wb_gl_loader.h	1625;"	d
+GL_LUMINANCE8_ALPHA8	src/wb_gl.h	837;"	d
+GL_LUMINANCE8_ALPHA8	src/wb_gl_loader.h	1630;"	d
+GL_LUMINANCE_ALPHA	src/wb_gl.h	719;"	d
+GL_LUMINANCE_ALPHA	src/wb_gl_loader.h	1597;"	d
+GL_MAJOR_VERSION	src/wb_gl.h	1214;"	d
+GL_MAJOR_VERSION	src/wb_gl_loader.h	2019;"	d
+GL_MANUAL_GENERATE_MIPMAP	src/wb_gl.h	1923;"	d
+GL_MAP1_COLOR_4	src/wb_gl.h	672;"	d
+GL_MAP1_COLOR_4	src/wb_gl_loader.h	1523;"	d
+GL_MAP1_GRID_DOMAIN	src/wb_gl.h	690;"	d
+GL_MAP1_GRID_DOMAIN	src/wb_gl_loader.h	1541;"	d
+GL_MAP1_GRID_SEGMENTS	src/wb_gl.h	691;"	d
+GL_MAP1_GRID_SEGMENTS	src/wb_gl_loader.h	1542;"	d
+GL_MAP1_INDEX	src/wb_gl.h	673;"	d
+GL_MAP1_INDEX	src/wb_gl_loader.h	1524;"	d
+GL_MAP1_NORMAL	src/wb_gl.h	674;"	d
+GL_MAP1_NORMAL	src/wb_gl_loader.h	1525;"	d
+GL_MAP1_TEXTURE_COORD_1	src/wb_gl.h	675;"	d
+GL_MAP1_TEXTURE_COORD_1	src/wb_gl_loader.h	1526;"	d
+GL_MAP1_TEXTURE_COORD_2	src/wb_gl.h	676;"	d
+GL_MAP1_TEXTURE_COORD_2	src/wb_gl_loader.h	1527;"	d
+GL_MAP1_TEXTURE_COORD_3	src/wb_gl.h	677;"	d
+GL_MAP1_TEXTURE_COORD_3	src/wb_gl_loader.h	1528;"	d
+GL_MAP1_TEXTURE_COORD_4	src/wb_gl.h	678;"	d
+GL_MAP1_TEXTURE_COORD_4	src/wb_gl_loader.h	1529;"	d
+GL_MAP1_VERTEX_3	src/wb_gl.h	679;"	d
+GL_MAP1_VERTEX_3	src/wb_gl_loader.h	1530;"	d
+GL_MAP1_VERTEX_4	src/wb_gl.h	680;"	d
+GL_MAP1_VERTEX_4	src/wb_gl_loader.h	1531;"	d
+GL_MAP2_COLOR_4	src/wb_gl.h	681;"	d
+GL_MAP2_COLOR_4	src/wb_gl_loader.h	1532;"	d
+GL_MAP2_GRID_DOMAIN	src/wb_gl.h	692;"	d
+GL_MAP2_GRID_DOMAIN	src/wb_gl_loader.h	1543;"	d
+GL_MAP2_GRID_SEGMENTS	src/wb_gl.h	693;"	d
+GL_MAP2_GRID_SEGMENTS	src/wb_gl_loader.h	1544;"	d
+GL_MAP2_INDEX	src/wb_gl.h	682;"	d
+GL_MAP2_INDEX	src/wb_gl_loader.h	1533;"	d
+GL_MAP2_NORMAL	src/wb_gl.h	683;"	d
+GL_MAP2_NORMAL	src/wb_gl_loader.h	1534;"	d
+GL_MAP2_TEXTURE_COORD_1	src/wb_gl.h	684;"	d
+GL_MAP2_TEXTURE_COORD_1	src/wb_gl_loader.h	1535;"	d
+GL_MAP2_TEXTURE_COORD_2	src/wb_gl.h	685;"	d
+GL_MAP2_TEXTURE_COORD_2	src/wb_gl_loader.h	1536;"	d
+GL_MAP2_TEXTURE_COORD_3	src/wb_gl.h	686;"	d
+GL_MAP2_TEXTURE_COORD_3	src/wb_gl_loader.h	1537;"	d
+GL_MAP2_TEXTURE_COORD_4	src/wb_gl.h	687;"	d
+GL_MAP2_TEXTURE_COORD_4	src/wb_gl_loader.h	1538;"	d
+GL_MAP2_VERTEX_3	src/wb_gl.h	688;"	d
+GL_MAP2_VERTEX_3	src/wb_gl_loader.h	1539;"	d
+GL_MAP2_VERTEX_4	src/wb_gl.h	689;"	d
+GL_MAP2_VERTEX_4	src/wb_gl_loader.h	1540;"	d
+GL_MAP_COLOR	src/wb_gl.h	634;"	d
+GL_MAP_COLOR	src/wb_gl_loader.h	1484;"	d
+GL_MAP_FLUSH_EXPLICIT_BIT	src/wb_gl.h	1409;"	d
+GL_MAP_FLUSH_EXPLICIT_BIT	src/wb_gl_loader.h	2214;"	d
+GL_MAP_INVALIDATE_BUFFER_BIT	src/wb_gl.h	1408;"	d
+GL_MAP_INVALIDATE_BUFFER_BIT	src/wb_gl_loader.h	2213;"	d
+GL_MAP_INVALIDATE_RANGE_BIT	src/wb_gl.h	1407;"	d
+GL_MAP_INVALIDATE_RANGE_BIT	src/wb_gl_loader.h	2212;"	d
+GL_MAP_READ_BIT	src/wb_gl.h	1405;"	d
+GL_MAP_READ_BIT	src/wb_gl_loader.h	2210;"	d
+GL_MAP_STENCIL	src/wb_gl.h	635;"	d
+GL_MAP_STENCIL	src/wb_gl_loader.h	1485;"	d
+GL_MAP_UNSYNCHRONIZED_BIT	src/wb_gl.h	1410;"	d
+GL_MAP_UNSYNCHRONIZED_BIT	src/wb_gl_loader.h	2215;"	d
+GL_MAP_WRITE_BIT	src/wb_gl.h	1406;"	d
+GL_MAP_WRITE_BIT	src/wb_gl_loader.h	2211;"	d
+GL_MATRIX_MODE	src/wb_gl.h	598;"	d
+GL_MATRIX_MODE	src/wb_gl_loader.h	1447;"	d
+GL_MATRIX_STRIDE	src/wb_gl.h	2013;"	d
+GL_MAX	src/wb_gl.h	1046;"	d
+GL_MAX	src/wb_gl_loader.h	1847;"	d
+GL_MAX_3D_TEXTURE_SIZE	src/wb_gl.h	874;"	d
+GL_MAX_3D_TEXTURE_SIZE	src/wb_gl_loader.h	1681;"	d
+GL_MAX_ARRAY_TEXTURE_LAYERS	src/wb_gl.h	1226;"	d
+GL_MAX_ARRAY_TEXTURE_LAYERS	src/wb_gl_loader.h	2031;"	d
+GL_MAX_ATOMIC_COUNTER_BUFFER_BINDINGS	src/wb_gl.h	1733;"	d
+GL_MAX_ATOMIC_COUNTER_BUFFER_SIZE	src/wb_gl.h	1732;"	d
+GL_MAX_ATTRIB_STACK_DEPTH	src/wb_gl.h	654;"	d
+GL_MAX_ATTRIB_STACK_DEPTH	src/wb_gl_loader.h	1504;"	d
+GL_MAX_CLIENT_ATTRIB_STACK_DEPTH	src/wb_gl.h	799;"	d
+GL_MAX_CLIENT_ATTRIB_STACK_DEPTH	src/wb_gl_loader.h	1509;"	d
+GL_MAX_CLIP_DISTANCES	src/wb_gl.h	1213;"	d
+GL_MAX_CLIP_DISTANCES	src/wb_gl_loader.h	2018;"	d
+GL_MAX_CLIP_PLANES	src/wb_gl.h	652;"	d
+GL_MAX_CLIP_PLANES	src/wb_gl_loader.h	1502;"	d
+GL_MAX_COLOR_ATTACHMENTS	src/wb_gl.h	1348;"	d
+GL_MAX_COLOR_ATTACHMENTS	src/wb_gl_loader.h	2153;"	d
+GL_MAX_COLOR_TEXTURE_SAMPLES	src/wb_gl.h	1563;"	d
+GL_MAX_COLOR_TEXTURE_SAMPLES	src/wb_gl_loader.h	2368;"	d
+GL_MAX_COMBINED_ATOMIC_COUNTERS	src/wb_gl.h	1731;"	d
+GL_MAX_COMBINED_ATOMIC_COUNTER_BUFFERS	src/wb_gl.h	1725;"	d
+GL_MAX_COMBINED_COMPUTE_UNIFORM_COMPONENTS	src/wb_gl.h	1829;"	d
+GL_MAX_COMBINED_DIMENSIONS	src/wb_gl.h	1905;"	d
+GL_MAX_COMBINED_FRAGMENT_UNIFORM_COMPONENTS	src/wb_gl.h	1481;"	d
+GL_MAX_COMBINED_FRAGMENT_UNIFORM_COMPONENTS	src/wb_gl_loader.h	2286;"	d
+GL_MAX_COMBINED_GEOMETRY_UNIFORM_COMPONENTS	src/wb_gl.h	1480;"	d
+GL_MAX_COMBINED_GEOMETRY_UNIFORM_COMPONENTS	src/wb_gl_loader.h	2285;"	d
+GL_MAX_COMBINED_IMAGE_UNIFORMS	src/wb_gl.h	1800;"	d
+GL_MAX_COMBINED_IMAGE_UNITS_AND_FRAGMENT_OUTPUTS	src/wb_gl.h	1751;"	d
+GL_MAX_COMBINED_SHADER_OUTPUT_RESOURCES	src/wb_gl.h	2046;"	d
+GL_MAX_COMBINED_SHADER_STORAGE_BLOCKS	src/wb_gl.h	2041;"	d
+GL_MAX_COMBINED_TESS_CONTROL_UNIFORM_COMPONENTS	src/wb_gl.h	1648;"	d
+GL_MAX_COMBINED_TESS_EVALUATION_UNIFORM_COMPONENTS	src/wb_gl.h	1649;"	d
+GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS	src/wb_gl.h	1136;"	d
+GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS	src/wb_gl_loader.h	1941;"	d
+GL_MAX_COMBINED_UNIFORM_BLOCKS	src/wb_gl.h	1476;"	d
+GL_MAX_COMBINED_UNIFORM_BLOCKS	src/wb_gl_loader.h	2281;"	d
+GL_MAX_COMBINED_VERTEX_UNIFORM_COMPONENTS	src/wb_gl.h	1479;"	d
+GL_MAX_COMBINED_VERTEX_UNIFORM_COMPONENTS	src/wb_gl_loader.h	2284;"	d
+GL_MAX_COMPUTE_ATOMIC_COUNTERS	src/wb_gl.h	1828;"	d
+GL_MAX_COMPUTE_ATOMIC_COUNTER_BUFFERS	src/wb_gl.h	1827;"	d
+GL_MAX_COMPUTE_IMAGE_UNIFORMS	src/wb_gl.h	1824;"	d
+GL_MAX_COMPUTE_SHADER_STORAGE_BLOCKS	src/wb_gl.h	2040;"	d
+GL_MAX_COMPUTE_SHARED_MEMORY_SIZE	src/wb_gl.h	1825;"	d
+GL_MAX_COMPUTE_TEXTURE_IMAGE_UNITS	src/wb_gl.h	1823;"	d
+GL_MAX_COMPUTE_UNIFORM_BLOCKS	src/wb_gl.h	1822;"	d
+GL_MAX_COMPUTE_UNIFORM_COMPONENTS	src/wb_gl.h	1826;"	d
+GL_MAX_COMPUTE_WORK_GROUP_COUNT	src/wb_gl.h	1831;"	d
+GL_MAX_COMPUTE_WORK_GROUP_INVOCATIONS	src/wb_gl.h	1830;"	d
+GL_MAX_COMPUTE_WORK_GROUP_SIZE	src/wb_gl.h	1832;"	d
+GL_MAX_CUBE_MAP_TEXTURE_SIZE	src/wb_gl.h	951;"	d
+GL_MAX_CUBE_MAP_TEXTURE_SIZE	src/wb_gl_loader.h	1758;"	d
+GL_MAX_DEBUG_GROUP_STACK_DEPTH	src/wb_gl.h	1865;"	d
+GL_MAX_DEBUG_LOGGED_MESSAGES	src/wb_gl.h	1856;"	d
+GL_MAX_DEBUG_MESSAGE_LENGTH	src/wb_gl.h	1855;"	d
+GL_MAX_DEPTH	src/wb_gl.h	1903;"	d
+GL_MAX_DEPTH_TEXTURE_SAMPLES	src/wb_gl.h	1564;"	d
+GL_MAX_DEPTH_TEXTURE_SAMPLES	src/wb_gl_loader.h	2369;"	d
+GL_MAX_DRAW_BUFFERS	src/wb_gl.h	1109;"	d
+GL_MAX_DRAW_BUFFERS	src/wb_gl_loader.h	1914;"	d
+GL_MAX_DUAL_SOURCE_DRAW_BUFFERS	src/wb_gl.h	1570;"	d
+GL_MAX_DUAL_SOURCE_DRAW_BUFFERS	src/wb_gl_loader.h	2375;"	d
+GL_MAX_ELEMENTS_INDICES	src/wb_gl.h	885;"	d
+GL_MAX_ELEMENTS_INDICES	src/wb_gl_loader.h	1692;"	d
+GL_MAX_ELEMENTS_VERTICES	src/wb_gl.h	884;"	d
+GL_MAX_ELEMENTS_VERTICES	src/wb_gl_loader.h	1691;"	d
+GL_MAX_ELEMENT_INDEX	src/wb_gl.h	1820;"	d
+GL_MAX_EVAL_ORDER	src/wb_gl.h	650;"	d
+GL_MAX_EVAL_ORDER	src/wb_gl_loader.h	1500;"	d
+GL_MAX_FRAGMENT_ATOMIC_COUNTERS	src/wb_gl.h	1730;"	d
+GL_MAX_FRAGMENT_ATOMIC_COUNTER_BUFFERS	src/wb_gl.h	1724;"	d
+GL_MAX_FRAGMENT_IMAGE_UNIFORMS	src/wb_gl.h	1799;"	d
+GL_MAX_FRAGMENT_INPUT_COMPONENTS	src/wb_gl.h	1522;"	d
+GL_MAX_FRAGMENT_INPUT_COMPONENTS	src/wb_gl_loader.h	2327;"	d
+GL_MAX_FRAGMENT_INTERPOLATION_OFFSET	src/wb_gl.h	1598;"	d
+GL_MAX_FRAGMENT_SHADER_STORAGE_BLOCKS	src/wb_gl.h	2039;"	d
+GL_MAX_FRAGMENT_UNIFORM_BLOCKS	src/wb_gl.h	1475;"	d
+GL_MAX_FRAGMENT_UNIFORM_BLOCKS	src/wb_gl_loader.h	2280;"	d
+GL_MAX_FRAGMENT_UNIFORM_COMPONENTS	src/wb_gl.h	1132;"	d
+GL_MAX_FRAGMENT_UNIFORM_COMPONENTS	src/wb_gl_loader.h	1937;"	d
+GL_MAX_FRAGMENT_UNIFORM_VECTORS	src/wb_gl.h	1673;"	d
+GL_MAX_FRAMEBUFFER_HEIGHT	src/wb_gl.h	1883;"	d
+GL_MAX_FRAMEBUFFER_LAYERS	src/wb_gl.h	1884;"	d
+GL_MAX_FRAMEBUFFER_SAMPLES	src/wb_gl.h	1885;"	d
+GL_MAX_FRAMEBUFFER_WIDTH	src/wb_gl.h	1882;"	d
+GL_MAX_GEOMETRY_ATOMIC_COUNTERS	src/wb_gl.h	1729;"	d
+GL_MAX_GEOMETRY_ATOMIC_COUNTER_BUFFERS	src/wb_gl.h	1723;"	d
+GL_MAX_GEOMETRY_IMAGE_UNIFORMS	src/wb_gl.h	1798;"	d
+GL_MAX_GEOMETRY_INPUT_COMPONENTS	src/wb_gl.h	1520;"	d
+GL_MAX_GEOMETRY_INPUT_COMPONENTS	src/wb_gl_loader.h	2325;"	d
+GL_MAX_GEOMETRY_OUTPUT_COMPONENTS	src/wb_gl.h	1521;"	d
+GL_MAX_GEOMETRY_OUTPUT_COMPONENTS	src/wb_gl_loader.h	2326;"	d
+GL_MAX_GEOMETRY_OUTPUT_VERTICES	src/wb_gl.h	1517;"	d
+GL_MAX_GEOMETRY_OUTPUT_VERTICES	src/wb_gl_loader.h	2322;"	d
+GL_MAX_GEOMETRY_SHADER_INVOCATIONS	src/wb_gl.h	1596;"	d
+GL_MAX_GEOMETRY_SHADER_STORAGE_BLOCKS	src/wb_gl.h	2036;"	d
+GL_MAX_GEOMETRY_TEXTURE_IMAGE_UNITS	src/wb_gl.h	1509;"	d
+GL_MAX_GEOMETRY_TEXTURE_IMAGE_UNITS	src/wb_gl_loader.h	2314;"	d
+GL_MAX_GEOMETRY_TOTAL_OUTPUT_COMPONENTS	src/wb_gl.h	1518;"	d
+GL_MAX_GEOMETRY_TOTAL_OUTPUT_COMPONENTS	src/wb_gl_loader.h	2323;"	d
+GL_MAX_GEOMETRY_UNIFORM_BLOCKS	src/wb_gl.h	1474;"	d
+GL_MAX_GEOMETRY_UNIFORM_BLOCKS	src/wb_gl_loader.h	2279;"	d
+GL_MAX_GEOMETRY_UNIFORM_COMPONENTS	src/wb_gl.h	1516;"	d
+GL_MAX_GEOMETRY_UNIFORM_COMPONENTS	src/wb_gl_loader.h	2321;"	d
+GL_MAX_HEIGHT	src/wb_gl.h	1902;"	d
+GL_MAX_IMAGE_SAMPLES	src/wb_gl.h	1790;"	d
+GL_MAX_IMAGE_UNITS	src/wb_gl.h	1750;"	d
+GL_MAX_INTEGER_SAMPLES	src/wb_gl.h	1565;"	d
+GL_MAX_INTEGER_SAMPLES	src/wb_gl_loader.h	2370;"	d
+GL_MAX_LABEL_LENGTH	src/wb_gl.h	1873;"	d
+GL_MAX_LAYERS	src/wb_gl.h	1904;"	d
+GL_MAX_LIGHTS	src/wb_gl.h	651;"	d
+GL_MAX_LIGHTS	src/wb_gl_loader.h	1501;"	d
+GL_MAX_LIST_NESTING	src/wb_gl.h	577;"	d
+GL_MAX_LIST_NESTING	src/wb_gl_loader.h	1426;"	d
+GL_MAX_MODELVIEW_STACK_DEPTH	src/wb_gl.h	655;"	d
+GL_MAX_MODELVIEW_STACK_DEPTH	src/wb_gl_loader.h	1505;"	d
+GL_MAX_NAME_LENGTH	src/wb_gl.h	2004;"	d
+GL_MAX_NAME_STACK_DEPTH	src/wb_gl.h	656;"	d
+GL_MAX_NAME_STACK_DEPTH	src/wb_gl_loader.h	1506;"	d
+GL_MAX_NUM_ACTIVE_VARIABLES	src/wb_gl.h	2005;"	d
+GL_MAX_NUM_COMPATIBLE_SUBROUTINES	src/wb_gl.h	2006;"	d
+GL_MAX_PATCH_VERTICES	src/wb_gl.h	1634;"	d
+GL_MAX_PIXEL_MAP_TABLE	src/wb_gl.h	653;"	d
+GL_MAX_PIXEL_MAP_TABLE	src/wb_gl_loader.h	1503;"	d
+GL_MAX_PROGRAM_TEXEL_OFFSET	src/wb_gl.h	1228;"	d
+GL_MAX_PROGRAM_TEXEL_OFFSET	src/wb_gl_loader.h	2033;"	d
+GL_MAX_PROGRAM_TEXTURE_GATHER_OFFSET	src/wb_gl.h	1585;"	d
+GL_MAX_PROJECTION_STACK_DEPTH	src/wb_gl.h	657;"	d
+GL_MAX_PROJECTION_STACK_DEPTH	src/wb_gl_loader.h	1507;"	d
+GL_MAX_RECTANGLE_TEXTURE_SIZE	src/wb_gl.h	1455;"	d
+GL_MAX_RECTANGLE_TEXTURE_SIZE	src/wb_gl_loader.h	2260;"	d
+GL_MAX_RENDERBUFFER_SIZE	src/wb_gl.h	1319;"	d
+GL_MAX_RENDERBUFFER_SIZE	src/wb_gl_loader.h	2124;"	d
+GL_MAX_SAMPLES	src/wb_gl.h	1399;"	d
+GL_MAX_SAMPLES	src/wb_gl_loader.h	2204;"	d
+GL_MAX_SAMPLE_MASK_WORDS	src/wb_gl.h	1548;"	d
+GL_MAX_SAMPLE_MASK_WORDS	src/wb_gl_loader.h	2353;"	d
+GL_MAX_SERVER_WAIT_TIMEOUT	src/wb_gl.h	1530;"	d
+GL_MAX_SERVER_WAIT_TIMEOUT	src/wb_gl_loader.h	2335;"	d
+GL_MAX_SHADER_STORAGE_BLOCK_SIZE	src/wb_gl.h	2043;"	d
+GL_MAX_SHADER_STORAGE_BUFFER_BINDINGS	src/wb_gl.h	2042;"	d
+GL_MAX_SUBROUTINES	src/wb_gl.h	1618;"	d
+GL_MAX_SUBROUTINE_UNIFORM_LOCATIONS	src/wb_gl.h	1619;"	d
+GL_MAX_TESS_CONTROL_ATOMIC_COUNTERS	src/wb_gl.h	1727;"	d
+GL_MAX_TESS_CONTROL_ATOMIC_COUNTER_BUFFERS	src/wb_gl.h	1721;"	d
+GL_MAX_TESS_CONTROL_IMAGE_UNIFORMS	src/wb_gl.h	1796;"	d
+GL_MAX_TESS_CONTROL_INPUT_COMPONENTS	src/wb_gl.h	1646;"	d
+GL_MAX_TESS_CONTROL_OUTPUT_COMPONENTS	src/wb_gl.h	1640;"	d
+GL_MAX_TESS_CONTROL_SHADER_STORAGE_BLOCKS	src/wb_gl.h	2037;"	d
+GL_MAX_TESS_CONTROL_TEXTURE_IMAGE_UNITS	src/wb_gl.h	1638;"	d
+GL_MAX_TESS_CONTROL_TOTAL_OUTPUT_COMPONENTS	src/wb_gl.h	1642;"	d
+GL_MAX_TESS_CONTROL_UNIFORM_BLOCKS	src/wb_gl.h	1644;"	d
+GL_MAX_TESS_CONTROL_UNIFORM_COMPONENTS	src/wb_gl.h	1636;"	d
+GL_MAX_TESS_EVALUATION_ATOMIC_COUNTERS	src/wb_gl.h	1728;"	d
+GL_MAX_TESS_EVALUATION_ATOMIC_COUNTER_BUFFERS	src/wb_gl.h	1722;"	d
+GL_MAX_TESS_EVALUATION_IMAGE_UNIFORMS	src/wb_gl.h	1797;"	d
+GL_MAX_TESS_EVALUATION_INPUT_COMPONENTS	src/wb_gl.h	1647;"	d
+GL_MAX_TESS_EVALUATION_OUTPUT_COMPONENTS	src/wb_gl.h	1643;"	d
+GL_MAX_TESS_EVALUATION_SHADER_STORAGE_BLOCKS	src/wb_gl.h	2038;"	d
+GL_MAX_TESS_EVALUATION_TEXTURE_IMAGE_UNITS	src/wb_gl.h	1639;"	d
+GL_MAX_TESS_EVALUATION_UNIFORM_BLOCKS	src/wb_gl.h	1645;"	d
+GL_MAX_TESS_EVALUATION_UNIFORM_COMPONENTS	src/wb_gl.h	1637;"	d
+GL_MAX_TESS_GEN_LEVEL	src/wb_gl.h	1635;"	d
+GL_MAX_TESS_PATCH_COMPONENTS	src/wb_gl.h	1641;"	d
+GL_MAX_TEXTURE_BUFFER_SIZE	src/wb_gl.h	1449;"	d
+GL_MAX_TEXTURE_BUFFER_SIZE	src/wb_gl_loader.h	2254;"	d
+GL_MAX_TEXTURE_COORDS	src/wb_gl.h	1180;"	d
+GL_MAX_TEXTURE_COORDS	src/wb_gl_loader.h	1985;"	d
+GL_MAX_TEXTURE_IMAGE_UNITS	src/wb_gl.h	1129;"	d
+GL_MAX_TEXTURE_IMAGE_UNITS	src/wb_gl_loader.h	1934;"	d
+GL_MAX_TEXTURE_LOD_BIAS	src/wb_gl.h	1006;"	d
+GL_MAX_TEXTURE_LOD_BIAS	src/wb_gl_loader.h	1813;"	d
+GL_MAX_TEXTURE_SIZE	src/wb_gl.h	435;"	d
+GL_MAX_TEXTURE_SIZE	src/wb_gl_loader.h	1244;"	d
+GL_MAX_TEXTURE_STACK_DEPTH	src/wb_gl.h	658;"	d
+GL_MAX_TEXTURE_STACK_DEPTH	src/wb_gl_loader.h	1508;"	d
+GL_MAX_TEXTURE_UNITS	src/wb_gl.h	961;"	d
+GL_MAX_TEXTURE_UNITS	src/wb_gl_loader.h	1768;"	d
+GL_MAX_TRANSFORM_FEEDBACK_BUFFERS	src/wb_gl.h	1658;"	d
+GL_MAX_TRANSFORM_FEEDBACK_INTERLEAVED_COMPONENTS	src/wb_gl.h	1252;"	d
+GL_MAX_TRANSFORM_FEEDBACK_INTERLEAVED_COMPONENTS	src/wb_gl_loader.h	2057;"	d
+GL_MAX_TRANSFORM_FEEDBACK_SEPARATE_ATTRIBS	src/wb_gl.h	1253;"	d
+GL_MAX_TRANSFORM_FEEDBACK_SEPARATE_ATTRIBS	src/wb_gl_loader.h	2058;"	d
+GL_MAX_TRANSFORM_FEEDBACK_SEPARATE_COMPONENTS	src/wb_gl.h	1245;"	d
+GL_MAX_TRANSFORM_FEEDBACK_SEPARATE_COMPONENTS	src/wb_gl_loader.h	2050;"	d
+GL_MAX_UNIFORM_BLOCK_SIZE	src/wb_gl.h	1478;"	d
+GL_MAX_UNIFORM_BLOCK_SIZE	src/wb_gl_loader.h	2283;"	d
+GL_MAX_UNIFORM_BUFFER_BINDINGS	src/wb_gl.h	1477;"	d
+GL_MAX_UNIFORM_BUFFER_BINDINGS	src/wb_gl_loader.h	2282;"	d
+GL_MAX_UNIFORM_LOCATIONS	src/wb_gl.h	1876;"	d
+GL_MAX_VARYING_COMPONENTS	src/wb_gl.h	1231;"	d
+GL_MAX_VARYING_COMPONENTS	src/wb_gl_loader.h	2036;"	d
+GL_MAX_VARYING_FLOATS	src/wb_gl.h	1134;"	d
+GL_MAX_VARYING_FLOATS	src/wb_gl_loader.h	1939;"	d
+GL_MAX_VARYING_VECTORS	src/wb_gl.h	1672;"	d
+GL_MAX_VERTEX_ATOMIC_COUNTERS	src/wb_gl.h	1726;"	d
+GL_MAX_VERTEX_ATOMIC_COUNTER_BUFFERS	src/wb_gl.h	1720;"	d
+GL_MAX_VERTEX_ATTRIBS	src/wb_gl.h	1127;"	d
+GL_MAX_VERTEX_ATTRIBS	src/wb_gl_loader.h	1932;"	d
+GL_MAX_VERTEX_ATTRIB_BINDINGS	src/wb_gl.h	2062;"	d
+GL_MAX_VERTEX_ATTRIB_RELATIVE_OFFSET	src/wb_gl.h	2061;"	d
+GL_MAX_VERTEX_IMAGE_UNIFORMS	src/wb_gl.h	1795;"	d
+GL_MAX_VERTEX_OUTPUT_COMPONENTS	src/wb_gl.h	1519;"	d
+GL_MAX_VERTEX_OUTPUT_COMPONENTS	src/wb_gl_loader.h	2324;"	d
+GL_MAX_VERTEX_SHADER_STORAGE_BLOCKS	src/wb_gl.h	2035;"	d
+GL_MAX_VERTEX_STREAMS	src/wb_gl.h	1600;"	d
+GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS	src/wb_gl.h	1135;"	d
+GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS	src/wb_gl_loader.h	1940;"	d
+GL_MAX_VERTEX_UNIFORM_BLOCKS	src/wb_gl.h	1473;"	d
+GL_MAX_VERTEX_UNIFORM_BLOCKS	src/wb_gl_loader.h	2278;"	d
+GL_MAX_VERTEX_UNIFORM_COMPONENTS	src/wb_gl.h	1133;"	d
+GL_MAX_VERTEX_UNIFORM_COMPONENTS	src/wb_gl_loader.h	1938;"	d
+GL_MAX_VERTEX_UNIFORM_VECTORS	src/wb_gl.h	1671;"	d
+GL_MAX_VIEWPORTS	src/wb_gl.h	1688;"	d
+GL_MAX_VIEWPORT_DIMS	src/wb_gl.h	436;"	d
+GL_MAX_VIEWPORT_DIMS	src/wb_gl_loader.h	1245;"	d
+GL_MAX_WIDTH	src/wb_gl.h	1901;"	d
+GL_MEDIUM_FLOAT	src/wb_gl.h	1663;"	d
+GL_MEDIUM_INT	src/wb_gl.h	1666;"	d
+GL_MIN	src/wb_gl.h	1045;"	d
+GL_MIN	src/wb_gl_loader.h	1846;"	d
+GL_MINOR_VERSION	src/wb_gl.h	1215;"	d
+GL_MINOR_VERSION	src/wb_gl_loader.h	2020;"	d
+GL_MIN_FRAGMENT_INTERPOLATION_OFFSET	src/wb_gl.h	1597;"	d
+GL_MIN_MAP_BUFFER_ALIGNMENT	src/wb_gl.h	1707;"	d
+GL_MIN_PROGRAM_TEXEL_OFFSET	src/wb_gl.h	1227;"	d
+GL_MIN_PROGRAM_TEXEL_OFFSET	src/wb_gl_loader.h	2032;"	d
+GL_MIN_PROGRAM_TEXTURE_GATHER_OFFSET	src/wb_gl.h	1584;"	d
+GL_MIN_SAMPLE_SHADING_VALUE	src/wb_gl.h	1583;"	d
+GL_MIPMAP	src/wb_gl.h	1922;"	d
+GL_MIRRORED_REPEAT	src/wb_gl.h	1005;"	d
+GL_MIRRORED_REPEAT	src/wb_gl_loader.h	1812;"	d
+GL_MODELVIEW	src/wb_gl.h	715;"	d
+GL_MODELVIEW	src/wb_gl_loader.h	1593;"	d
+GL_MODELVIEW_MATRIX	src/wb_gl.h	603;"	d
+GL_MODELVIEW_MATRIX	src/wb_gl_loader.h	1452;"	d
+GL_MODELVIEW_STACK_DEPTH	src/wb_gl.h	600;"	d
+GL_MODELVIEW_STACK_DEPTH	src/wb_gl_loader.h	1449;"	d
+GL_MODULATE	src/wb_gl.h	730;"	d
+GL_MODULATE	src/wb_gl_loader.h	1608;"	d
+GL_MULT	src/wb_gl.h	528;"	d
+GL_MULT	src/wb_gl_loader.h	1369;"	d
+GL_MULTISAMPLE	src/wb_gl.h	934;"	d
+GL_MULTISAMPLE	src/wb_gl_loader.h	1741;"	d
+GL_MULTISAMPLE_BIT	src/wb_gl.h	966;"	d
+GL_MULTISAMPLE_BIT	src/wb_gl_loader.h	1773;"	d
+GL_N3F_V3F	src/wb_gl.h	851;"	d
+GL_N3F_V3F	src/wb_gl_loader.h	1644;"	d
+GL_NAME_LENGTH	src/wb_gl.h	2007;"	d
+GL_NAME_STACK_DEPTH	src/wb_gl.h	670;"	d
+GL_NAME_STACK_DEPTH	src/wb_gl_loader.h	1521;"	d
+GL_NAND	src/wb_gl.h	469;"	d
+GL_NAND	src/wb_gl_loader.h	1291;"	d
+GL_NEAREST	src/wb_gl.h	494;"	d
+GL_NEAREST	src/wb_gl_loader.h	1316;"	d
+GL_NEAREST_MIPMAP_LINEAR	src/wb_gl.h	498;"	d
+GL_NEAREST_MIPMAP_LINEAR	src/wb_gl_loader.h	1320;"	d
+GL_NEAREST_MIPMAP_NEAREST	src/wb_gl.h	496;"	d
+GL_NEAREST_MIPMAP_NEAREST	src/wb_gl_loader.h	1318;"	d
+GL_NEVER	src/wb_gl.h	345;"	d
+GL_NEVER	src/wb_gl_loader.h	1153;"	d
+GL_NICEST	src/wb_gl.h	445;"	d
+GL_NICEST	src/wb_gl_loader.h	1266;"	d
+GL_NONE	src/wb_gl.h	364;"	d
+GL_NONE	src/wb_gl_loader.h	1172;"	d
+GL_NOOP	src/wb_gl.h	460;"	d
+GL_NOOP	src/wb_gl_loader.h	1282;"	d
+GL_NOR	src/wb_gl.h	463;"	d
+GL_NOR	src/wb_gl_loader.h	1285;"	d
+GL_NORMALIZE	src/wb_gl.h	599;"	d
+GL_NORMALIZE	src/wb_gl_loader.h	1448;"	d
+GL_NORMAL_ARRAY	src/wb_gl.h	804;"	d
+GL_NORMAL_ARRAY	src/wb_gl_loader.h	1549;"	d
+GL_NORMAL_ARRAY_BUFFER_BINDING	src/wb_gl.h	1076;"	d
+GL_NORMAL_ARRAY_BUFFER_BINDING	src/wb_gl_loader.h	1881;"	d
+GL_NORMAL_ARRAY_POINTER	src/wb_gl.h	790;"	d
+GL_NORMAL_ARRAY_POINTER	src/wb_gl_loader.h	1404;"	d
+GL_NORMAL_ARRAY_STRIDE	src/wb_gl.h	813;"	d
+GL_NORMAL_ARRAY_STRIDE	src/wb_gl_loader.h	1558;"	d
+GL_NORMAL_ARRAY_TYPE	src/wb_gl.h	812;"	d
+GL_NORMAL_ARRAY_TYPE	src/wb_gl_loader.h	1557;"	d
+GL_NORMAL_MAP	src/wb_gl.h	967;"	d
+GL_NORMAL_MAP	src/wb_gl_loader.h	1774;"	d
+GL_NOTEQUAL	src/wb_gl.h	350;"	d
+GL_NOTEQUAL	src/wb_gl_loader.h	1158;"	d
+GL_NO_ERROR	src/wb_gl.h	374;"	d
+GL_NO_ERROR	src/wb_gl_loader.h	1182;"	d
+GL_NUM_ACTIVE_VARIABLES	src/wb_gl.h	2018;"	d
+GL_NUM_COMPATIBLE_SUBROUTINES	src/wb_gl.h	1620;"	d
+GL_NUM_COMPRESSED_TEXTURE_FORMATS	src/wb_gl.h	957;"	d
+GL_NUM_COMPRESSED_TEXTURE_FORMATS	src/wb_gl_loader.h	1764;"	d
+GL_NUM_EXTENSIONS	src/wb_gl.h	1216;"	d
+GL_NUM_EXTENSIONS	src/wb_gl_loader.h	2021;"	d
+GL_NUM_PROGRAM_BINARY_FORMATS	src/wb_gl.h	1677;"	d
+GL_NUM_SAMPLE_COUNTS	src/wb_gl.h	1706;"	d
+GL_NUM_SHADER_BINARY_FORMATS	src/wb_gl.h	1670;"	d
+GL_NUM_SHADING_LANGUAGE_VERSIONS	src/wb_gl.h	1806;"	d
+GL_OBJECT_LINEAR	src/wb_gl.h	736;"	d
+GL_OBJECT_LINEAR	src/wb_gl_loader.h	1614;"	d
+GL_OBJECT_PLANE	src/wb_gl.h	739;"	d
+GL_OBJECT_PLANE	src/wb_gl_loader.h	1617;"	d
+GL_OBJECT_TYPE	src/wb_gl.h	1531;"	d
+GL_OBJECT_TYPE	src/wb_gl_loader.h	2336;"	d
+GL_OFFSET	src/wb_gl.h	2010;"	d
+GL_ONE	src/wb_gl.h	354;"	d
+GL_ONE	src/wb_gl_loader.h	1162;"	d
+GL_ONE_MINUS_CONSTANT_ALPHA	src/wb_gl.h	1041;"	d
+GL_ONE_MINUS_CONSTANT_ALPHA	src/wb_gl_loader.h	1851;"	d
+GL_ONE_MINUS_CONSTANT_COLOR	src/wb_gl.h	1039;"	d
+GL_ONE_MINUS_CONSTANT_COLOR	src/wb_gl_loader.h	1849;"	d
+GL_ONE_MINUS_DST_ALPHA	src/wb_gl.h	360;"	d
+GL_ONE_MINUS_DST_ALPHA	src/wb_gl_loader.h	1168;"	d
+GL_ONE_MINUS_DST_COLOR	src/wb_gl.h	362;"	d
+GL_ONE_MINUS_DST_COLOR	src/wb_gl_loader.h	1170;"	d
+GL_ONE_MINUS_SRC1_ALPHA	src/wb_gl.h	1569;"	d
+GL_ONE_MINUS_SRC1_ALPHA	src/wb_gl_loader.h	2374;"	d
+GL_ONE_MINUS_SRC1_COLOR	src/wb_gl.h	1568;"	d
+GL_ONE_MINUS_SRC1_COLOR	src/wb_gl_loader.h	2373;"	d
+GL_ONE_MINUS_SRC_ALPHA	src/wb_gl.h	358;"	d
+GL_ONE_MINUS_SRC_ALPHA	src/wb_gl_loader.h	1166;"	d
+GL_ONE_MINUS_SRC_COLOR	src/wb_gl.h	356;"	d
+GL_ONE_MINUS_SRC_COLOR	src/wb_gl_loader.h	1164;"	d
+GL_OPERAND0_ALPHA	src/wb_gl.h	985;"	d
+GL_OPERAND0_ALPHA	src/wb_gl_loader.h	1792;"	d
+GL_OPERAND0_RGB	src/wb_gl.h	982;"	d
+GL_OPERAND0_RGB	src/wb_gl_loader.h	1789;"	d
+GL_OPERAND1_ALPHA	src/wb_gl.h	986;"	d
+GL_OPERAND1_ALPHA	src/wb_gl_loader.h	1793;"	d
+GL_OPERAND1_RGB	src/wb_gl.h	983;"	d
+GL_OPERAND1_RGB	src/wb_gl_loader.h	1790;"	d
+GL_OPERAND2_ALPHA	src/wb_gl.h	987;"	d
+GL_OPERAND2_ALPHA	src/wb_gl_loader.h	1794;"	d
+GL_OPERAND2_RGB	src/wb_gl.h	984;"	d
+GL_OPERAND2_RGB	src/wb_gl_loader.h	1791;"	d
+GL_OR	src/wb_gl.h	462;"	d
+GL_OR	src/wb_gl_loader.h	1284;"	d
+GL_ORDER	src/wb_gl.h	550;"	d
+GL_ORDER	src/wb_gl_loader.h	1391;"	d
+GL_OR_INVERTED	src/wb_gl.h	468;"	d
+GL_OR_INVERTED	src/wb_gl_loader.h	1290;"	d
+GL_OR_REVERSE	src/wb_gl.h	466;"	d
+GL_OR_REVERSE	src/wb_gl_loader.h	1288;"	d
+GL_OUT_OF_MEMORY	src/wb_gl.h	378;"	d
+GL_OUT_OF_MEMORY	src/wb_gl_loader.h	1186;"	d
+GL_PACK_ALIGNMENT	src/wb_gl.h	434;"	d
+GL_PACK_ALIGNMENT	src/wb_gl_loader.h	1243;"	d
+GL_PACK_COMPRESSED_BLOCK_DEPTH	src/wb_gl.h	1704;"	d
+GL_PACK_COMPRESSED_BLOCK_HEIGHT	src/wb_gl.h	1703;"	d
+GL_PACK_COMPRESSED_BLOCK_SIZE	src/wb_gl.h	1705;"	d
+GL_PACK_COMPRESSED_BLOCK_WIDTH	src/wb_gl.h	1702;"	d
+GL_PACK_IMAGE_HEIGHT	src/wb_gl.h	867;"	d
+GL_PACK_IMAGE_HEIGHT	src/wb_gl_loader.h	1674;"	d
+GL_PACK_LSB_FIRST	src/wb_gl.h	430;"	d
+GL_PACK_LSB_FIRST	src/wb_gl_loader.h	1239;"	d
+GL_PACK_ROW_LENGTH	src/wb_gl.h	431;"	d
+GL_PACK_ROW_LENGTH	src/wb_gl_loader.h	1240;"	d
+GL_PACK_SKIP_IMAGES	src/wb_gl.h	866;"	d
+GL_PACK_SKIP_IMAGES	src/wb_gl_loader.h	1673;"	d
+GL_PACK_SKIP_PIXELS	src/wb_gl.h	433;"	d
+GL_PACK_SKIP_PIXELS	src/wb_gl_loader.h	1242;"	d
+GL_PACK_SKIP_ROWS	src/wb_gl.h	432;"	d
+GL_PACK_SKIP_ROWS	src/wb_gl_loader.h	1241;"	d
+GL_PACK_SWAP_BYTES	src/wb_gl.h	429;"	d
+GL_PACK_SWAP_BYTES	src/wb_gl_loader.h	1238;"	d
+GL_PASS_THROUGH_TOKEN	src/wb_gl.h	539;"	d
+GL_PASS_THROUGH_TOKEN	src/wb_gl_loader.h	1380;"	d
+GL_PATCHES	src/wb_gl.h	1622;"	d
+GL_PATCH_DEFAULT_INNER_LEVEL	src/wb_gl.h	1624;"	d
+GL_PATCH_DEFAULT_OUTER_LEVEL	src/wb_gl.h	1625;"	d
+GL_PATCH_VERTICES	src/wb_gl.h	1623;"	d
+GL_PERSPECTIVE_CORRECTION_HINT	src/wb_gl.h	617;"	d
+GL_PERSPECTIVE_CORRECTION_HINT	src/wb_gl_loader.h	1467;"	d
+GL_PIXEL_BUFFER_BARRIER_BIT	src/wb_gl.h	1743;"	d
+GL_PIXEL_MAP_A_TO_A	src/wb_gl.h	561;"	d
+GL_PIXEL_MAP_A_TO_A	src/wb_gl_loader.h	1402;"	d
+GL_PIXEL_MAP_A_TO_A_SIZE	src/wb_gl.h	633;"	d
+GL_PIXEL_MAP_A_TO_A_SIZE	src/wb_gl_loader.h	1483;"	d
+GL_PIXEL_MAP_B_TO_B	src/wb_gl.h	560;"	d
+GL_PIXEL_MAP_B_TO_B	src/wb_gl_loader.h	1401;"	d
+GL_PIXEL_MAP_B_TO_B_SIZE	src/wb_gl.h	632;"	d
+GL_PIXEL_MAP_B_TO_B_SIZE	src/wb_gl_loader.h	1482;"	d
+GL_PIXEL_MAP_G_TO_G	src/wb_gl.h	559;"	d
+GL_PIXEL_MAP_G_TO_G	src/wb_gl_loader.h	1400;"	d
+GL_PIXEL_MAP_G_TO_G_SIZE	src/wb_gl.h	631;"	d
+GL_PIXEL_MAP_G_TO_G_SIZE	src/wb_gl_loader.h	1481;"	d
+GL_PIXEL_MAP_I_TO_A	src/wb_gl.h	557;"	d
+GL_PIXEL_MAP_I_TO_A	src/wb_gl_loader.h	1398;"	d
+GL_PIXEL_MAP_I_TO_A_SIZE	src/wb_gl.h	629;"	d
+GL_PIXEL_MAP_I_TO_A_SIZE	src/wb_gl_loader.h	1479;"	d
+GL_PIXEL_MAP_I_TO_B	src/wb_gl.h	556;"	d
+GL_PIXEL_MAP_I_TO_B	src/wb_gl_loader.h	1397;"	d
+GL_PIXEL_MAP_I_TO_B_SIZE	src/wb_gl.h	628;"	d
+GL_PIXEL_MAP_I_TO_B_SIZE	src/wb_gl_loader.h	1478;"	d
+GL_PIXEL_MAP_I_TO_G	src/wb_gl.h	555;"	d
+GL_PIXEL_MAP_I_TO_G	src/wb_gl_loader.h	1396;"	d
+GL_PIXEL_MAP_I_TO_G_SIZE	src/wb_gl.h	627;"	d
+GL_PIXEL_MAP_I_TO_G_SIZE	src/wb_gl_loader.h	1477;"	d
+GL_PIXEL_MAP_I_TO_I	src/wb_gl.h	552;"	d
+GL_PIXEL_MAP_I_TO_I	src/wb_gl_loader.h	1393;"	d
+GL_PIXEL_MAP_I_TO_I_SIZE	src/wb_gl.h	624;"	d
+GL_PIXEL_MAP_I_TO_I_SIZE	src/wb_gl_loader.h	1474;"	d
+GL_PIXEL_MAP_I_TO_R	src/wb_gl.h	554;"	d
+GL_PIXEL_MAP_I_TO_R	src/wb_gl_loader.h	1395;"	d
+GL_PIXEL_MAP_I_TO_R_SIZE	src/wb_gl.h	626;"	d
+GL_PIXEL_MAP_I_TO_R_SIZE	src/wb_gl_loader.h	1476;"	d
+GL_PIXEL_MAP_R_TO_R	src/wb_gl.h	558;"	d
+GL_PIXEL_MAP_R_TO_R	src/wb_gl_loader.h	1399;"	d
+GL_PIXEL_MAP_R_TO_R_SIZE	src/wb_gl.h	630;"	d
+GL_PIXEL_MAP_R_TO_R_SIZE	src/wb_gl_loader.h	1480;"	d
+GL_PIXEL_MAP_S_TO_S	src/wb_gl.h	553;"	d
+GL_PIXEL_MAP_S_TO_S	src/wb_gl_loader.h	1394;"	d
+GL_PIXEL_MAP_S_TO_S_SIZE	src/wb_gl.h	625;"	d
+GL_PIXEL_MAP_S_TO_S_SIZE	src/wb_gl_loader.h	1475;"	d
+GL_PIXEL_MODE_BIT	src/wb_gl.h	510;"	d
+GL_PIXEL_MODE_BIT	src/wb_gl_loader.h	1348;"	d
+GL_PIXEL_PACK_BUFFER	src/wb_gl.h	1181;"	d
+GL_PIXEL_PACK_BUFFER	src/wb_gl_loader.h	1986;"	d
+GL_PIXEL_PACK_BUFFER_BINDING	src/wb_gl.h	1183;"	d
+GL_PIXEL_PACK_BUFFER_BINDING	src/wb_gl_loader.h	1988;"	d
+GL_PIXEL_UNPACK_BUFFER	src/wb_gl.h	1182;"	d
+GL_PIXEL_UNPACK_BUFFER	src/wb_gl_loader.h	1987;"	d
+GL_PIXEL_UNPACK_BUFFER_BINDING	src/wb_gl.h	1184;"	d
+GL_PIXEL_UNPACK_BUFFER_BINDING	src/wb_gl_loader.h	1989;"	d
+GL_POINT	src/wb_gl.h	483;"	d
+GL_POINT	src/wb_gl_loader.h	1305;"	d
+GL_POINTS	src/wb_gl.h	337;"	d
+GL_POINTS	src/wb_gl_loader.h	1145;"	d
+GL_POINT_BIT	src/wb_gl.h	506;"	d
+GL_POINT_BIT	src/wb_gl_loader.h	1344;"	d
+GL_POINT_DISTANCE_ATTENUATION	src/wb_gl.h	1015;"	d
+GL_POINT_DISTANCE_ATTENUATION	src/wb_gl_loader.h	1822;"	d
+GL_POINT_FADE_THRESHOLD_SIZE	src/wb_gl.h	1001;"	d
+GL_POINT_FADE_THRESHOLD_SIZE	src/wb_gl_loader.h	1808;"	d
+GL_POINT_SIZE	src/wb_gl.h	381;"	d
+GL_POINT_SIZE	src/wb_gl_loader.h	1189;"	d
+GL_POINT_SIZE_GRANULARITY	src/wb_gl.h	383;"	d
+GL_POINT_SIZE_GRANULARITY	src/wb_gl_loader.h	1191;"	d
+GL_POINT_SIZE_MAX	src/wb_gl.h	1014;"	d
+GL_POINT_SIZE_MAX	src/wb_gl_loader.h	1821;"	d
+GL_POINT_SIZE_MIN	src/wb_gl.h	1013;"	d
+GL_POINT_SIZE_MIN	src/wb_gl_loader.h	1820;"	d
+GL_POINT_SIZE_RANGE	src/wb_gl.h	382;"	d
+GL_POINT_SIZE_RANGE	src/wb_gl_loader.h	1190;"	d
+GL_POINT_SMOOTH	src/wb_gl.h	572;"	d
+GL_POINT_SMOOTH	src/wb_gl_loader.h	1421;"	d
+GL_POINT_SMOOTH_HINT	src/wb_gl.h	618;"	d
+GL_POINT_SMOOTH_HINT	src/wb_gl_loader.h	1468;"	d
+GL_POINT_SPRITE	src/wb_gl.h	1178;"	d
+GL_POINT_SPRITE	src/wb_gl_loader.h	1983;"	d
+GL_POINT_SPRITE_COORD_ORIGIN	src/wb_gl.h	1171;"	d
+GL_POINT_SPRITE_COORD_ORIGIN	src/wb_gl_loader.h	1976;"	d
+GL_POINT_TOKEN	src/wb_gl.h	540;"	d
+GL_POINT_TOKEN	src/wb_gl_loader.h	1381;"	d
+GL_POLYGON	src/wb_gl.h	524;"	d
+GL_POLYGON	src/wb_gl_loader.h	1365;"	d
+GL_POLYGON_BIT	src/wb_gl.h	508;"	d
+GL_POLYGON_BIT	src/wb_gl_loader.h	1346;"	d
+GL_POLYGON_MODE	src/wb_gl.h	388;"	d
+GL_POLYGON_MODE	src/wb_gl_loader.h	1196;"	d
+GL_POLYGON_OFFSET_FACTOR	src/wb_gl.h	761;"	d
+GL_POLYGON_OFFSET_FACTOR	src/wb_gl_loader.h	1253;"	d
+GL_POLYGON_OFFSET_FILL	src/wb_gl.h	760;"	d
+GL_POLYGON_OFFSET_FILL	src/wb_gl_loader.h	1252;"	d
+GL_POLYGON_OFFSET_LINE	src/wb_gl.h	759;"	d
+GL_POLYGON_OFFSET_LINE	src/wb_gl_loader.h	1251;"	d
+GL_POLYGON_OFFSET_POINT	src/wb_gl.h	758;"	d
+GL_POLYGON_OFFSET_POINT	src/wb_gl_loader.h	1250;"	d
+GL_POLYGON_OFFSET_UNITS	src/wb_gl.h	757;"	d
+GL_POLYGON_OFFSET_UNITS	src/wb_gl_loader.h	1249;"	d
+GL_POLYGON_SMOOTH	src/wb_gl.h	389;"	d
+GL_POLYGON_SMOOTH	src/wb_gl_loader.h	1197;"	d
+GL_POLYGON_SMOOTH_HINT	src/wb_gl.h	422;"	d
+GL_POLYGON_SMOOTH_HINT	src/wb_gl_loader.h	1231;"	d
+GL_POLYGON_STIPPLE	src/wb_gl.h	580;"	d
+GL_POLYGON_STIPPLE	src/wb_gl_loader.h	1429;"	d
+GL_POLYGON_STIPPLE_BIT	src/wb_gl.h	509;"	d
+GL_POLYGON_STIPPLE_BIT	src/wb_gl_loader.h	1347;"	d
+GL_POLYGON_TOKEN	src/wb_gl.h	542;"	d
+GL_POLYGON_TOKEN	src/wb_gl_loader.h	1383;"	d
+GL_POSITION	src/wb_gl.h	699;"	d
+GL_POSITION	src/wb_gl_loader.h	1577;"	d
+GL_PREVIOUS	src/wb_gl.h	994;"	d
+GL_PREVIOUS	src/wb_gl_loader.h	1801;"	d
+GL_PRIMARY_COLOR	src/wb_gl.h	993;"	d
+GL_PRIMARY_COLOR	src/wb_gl_loader.h	1800;"	d
+GL_PRIMITIVES_GENERATED	src/wb_gl.h	1249;"	d
+GL_PRIMITIVES_GENERATED	src/wb_gl_loader.h	2054;"	d
+GL_PRIMITIVE_RESTART	src/wb_gl.h	1465;"	d
+GL_PRIMITIVE_RESTART	src/wb_gl_loader.h	2270;"	d
+GL_PRIMITIVE_RESTART_FIXED_INDEX	src/wb_gl.h	1818;"	d
+GL_PRIMITIVE_RESTART_INDEX	src/wb_gl.h	1466;"	d
+GL_PRIMITIVE_RESTART_INDEX	src/wb_gl_loader.h	2271;"	d
+GL_PROGRAM	src/wb_gl.h	1869;"	d
+GL_PROGRAM_BINARY_FORMATS	src/wb_gl.h	1678;"	d
+GL_PROGRAM_BINARY_LENGTH	src/wb_gl.h	1676;"	d
+GL_PROGRAM_BINARY_RETRIEVABLE_HINT	src/wb_gl.h	1675;"	d
+GL_PROGRAM_INPUT	src/wb_gl.h	1986;"	d
+GL_PROGRAM_OUTPUT	src/wb_gl.h	1987;"	d
+GL_PROGRAM_PIPELINE	src/wb_gl.h	1871;"	d
+GL_PROGRAM_PIPELINE_BINDING	src/wb_gl.h	1687;"	d
+GL_PROGRAM_POINT_SIZE	src/wb_gl.h	1508;"	d
+GL_PROGRAM_POINT_SIZE	src/wb_gl_loader.h	2313;"	d
+GL_PROGRAM_SEPARABLE	src/wb_gl.h	1685;"	d
+GL_PROJECTION	src/wb_gl.h	716;"	d
+GL_PROJECTION	src/wb_gl_loader.h	1594;"	d
+GL_PROJECTION_MATRIX	src/wb_gl.h	604;"	d
+GL_PROJECTION_MATRIX	src/wb_gl_loader.h	1453;"	d
+GL_PROJECTION_STACK_DEPTH	src/wb_gl.h	601;"	d
+GL_PROJECTION_STACK_DEPTH	src/wb_gl_loader.h	1450;"	d
+GL_PROVOKING_VERTEX	src/wb_gl.h	1528;"	d
+GL_PROVOKING_VERTEX	src/wb_gl_loader.h	2333;"	d
+GL_PROXY_TEXTURE_1D	src/wb_gl.h	770;"	d
+GL_PROXY_TEXTURE_1D	src/wb_gl_loader.h	1326;"	d
+GL_PROXY_TEXTURE_1D_ARRAY	src/wb_gl.h	1233;"	d
+GL_PROXY_TEXTURE_1D_ARRAY	src/wb_gl_loader.h	2038;"	d
+GL_PROXY_TEXTURE_2D	src/wb_gl.h	771;"	d
+GL_PROXY_TEXTURE_2D	src/wb_gl_loader.h	1327;"	d
+GL_PROXY_TEXTURE_2D_ARRAY	src/wb_gl.h	1235;"	d
+GL_PROXY_TEXTURE_2D_ARRAY	src/wb_gl_loader.h	2040;"	d
+GL_PROXY_TEXTURE_2D_MULTISAMPLE	src/wb_gl.h	1550;"	d
+GL_PROXY_TEXTURE_2D_MULTISAMPLE	src/wb_gl_loader.h	2355;"	d
+GL_PROXY_TEXTURE_2D_MULTISAMPLE_ARRAY	src/wb_gl.h	1552;"	d
+GL_PROXY_TEXTURE_2D_MULTISAMPLE_ARRAY	src/wb_gl_loader.h	2357;"	d
+GL_PROXY_TEXTURE_3D	src/wb_gl.h	871;"	d
+GL_PROXY_TEXTURE_3D	src/wb_gl_loader.h	1678;"	d
+GL_PROXY_TEXTURE_CUBE_MAP	src/wb_gl.h	950;"	d
+GL_PROXY_TEXTURE_CUBE_MAP	src/wb_gl_loader.h	1757;"	d
+GL_PROXY_TEXTURE_CUBE_MAP_ARRAY	src/wb_gl.h	1588;"	d
+GL_PROXY_TEXTURE_RECTANGLE	src/wb_gl.h	1454;"	d
+GL_PROXY_TEXTURE_RECTANGLE	src/wb_gl_loader.h	2259;"	d
+GL_Q	src/wb_gl.h	729;"	d
+GL_Q	src/wb_gl_loader.h	1607;"	d
+GL_QUADRATIC_ATTENUATION	src/wb_gl.h	705;"	d
+GL_QUADRATIC_ATTENUATION	src/wb_gl_loader.h	1583;"	d
+GL_QUADS	src/wb_gl.h	344;"	d
+GL_QUADS	src/wb_gl_loader.h	1152;"	d
+GL_QUADS_FOLLOW_PROVOKING_VERTEX_CONVENTION	src/wb_gl.h	1525;"	d
+GL_QUADS_FOLLOW_PROVOKING_VERTEX_CONVENTION	src/wb_gl_loader.h	2330;"	d
+GL_QUAD_STRIP	src/wb_gl.h	523;"	d
+GL_QUAD_STRIP	src/wb_gl_loader.h	1364;"	d
+GL_QUERY	src/wb_gl.h	1870;"	d
+GL_QUERY_BY_REGION_NO_WAIT	src/wb_gl.h	1300;"	d
+GL_QUERY_BY_REGION_NO_WAIT	src/wb_gl_loader.h	2105;"	d
+GL_QUERY_BY_REGION_WAIT	src/wb_gl.h	1299;"	d
+GL_QUERY_BY_REGION_WAIT	src/wb_gl_loader.h	2104;"	d
+GL_QUERY_COUNTER_BITS	src/wb_gl.h	1049;"	d
+GL_QUERY_COUNTER_BITS	src/wb_gl_loader.h	1854;"	d
+GL_QUERY_NO_WAIT	src/wb_gl.h	1298;"	d
+GL_QUERY_NO_WAIT	src/wb_gl_loader.h	2103;"	d
+GL_QUERY_RESULT	src/wb_gl.h	1051;"	d
+GL_QUERY_RESULT	src/wb_gl_loader.h	1856;"	d
+GL_QUERY_RESULT_AVAILABLE	src/wb_gl.h	1052;"	d
+GL_QUERY_RESULT_AVAILABLE	src/wb_gl_loader.h	1857;"	d
+GL_QUERY_WAIT	src/wb_gl.h	1297;"	d
+GL_QUERY_WAIT	src/wb_gl_loader.h	2102;"	d
+GL_R	src/wb_gl.h	728;"	d
+GL_R	src/wb_gl_loader.h	1606;"	d
+GL_R11F_G11F_B10F	src/wb_gl.h	1238;"	d
+GL_R11F_G11F_B10F	src/wb_gl_loader.h	2043;"	d
+GL_R16	src/wb_gl.h	1418;"	d
+GL_R16	src/wb_gl_loader.h	2223;"	d
+GL_R16F	src/wb_gl.h	1421;"	d
+GL_R16F	src/wb_gl_loader.h	2226;"	d
+GL_R16I	src/wb_gl.h	1427;"	d
+GL_R16I	src/wb_gl_loader.h	2232;"	d
+GL_R16UI	src/wb_gl.h	1428;"	d
+GL_R16UI	src/wb_gl_loader.h	2233;"	d
+GL_R16_SNORM	src/wb_gl.h	1460;"	d
+GL_R16_SNORM	src/wb_gl_loader.h	2265;"	d
+GL_R32F	src/wb_gl.h	1422;"	d
+GL_R32F	src/wb_gl_loader.h	2227;"	d
+GL_R32I	src/wb_gl.h	1429;"	d
+GL_R32I	src/wb_gl_loader.h	2234;"	d
+GL_R32UI	src/wb_gl.h	1430;"	d
+GL_R32UI	src/wb_gl_loader.h	2235;"	d
+GL_R3_G3_B2	src/wb_gl.h	772;"	d
+GL_R3_G3_B2	src/wb_gl_loader.h	1329;"	d
+GL_R8	src/wb_gl.h	1417;"	d
+GL_R8	src/wb_gl_loader.h	2222;"	d
+GL_R8I	src/wb_gl.h	1425;"	d
+GL_R8I	src/wb_gl_loader.h	2230;"	d
+GL_R8UI	src/wb_gl.h	1426;"	d
+GL_R8UI	src/wb_gl_loader.h	2231;"	d
+GL_R8_SNORM	src/wb_gl.h	1456;"	d
+GL_R8_SNORM	src/wb_gl_loader.h	2261;"	d
+GL_RASTERIZER_DISCARD	src/wb_gl.h	1251;"	d
+GL_RASTERIZER_DISCARD	src/wb_gl_loader.h	2056;"	d
+GL_READ_BUFFER	src/wb_gl.h	414;"	d
+GL_READ_BUFFER	src/wb_gl_loader.h	1223;"	d
+GL_READ_FRAMEBUFFER	src/wb_gl.h	1333;"	d
+GL_READ_FRAMEBUFFER	src/wb_gl_loader.h	2138;"	d
+GL_READ_FRAMEBUFFER_BINDING	src/wb_gl.h	1335;"	d
+GL_READ_FRAMEBUFFER_BINDING	src/wb_gl_loader.h	2140;"	d
+GL_READ_ONLY	src/wb_gl.h	1058;"	d
+GL_READ_ONLY	src/wb_gl_loader.h	1863;"	d
+GL_READ_PIXELS	src/wb_gl.h	1915;"	d
+GL_READ_PIXELS_FORMAT	src/wb_gl.h	1916;"	d
+GL_READ_PIXELS_TYPE	src/wb_gl.h	1917;"	d
+GL_READ_WRITE	src/wb_gl.h	1060;"	d
+GL_READ_WRITE	src/wb_gl_loader.h	1865;"	d
+GL_RED	src/wb_gl.h	477;"	d
+GL_RED	src/wb_gl_loader.h	1299;"	d
+GL_RED_BIAS	src/wb_gl.h	639;"	d
+GL_RED_BIAS	src/wb_gl_loader.h	1489;"	d
+GL_RED_BITS	src/wb_gl.h	660;"	d
+GL_RED_BITS	src/wb_gl_loader.h	1511;"	d
+GL_RED_INTEGER	src/wb_gl.h	1270;"	d
+GL_RED_INTEGER	src/wb_gl_loader.h	2075;"	d
+GL_RED_SCALE	src/wb_gl.h	638;"	d
+GL_RED_SCALE	src/wb_gl_loader.h	1488;"	d
+GL_REFERENCED_BY_COMPUTE_SHADER	src/wb_gl.h	2025;"	d
+GL_REFERENCED_BY_FRAGMENT_SHADER	src/wb_gl.h	2024;"	d
+GL_REFERENCED_BY_GEOMETRY_SHADER	src/wb_gl.h	2023;"	d
+GL_REFERENCED_BY_TESS_CONTROL_SHADER	src/wb_gl.h	2021;"	d
+GL_REFERENCED_BY_TESS_EVALUATION_SHADER	src/wb_gl.h	2022;"	d
+GL_REFERENCED_BY_VERTEX_SHADER	src/wb_gl.h	2020;"	d
+GL_REFLECTION_MAP	src/wb_gl.h	968;"	d
+GL_REFLECTION_MAP	src/wb_gl_loader.h	1775;"	d
+GL_RENDER	src/wb_gl.h	721;"	d
+GL_RENDER	src/wb_gl_loader.h	1599;"	d
+GL_RENDERBUFFER	src/wb_gl.h	1384;"	d
+GL_RENDERBUFFER	src/wb_gl_loader.h	2189;"	d
+GL_RENDERBUFFER_ALPHA_SIZE	src/wb_gl.h	1395;"	d
+GL_RENDERBUFFER_ALPHA_SIZE	src/wb_gl_loader.h	2200;"	d
+GL_RENDERBUFFER_BINDING	src/wb_gl.h	1332;"	d
+GL_RENDERBUFFER_BINDING	src/wb_gl_loader.h	2137;"	d
+GL_RENDERBUFFER_BLUE_SIZE	src/wb_gl.h	1394;"	d
+GL_RENDERBUFFER_BLUE_SIZE	src/wb_gl_loader.h	2199;"	d
+GL_RENDERBUFFER_DEPTH_SIZE	src/wb_gl.h	1396;"	d
+GL_RENDERBUFFER_DEPTH_SIZE	src/wb_gl_loader.h	2201;"	d
+GL_RENDERBUFFER_GREEN_SIZE	src/wb_gl.h	1393;"	d
+GL_RENDERBUFFER_GREEN_SIZE	src/wb_gl_loader.h	2198;"	d
+GL_RENDERBUFFER_HEIGHT	src/wb_gl.h	1386;"	d
+GL_RENDERBUFFER_HEIGHT	src/wb_gl_loader.h	2191;"	d
+GL_RENDERBUFFER_INTERNAL_FORMAT	src/wb_gl.h	1387;"	d
+GL_RENDERBUFFER_INTERNAL_FORMAT	src/wb_gl_loader.h	2192;"	d
+GL_RENDERBUFFER_RED_SIZE	src/wb_gl.h	1392;"	d
+GL_RENDERBUFFER_RED_SIZE	src/wb_gl_loader.h	2197;"	d
+GL_RENDERBUFFER_SAMPLES	src/wb_gl.h	1336;"	d
+GL_RENDERBUFFER_SAMPLES	src/wb_gl_loader.h	2141;"	d
+GL_RENDERBUFFER_STENCIL_SIZE	src/wb_gl.h	1397;"	d
+GL_RENDERBUFFER_STENCIL_SIZE	src/wb_gl_loader.h	2202;"	d
+GL_RENDERBUFFER_WIDTH	src/wb_gl.h	1385;"	d
+GL_RENDERBUFFER_WIDTH	src/wb_gl_loader.h	2190;"	d
+GL_RENDERER	src/wb_gl.h	491;"	d
+GL_RENDERER	src/wb_gl_loader.h	1313;"	d
+GL_RENDER_MODE	src/wb_gl.h	616;"	d
+GL_RENDER_MODE	src/wb_gl_loader.h	1466;"	d
+GL_REPEAT	src/wb_gl.h	504;"	d
+GL_REPEAT	src/wb_gl_loader.h	1328;"	d
+GL_REPLACE	src/wb_gl.h	487;"	d
+GL_REPLACE	src/wb_gl_loader.h	1309;"	d
+GL_RESCALE_NORMAL	src/wb_gl.h	896;"	d
+GL_RESCALE_NORMAL	src/wb_gl_loader.h	1703;"	d
+GL_RETURN	src/wb_gl.h	527;"	d
+GL_RETURN	src/wb_gl_loader.h	1368;"	d
+GL_RG	src/wb_gl.h	1415;"	d
+GL_RG	src/wb_gl_loader.h	2220;"	d
+GL_RG16	src/wb_gl.h	1420;"	d
+GL_RG16	src/wb_gl_loader.h	2225;"	d
+GL_RG16F	src/wb_gl.h	1423;"	d
+GL_RG16F	src/wb_gl_loader.h	2228;"	d
+GL_RG16I	src/wb_gl.h	1433;"	d
+GL_RG16I	src/wb_gl_loader.h	2238;"	d
+GL_RG16UI	src/wb_gl.h	1434;"	d
+GL_RG16UI	src/wb_gl_loader.h	2239;"	d
+GL_RG16_SNORM	src/wb_gl.h	1461;"	d
+GL_RG16_SNORM	src/wb_gl_loader.h	2266;"	d
+GL_RG32F	src/wb_gl.h	1424;"	d
+GL_RG32F	src/wb_gl_loader.h	2229;"	d
+GL_RG32I	src/wb_gl.h	1435;"	d
+GL_RG32I	src/wb_gl_loader.h	2240;"	d
+GL_RG32UI	src/wb_gl.h	1436;"	d
+GL_RG32UI	src/wb_gl_loader.h	2241;"	d
+GL_RG8	src/wb_gl.h	1419;"	d
+GL_RG8	src/wb_gl_loader.h	2224;"	d
+GL_RG8I	src/wb_gl.h	1431;"	d
+GL_RG8I	src/wb_gl_loader.h	2236;"	d
+GL_RG8UI	src/wb_gl.h	1432;"	d
+GL_RG8UI	src/wb_gl_loader.h	2237;"	d
+GL_RG8_SNORM	src/wb_gl.h	1457;"	d
+GL_RG8_SNORM	src/wb_gl_loader.h	2262;"	d
+GL_RGB	src/wb_gl.h	481;"	d
+GL_RGB	src/wb_gl_loader.h	1303;"	d
+GL_RGB10	src/wb_gl.h	776;"	d
+GL_RGB10	src/wb_gl_loader.h	1333;"	d
+GL_RGB10_A2	src/wb_gl.h	783;"	d
+GL_RGB10_A2	src/wb_gl_loader.h	1340;"	d
+GL_RGB10_A2UI	src/wb_gl.h	1573;"	d
+GL_RGB10_A2UI	src/wb_gl_loader.h	2378;"	d
+GL_RGB12	src/wb_gl.h	777;"	d
+GL_RGB12	src/wb_gl_loader.h	1334;"	d
+GL_RGB16	src/wb_gl.h	778;"	d
+GL_RGB16	src/wb_gl_loader.h	1335;"	d
+GL_RGB16F	src/wb_gl.h	1224;"	d
+GL_RGB16F	src/wb_gl_loader.h	2029;"	d
+GL_RGB16I	src/wb_gl.h	1267;"	d
+GL_RGB16I	src/wb_gl_loader.h	2072;"	d
+GL_RGB16UI	src/wb_gl.h	1261;"	d
+GL_RGB16UI	src/wb_gl_loader.h	2066;"	d
+GL_RGB16_SNORM	src/wb_gl.h	1462;"	d
+GL_RGB16_SNORM	src/wb_gl_loader.h	2267;"	d
+GL_RGB32F	src/wb_gl.h	1222;"	d
+GL_RGB32F	src/wb_gl_loader.h	2027;"	d
+GL_RGB32I	src/wb_gl.h	1265;"	d
+GL_RGB32I	src/wb_gl_loader.h	2070;"	d
+GL_RGB32UI	src/wb_gl.h	1259;"	d
+GL_RGB32UI	src/wb_gl_loader.h	2064;"	d
+GL_RGB4	src/wb_gl.h	773;"	d
+GL_RGB4	src/wb_gl_loader.h	1330;"	d
+GL_RGB5	src/wb_gl.h	774;"	d
+GL_RGB5	src/wb_gl_loader.h	1331;"	d
+GL_RGB565	src/wb_gl.h	1674;"	d
+GL_RGB5_A1	src/wb_gl.h	781;"	d
+GL_RGB5_A1	src/wb_gl_loader.h	1338;"	d
+GL_RGB8	src/wb_gl.h	775;"	d
+GL_RGB8	src/wb_gl_loader.h	1332;"	d
+GL_RGB8I	src/wb_gl.h	1269;"	d
+GL_RGB8I	src/wb_gl_loader.h	2074;"	d
+GL_RGB8UI	src/wb_gl.h	1263;"	d
+GL_RGB8UI	src/wb_gl_loader.h	2068;"	d
+GL_RGB8_SNORM	src/wb_gl.h	1458;"	d
+GL_RGB8_SNORM	src/wb_gl_loader.h	2263;"	d
+GL_RGB9_E5	src/wb_gl.h	1240;"	d
+GL_RGB9_E5	src/wb_gl_loader.h	2045;"	d
+GL_RGBA	src/wb_gl.h	482;"	d
+GL_RGBA	src/wb_gl_loader.h	1304;"	d
+GL_RGBA12	src/wb_gl.h	784;"	d
+GL_RGBA12	src/wb_gl_loader.h	1341;"	d
+GL_RGBA16	src/wb_gl.h	785;"	d
+GL_RGBA16	src/wb_gl_loader.h	1342;"	d
+GL_RGBA16F	src/wb_gl.h	1223;"	d
+GL_RGBA16F	src/wb_gl_loader.h	2028;"	d
+GL_RGBA16I	src/wb_gl.h	1266;"	d
+GL_RGBA16I	src/wb_gl_loader.h	2071;"	d
+GL_RGBA16UI	src/wb_gl.h	1260;"	d
+GL_RGBA16UI	src/wb_gl_loader.h	2065;"	d
+GL_RGBA16_SNORM	src/wb_gl.h	1463;"	d
+GL_RGBA16_SNORM	src/wb_gl_loader.h	2268;"	d
+GL_RGBA2	src/wb_gl.h	779;"	d
+GL_RGBA2	src/wb_gl_loader.h	1336;"	d
+GL_RGBA32F	src/wb_gl.h	1221;"	d
+GL_RGBA32F	src/wb_gl_loader.h	2026;"	d
+GL_RGBA32I	src/wb_gl.h	1264;"	d
+GL_RGBA32I	src/wb_gl_loader.h	2069;"	d
+GL_RGBA32UI	src/wb_gl.h	1258;"	d
+GL_RGBA32UI	src/wb_gl_loader.h	2063;"	d
+GL_RGBA4	src/wb_gl.h	780;"	d
+GL_RGBA4	src/wb_gl_loader.h	1337;"	d
+GL_RGBA8	src/wb_gl.h	782;"	d
+GL_RGBA8	src/wb_gl_loader.h	1339;"	d
+GL_RGBA8I	src/wb_gl.h	1268;"	d
+GL_RGBA8I	src/wb_gl_loader.h	2073;"	d
+GL_RGBA8UI	src/wb_gl.h	1262;"	d
+GL_RGBA8UI	src/wb_gl_loader.h	2067;"	d
+GL_RGBA8_SNORM	src/wb_gl.h	1459;"	d
+GL_RGBA8_SNORM	src/wb_gl_loader.h	2264;"	d
+GL_RGBA_INTEGER	src/wb_gl.h	1274;"	d
+GL_RGBA_INTEGER	src/wb_gl_loader.h	2079;"	d
+GL_RGBA_MODE	src/wb_gl.h	615;"	d
+GL_RGBA_MODE	src/wb_gl_loader.h	1465;"	d
+GL_RGB_INTEGER	src/wb_gl.h	1273;"	d
+GL_RGB_INTEGER	src/wb_gl_loader.h	2078;"	d
+GL_RGB_SCALE	src/wb_gl.h	988;"	d
+GL_RGB_SCALE	src/wb_gl_loader.h	1795;"	d
+GL_RG_INTEGER	src/wb_gl.h	1416;"	d
+GL_RG_INTEGER	src/wb_gl_loader.h	2221;"	d
+GL_RIGHT	src/wb_gl.h	372;"	d
+GL_RIGHT	src/wb_gl_loader.h	1180;"	d
+GL_S	src/wb_gl.h	726;"	d
+GL_S	src/wb_gl_loader.h	1604;"	d
+GL_SAMPLER	src/wb_gl.h	1872;"	d
+GL_SAMPLER_1D	src/wb_gl.h	1151;"	d
+GL_SAMPLER_1D	src/wb_gl_loader.h	1956;"	d
+GL_SAMPLER_1D_ARRAY	src/wb_gl.h	1277;"	d
+GL_SAMPLER_1D_ARRAY	src/wb_gl_loader.h	2082;"	d
+GL_SAMPLER_1D_ARRAY_SHADOW	src/wb_gl.h	1279;"	d
+GL_SAMPLER_1D_ARRAY_SHADOW	src/wb_gl_loader.h	2084;"	d
+GL_SAMPLER_1D_SHADOW	src/wb_gl.h	1155;"	d
+GL_SAMPLER_1D_SHADOW	src/wb_gl_loader.h	1960;"	d
+GL_SAMPLER_2D	src/wb_gl.h	1152;"	d
+GL_SAMPLER_2D	src/wb_gl_loader.h	1957;"	d
+GL_SAMPLER_2D_ARRAY	src/wb_gl.h	1278;"	d
+GL_SAMPLER_2D_ARRAY	src/wb_gl_loader.h	2083;"	d
+GL_SAMPLER_2D_ARRAY_SHADOW	src/wb_gl.h	1280;"	d
+GL_SAMPLER_2D_ARRAY_SHADOW	src/wb_gl_loader.h	2085;"	d
+GL_SAMPLER_2D_MULTISAMPLE	src/wb_gl.h	1557;"	d
+GL_SAMPLER_2D_MULTISAMPLE	src/wb_gl_loader.h	2362;"	d
+GL_SAMPLER_2D_MULTISAMPLE_ARRAY	src/wb_gl.h	1560;"	d
+GL_SAMPLER_2D_MULTISAMPLE_ARRAY	src/wb_gl_loader.h	2365;"	d
+GL_SAMPLER_2D_RECT	src/wb_gl.h	1441;"	d
+GL_SAMPLER_2D_RECT	src/wb_gl_loader.h	2246;"	d
+GL_SAMPLER_2D_RECT_SHADOW	src/wb_gl.h	1442;"	d
+GL_SAMPLER_2D_RECT_SHADOW	src/wb_gl_loader.h	2247;"	d
+GL_SAMPLER_2D_SHADOW	src/wb_gl.h	1156;"	d
+GL_SAMPLER_2D_SHADOW	src/wb_gl_loader.h	1961;"	d
+GL_SAMPLER_3D	src/wb_gl.h	1153;"	d
+GL_SAMPLER_3D	src/wb_gl_loader.h	1958;"	d
+GL_SAMPLER_BINDING	src/wb_gl.h	1572;"	d
+GL_SAMPLER_BINDING	src/wb_gl_loader.h	2377;"	d
+GL_SAMPLER_BUFFER	src/wb_gl.h	1443;"	d
+GL_SAMPLER_BUFFER	src/wb_gl_loader.h	2248;"	d
+GL_SAMPLER_CUBE	src/wb_gl.h	1154;"	d
+GL_SAMPLER_CUBE	src/wb_gl_loader.h	1959;"	d
+GL_SAMPLER_CUBE_MAP_ARRAY	src/wb_gl.h	1589;"	d
+GL_SAMPLER_CUBE_MAP_ARRAY_SHADOW	src/wb_gl.h	1590;"	d
+GL_SAMPLER_CUBE_SHADOW	src/wb_gl.h	1281;"	d
+GL_SAMPLER_CUBE_SHADOW	src/wb_gl_loader.h	2086;"	d
+GL_SAMPLES	src/wb_gl.h	939;"	d
+GL_SAMPLES	src/wb_gl_loader.h	1746;"	d
+GL_SAMPLES_PASSED	src/wb_gl.h	1073;"	d
+GL_SAMPLES_PASSED	src/wb_gl_loader.h	1878;"	d
+GL_SAMPLE_ALPHA_TO_COVERAGE	src/wb_gl.h	935;"	d
+GL_SAMPLE_ALPHA_TO_COVERAGE	src/wb_gl_loader.h	1742;"	d
+GL_SAMPLE_ALPHA_TO_ONE	src/wb_gl.h	936;"	d
+GL_SAMPLE_ALPHA_TO_ONE	src/wb_gl_loader.h	1743;"	d
+GL_SAMPLE_BUFFERS	src/wb_gl.h	938;"	d
+GL_SAMPLE_BUFFERS	src/wb_gl_loader.h	1745;"	d
+GL_SAMPLE_COVERAGE	src/wb_gl.h	937;"	d
+GL_SAMPLE_COVERAGE	src/wb_gl_loader.h	1744;"	d
+GL_SAMPLE_COVERAGE_INVERT	src/wb_gl.h	941;"	d
+GL_SAMPLE_COVERAGE_INVERT	src/wb_gl_loader.h	1748;"	d
+GL_SAMPLE_COVERAGE_VALUE	src/wb_gl.h	940;"	d
+GL_SAMPLE_COVERAGE_VALUE	src/wb_gl_loader.h	1747;"	d
+GL_SAMPLE_MASK	src/wb_gl.h	1546;"	d
+GL_SAMPLE_MASK	src/wb_gl_loader.h	2351;"	d
+GL_SAMPLE_MASK_VALUE	src/wb_gl.h	1547;"	d
+GL_SAMPLE_MASK_VALUE	src/wb_gl_loader.h	2352;"	d
+GL_SAMPLE_POSITION	src/wb_gl.h	1545;"	d
+GL_SAMPLE_POSITION	src/wb_gl_loader.h	2350;"	d
+GL_SAMPLE_SHADING	src/wb_gl.h	1582;"	d
+GL_SCISSOR_BIT	src/wb_gl.h	521;"	d
+GL_SCISSOR_BIT	src/wb_gl_loader.h	1359;"	d
+GL_SCISSOR_BOX	src/wb_gl.h	415;"	d
+GL_SCISSOR_BOX	src/wb_gl_loader.h	1224;"	d
+GL_SCISSOR_TEST	src/wb_gl.h	416;"	d
+GL_SCISSOR_TEST	src/wb_gl_loader.h	1225;"	d
+GL_SECONDARY_COLOR_ARRAY	src/wb_gl.h	1032;"	d
+GL_SECONDARY_COLOR_ARRAY	src/wb_gl_loader.h	1839;"	d
+GL_SECONDARY_COLOR_ARRAY_BUFFER_BINDING	src/wb_gl.h	1081;"	d
+GL_SECONDARY_COLOR_ARRAY_BUFFER_BINDING	src/wb_gl_loader.h	1886;"	d
+GL_SECONDARY_COLOR_ARRAY_POINTER	src/wb_gl.h	1031;"	d
+GL_SECONDARY_COLOR_ARRAY_POINTER	src/wb_gl_loader.h	1838;"	d
+GL_SECONDARY_COLOR_ARRAY_SIZE	src/wb_gl.h	1028;"	d
+GL_SECONDARY_COLOR_ARRAY_SIZE	src/wb_gl_loader.h	1835;"	d
+GL_SECONDARY_COLOR_ARRAY_STRIDE	src/wb_gl.h	1030;"	d
+GL_SECONDARY_COLOR_ARRAY_STRIDE	src/wb_gl_loader.h	1837;"	d
+GL_SECONDARY_COLOR_ARRAY_TYPE	src/wb_gl.h	1029;"	d
+GL_SECONDARY_COLOR_ARRAY_TYPE	src/wb_gl_loader.h	1836;"	d
+GL_SELECT	src/wb_gl.h	723;"	d
+GL_SELECT	src/wb_gl_loader.h	1601;"	d
+GL_SELECTION_BUFFER_POINTER	src/wb_gl.h	796;"	d
+GL_SELECTION_BUFFER_POINTER	src/wb_gl_loader.h	1410;"	d
+GL_SELECTION_BUFFER_SIZE	src/wb_gl.h	802;"	d
+GL_SELECTION_BUFFER_SIZE	src/wb_gl_loader.h	1547;"	d
+GL_SEPARATE_ATTRIBS	src/wb_gl.h	1255;"	d
+GL_SEPARATE_ATTRIBS	src/wb_gl_loader.h	2060;"	d
+GL_SEPARATE_SPECULAR_COLOR	src/wb_gl.h	899;"	d
+GL_SEPARATE_SPECULAR_COLOR	src/wb_gl_loader.h	1706;"	d
+GL_SET	src/wb_gl.h	470;"	d
+GL_SET	src/wb_gl_loader.h	1292;"	d
+GL_SHADER	src/wb_gl.h	1868;"	d
+GL_SHADER_BINARY_FORMATS	src/wb_gl.h	1669;"	d
+GL_SHADER_COMPILER	src/wb_gl.h	1668;"	d
+GL_SHADER_IMAGE_ACCESS_BARRIER_BIT	src/wb_gl.h	1741;"	d
+GL_SHADER_IMAGE_ATOMIC	src/wb_gl.h	1940;"	d
+GL_SHADER_IMAGE_LOAD	src/wb_gl.h	1938;"	d
+GL_SHADER_IMAGE_STORE	src/wb_gl.h	1939;"	d
+GL_SHADER_SOURCE_LENGTH	src/wb_gl.h	1165;"	d
+GL_SHADER_SOURCE_LENGTH	src/wb_gl_loader.h	1970;"	d
+GL_SHADER_STORAGE_BARRIER_BIT	src/wb_gl.h	2045;"	d
+GL_SHADER_STORAGE_BLOCK	src/wb_gl.h	1989;"	d
+GL_SHADER_STORAGE_BLOCK	src/wb_gl_loader.h	2387;"	d
+GL_SHADER_STORAGE_BUFFER	src/wb_gl.h	2031;"	d
+GL_SHADER_STORAGE_BUFFER	src/wb_gl_loader.h	2388;"	d
+GL_SHADER_STORAGE_BUFFER_BINDING	src/wb_gl.h	2032;"	d
+GL_SHADER_STORAGE_BUFFER_OFFSET_ALIGNMENT	src/wb_gl.h	2044;"	d
+GL_SHADER_STORAGE_BUFFER_SIZE	src/wb_gl.h	2034;"	d
+GL_SHADER_STORAGE_BUFFER_START	src/wb_gl.h	2033;"	d
+GL_SHADER_TYPE	src/wb_gl.h	1137;"	d
+GL_SHADER_TYPE	src/wb_gl_loader.h	1942;"	d
+GL_SHADE_MODEL	src/wb_gl.h	586;"	d
+GL_SHADE_MODEL	src/wb_gl_loader.h	1435;"	d
+GL_SHADING_LANGUAGE_VERSION	src/wb_gl.h	1169;"	d
+GL_SHADING_LANGUAGE_VERSION	src/wb_gl_loader.h	1974;"	d
+GL_SHININESS	src/wb_gl.h	712;"	d
+GL_SHININESS	src/wb_gl_loader.h	1590;"	d
+GL_SHORT	src/wb_gl.h	448;"	d
+GL_SHORT	src/wb_gl_loader.h	1269;"	d
+GL_SIGNALED	src/wb_gl.h	1538;"	d
+GL_SIGNALED	src/wb_gl_loader.h	2343;"	d
+GL_SIGNED_NORMALIZED	src/wb_gl.h	1464;"	d
+GL_SIGNED_NORMALIZED	src/wb_gl_loader.h	2269;"	d
+GL_SIMULTANEOUS_TEXTURE_AND_DEPTH_TEST	src/wb_gl.h	1945;"	d
+GL_SIMULTANEOUS_TEXTURE_AND_DEPTH_WRITE	src/wb_gl.h	1947;"	d
+GL_SIMULTANEOUS_TEXTURE_AND_STENCIL_TEST	src/wb_gl.h	1946;"	d
+GL_SIMULTANEOUS_TEXTURE_AND_STENCIL_WRITE	src/wb_gl.h	1948;"	d
+GL_SINGLE_COLOR	src/wb_gl.h	898;"	d
+GL_SINGLE_COLOR	src/wb_gl_loader.h	1705;"	d
+GL_SLUMINANCE	src/wb_gl.h	1200;"	d
+GL_SLUMINANCE	src/wb_gl_loader.h	2005;"	d
+GL_SLUMINANCE8	src/wb_gl.h	1201;"	d
+GL_SLUMINANCE8	src/wb_gl_loader.h	2006;"	d
+GL_SLUMINANCE8_ALPHA8	src/wb_gl.h	1199;"	d
+GL_SLUMINANCE8_ALPHA8	src/wb_gl_loader.h	2004;"	d
+GL_SLUMINANCE_ALPHA	src/wb_gl.h	1198;"	d
+GL_SLUMINANCE_ALPHA	src/wb_gl_loader.h	2003;"	d
+GL_SMOOTH	src/wb_gl.h	725;"	d
+GL_SMOOTH	src/wb_gl_loader.h	1603;"	d
+GL_SMOOTH_LINE_WIDTH_GRANULARITY	src/wb_gl.h	894;"	d
+GL_SMOOTH_LINE_WIDTH_GRANULARITY	src/wb_gl_loader.h	1701;"	d
+GL_SMOOTH_LINE_WIDTH_RANGE	src/wb_gl.h	893;"	d
+GL_SMOOTH_LINE_WIDTH_RANGE	src/wb_gl_loader.h	1700;"	d
+GL_SMOOTH_POINT_SIZE_GRANULARITY	src/wb_gl.h	892;"	d
+GL_SMOOTH_POINT_SIZE_GRANULARITY	src/wb_gl_loader.h	1699;"	d
+GL_SMOOTH_POINT_SIZE_RANGE	src/wb_gl.h	891;"	d
+GL_SMOOTH_POINT_SIZE_RANGE	src/wb_gl_loader.h	1698;"	d
+GL_SOURCE0_ALPHA	src/wb_gl.h	979;"	d
+GL_SOURCE0_ALPHA	src/wb_gl_loader.h	1786;"	d
+GL_SOURCE0_RGB	src/wb_gl.h	976;"	d
+GL_SOURCE0_RGB	src/wb_gl_loader.h	1783;"	d
+GL_SOURCE1_ALPHA	src/wb_gl.h	980;"	d
+GL_SOURCE1_ALPHA	src/wb_gl_loader.h	1787;"	d
+GL_SOURCE1_RGB	src/wb_gl.h	977;"	d
+GL_SOURCE1_RGB	src/wb_gl_loader.h	1784;"	d
+GL_SOURCE2_ALPHA	src/wb_gl.h	981;"	d
+GL_SOURCE2_ALPHA	src/wb_gl_loader.h	1788;"	d
+GL_SOURCE2_RGB	src/wb_gl.h	978;"	d
+GL_SOURCE2_RGB	src/wb_gl_loader.h	1785;"	d
+GL_SPECULAR	src/wb_gl.h	698;"	d
+GL_SPECULAR	src/wb_gl_loader.h	1576;"	d
+GL_SPHERE_MAP	src/wb_gl.h	737;"	d
+GL_SPHERE_MAP	src/wb_gl_loader.h	1615;"	d
+GL_SPOT_CUTOFF	src/wb_gl.h	702;"	d
+GL_SPOT_CUTOFF	src/wb_gl_loader.h	1580;"	d
+GL_SPOT_DIRECTION	src/wb_gl.h	700;"	d
+GL_SPOT_DIRECTION	src/wb_gl_loader.h	1578;"	d
+GL_SPOT_EXPONENT	src/wb_gl.h	701;"	d
+GL_SPOT_EXPONENT	src/wb_gl_loader.h	1579;"	d
+GL_SRC0_ALPHA	src/wb_gl.h	1095;"	d
+GL_SRC0_ALPHA	src/wb_gl_loader.h	1900;"	d
+GL_SRC0_RGB	src/wb_gl.h	1092;"	d
+GL_SRC0_RGB	src/wb_gl_loader.h	1897;"	d
+GL_SRC1_ALPHA	src/wb_gl.h	1074;"	d
+GL_SRC1_ALPHA	src/wb_gl_loader.h	1879;"	d
+GL_SRC1_COLOR	src/wb_gl.h	1567;"	d
+GL_SRC1_COLOR	src/wb_gl_loader.h	2372;"	d
+GL_SRC1_RGB	src/wb_gl.h	1093;"	d
+GL_SRC1_RGB	src/wb_gl_loader.h	1898;"	d
+GL_SRC2_ALPHA	src/wb_gl.h	1096;"	d
+GL_SRC2_ALPHA	src/wb_gl_loader.h	1901;"	d
+GL_SRC2_RGB	src/wb_gl.h	1094;"	d
+GL_SRC2_RGB	src/wb_gl_loader.h	1899;"	d
+GL_SRC_ALPHA	src/wb_gl.h	357;"	d
+GL_SRC_ALPHA	src/wb_gl_loader.h	1165;"	d
+GL_SRC_ALPHA_SATURATE	src/wb_gl.h	363;"	d
+GL_SRC_ALPHA_SATURATE	src/wb_gl_loader.h	1171;"	d
+GL_SRC_COLOR	src/wb_gl.h	355;"	d
+GL_SRC_COLOR	src/wb_gl_loader.h	1163;"	d
+GL_SRGB	src/wb_gl.h	1191;"	d
+GL_SRGB	src/wb_gl_loader.h	1996;"	d
+GL_SRGB8	src/wb_gl.h	1192;"	d
+GL_SRGB8	src/wb_gl_loader.h	1997;"	d
+GL_SRGB8_ALPHA8	src/wb_gl.h	1194;"	d
+GL_SRGB8_ALPHA8	src/wb_gl_loader.h	1999;"	d
+GL_SRGB_ALPHA	src/wb_gl.h	1193;"	d
+GL_SRGB_ALPHA	src/wb_gl_loader.h	1998;"	d
+GL_SRGB_READ	src/wb_gl.h	1926;"	d
+GL_SRGB_WRITE	src/wb_gl.h	1927;"	d
+GL_STACK_OVERFLOW	src/wb_gl.h	453;"	d
+GL_STACK_OVERFLOW	src/wb_gl_loader.h	1275;"	d
+GL_STACK_UNDERFLOW	src/wb_gl.h	454;"	d
+GL_STACK_UNDERFLOW	src/wb_gl_loader.h	1276;"	d
+GL_STATIC_COPY	src/wb_gl.h	1069;"	d
+GL_STATIC_COPY	src/wb_gl_loader.h	1874;"	d
+GL_STATIC_DRAW	src/wb_gl.h	1067;"	d
+GL_STATIC_DRAW	src/wb_gl_loader.h	1872;"	d
+GL_STATIC_READ	src/wb_gl.h	1068;"	d
+GL_STATIC_READ	src/wb_gl_loader.h	1873;"	d
+GL_STENCIL	src/wb_gl.h	474;"	d
+GL_STENCIL	src/wb_gl_loader.h	1296;"	d
+GL_STENCIL_ATTACHMENT	src/wb_gl.h	1382;"	d
+GL_STENCIL_ATTACHMENT	src/wb_gl_loader.h	2187;"	d
+GL_STENCIL_BACK_FAIL	src/wb_gl.h	1106;"	d
+GL_STENCIL_BACK_FAIL	src/wb_gl_loader.h	1911;"	d
+GL_STENCIL_BACK_FUNC	src/wb_gl.h	1105;"	d
+GL_STENCIL_BACK_FUNC	src/wb_gl_loader.h	1910;"	d
+GL_STENCIL_BACK_PASS_DEPTH_FAIL	src/wb_gl.h	1107;"	d
+GL_STENCIL_BACK_PASS_DEPTH_FAIL	src/wb_gl_loader.h	1912;"	d
+GL_STENCIL_BACK_PASS_DEPTH_PASS	src/wb_gl.h	1108;"	d
+GL_STENCIL_BACK_PASS_DEPTH_PASS	src/wb_gl_loader.h	1913;"	d
+GL_STENCIL_BACK_REF	src/wb_gl.h	1174;"	d
+GL_STENCIL_BACK_REF	src/wb_gl_loader.h	1979;"	d
+GL_STENCIL_BACK_VALUE_MASK	src/wb_gl.h	1175;"	d
+GL_STENCIL_BACK_VALUE_MASK	src/wb_gl_loader.h	1980;"	d
+GL_STENCIL_BACK_WRITEMASK	src/wb_gl.h	1176;"	d
+GL_STENCIL_BACK_WRITEMASK	src/wb_gl_loader.h	1981;"	d
+GL_STENCIL_BITS	src/wb_gl.h	665;"	d
+GL_STENCIL_BITS	src/wb_gl_loader.h	1516;"	d
+GL_STENCIL_BUFFER_BIT	src/wb_gl.h	333;"	d
+GL_STENCIL_BUFFER_BIT	src/wb_gl_loader.h	1141;"	d
+GL_STENCIL_CLEAR_VALUE	src/wb_gl.h	399;"	d
+GL_STENCIL_CLEAR_VALUE	src/wb_gl_loader.h	1207;"	d
+GL_STENCIL_COMPONENTS	src/wb_gl.h	1908;"	d
+GL_STENCIL_FAIL	src/wb_gl.h	402;"	d
+GL_STENCIL_FAIL	src/wb_gl_loader.h	1210;"	d
+GL_STENCIL_FUNC	src/wb_gl.h	400;"	d
+GL_STENCIL_FUNC	src/wb_gl_loader.h	1208;"	d
+GL_STENCIL_INDEX	src/wb_gl.h	475;"	d
+GL_STENCIL_INDEX	src/wb_gl_loader.h	1297;"	d
+GL_STENCIL_INDEX1	src/wb_gl.h	1388;"	d
+GL_STENCIL_INDEX1	src/wb_gl_loader.h	2193;"	d
+GL_STENCIL_INDEX16	src/wb_gl.h	1391;"	d
+GL_STENCIL_INDEX16	src/wb_gl_loader.h	2196;"	d
+GL_STENCIL_INDEX4	src/wb_gl.h	1389;"	d
+GL_STENCIL_INDEX4	src/wb_gl_loader.h	2194;"	d
+GL_STENCIL_INDEX8	src/wb_gl.h	1390;"	d
+GL_STENCIL_INDEX8	src/wb_gl_loader.h	2195;"	d
+GL_STENCIL_PASS_DEPTH_FAIL	src/wb_gl.h	403;"	d
+GL_STENCIL_PASS_DEPTH_FAIL	src/wb_gl_loader.h	1211;"	d
+GL_STENCIL_PASS_DEPTH_PASS	src/wb_gl.h	404;"	d
+GL_STENCIL_PASS_DEPTH_PASS	src/wb_gl_loader.h	1212;"	d
+GL_STENCIL_REF	src/wb_gl.h	405;"	d
+GL_STENCIL_REF	src/wb_gl_loader.h	1213;"	d
+GL_STENCIL_RENDERABLE	src/wb_gl.h	1911;"	d
+GL_STENCIL_TEST	src/wb_gl.h	398;"	d
+GL_STENCIL_TEST	src/wb_gl_loader.h	1206;"	d
+GL_STENCIL_VALUE_MASK	src/wb_gl.h	401;"	d
+GL_STENCIL_VALUE_MASK	src/wb_gl_loader.h	1209;"	d
+GL_STENCIL_WRITEMASK	src/wb_gl.h	406;"	d
+GL_STENCIL_WRITEMASK	src/wb_gl_loader.h	1214;"	d
+GL_STEREO	src/wb_gl.h	420;"	d
+GL_STEREO	src/wb_gl_loader.h	1229;"	d
+GL_STREAM_COPY	src/wb_gl.h	1066;"	d
+GL_STREAM_COPY	src/wb_gl_loader.h	1871;"	d
+GL_STREAM_DRAW	src/wb_gl.h	1064;"	d
+GL_STREAM_DRAW	src/wb_gl_loader.h	1869;"	d
+GL_STREAM_READ	src/wb_gl.h	1065;"	d
+GL_STREAM_READ	src/wb_gl_loader.h	1870;"	d
+GL_SUBPIXEL_BITS	src/wb_gl.h	437;"	d
+GL_SUBPIXEL_BITS	src/wb_gl_loader.h	1246;"	d
+GL_SUBTRACT	src/wb_gl.h	991;"	d
+GL_SUBTRACT	src/wb_gl_loader.h	1798;"	d
+GL_SYNC_CONDITION	src/wb_gl.h	1532;"	d
+GL_SYNC_CONDITION	src/wb_gl_loader.h	2337;"	d
+GL_SYNC_FENCE	src/wb_gl.h	1535;"	d
+GL_SYNC_FENCE	src/wb_gl_loader.h	2340;"	d
+GL_SYNC_FLAGS	src/wb_gl.h	1534;"	d
+GL_SYNC_FLAGS	src/wb_gl_loader.h	2339;"	d
+GL_SYNC_FLUSH_COMMANDS_BIT	src/wb_gl.h	1544;"	d
+GL_SYNC_FLUSH_COMMANDS_BIT	src/wb_gl_loader.h	2349;"	d
+GL_SYNC_GPU_COMMANDS_COMPLETE	src/wb_gl.h	1536;"	d
+GL_SYNC_GPU_COMMANDS_COMPLETE	src/wb_gl_loader.h	2341;"	d
+GL_SYNC_STATUS	src/wb_gl.h	1533;"	d
+GL_SYNC_STATUS	src/wb_gl_loader.h	2338;"	d
+GL_T	src/wb_gl.h	727;"	d
+GL_T	src/wb_gl_loader.h	1605;"	d
+GL_T2F_C3F_V3F	src/wb_gl.h	856;"	d
+GL_T2F_C3F_V3F	src/wb_gl_loader.h	1649;"	d
+GL_T2F_C4F_N3F_V3F	src/wb_gl.h	858;"	d
+GL_T2F_C4F_N3F_V3F	src/wb_gl_loader.h	1651;"	d
+GL_T2F_C4UB_V3F	src/wb_gl.h	855;"	d
+GL_T2F_C4UB_V3F	src/wb_gl_loader.h	1648;"	d
+GL_T2F_N3F_V3F	src/wb_gl.h	857;"	d
+GL_T2F_N3F_V3F	src/wb_gl_loader.h	1650;"	d
+GL_T2F_V3F	src/wb_gl.h	853;"	d
+GL_T2F_V3F	src/wb_gl_loader.h	1646;"	d
+GL_T4F_C4F_N3F_V4F	src/wb_gl.h	859;"	d
+GL_T4F_C4F_N3F_V4F	src/wb_gl_loader.h	1652;"	d
+GL_T4F_V4F	src/wb_gl.h	854;"	d
+GL_T4F_V4F	src/wb_gl_loader.h	1647;"	d
+GL_TESS_CONTROL_OUTPUT_VERTICES	src/wb_gl.h	1626;"	d
+GL_TESS_CONTROL_SHADER	src/wb_gl.h	1653;"	d
+GL_TESS_CONTROL_SHADER_BIT	src/wb_gl.h	1682;"	d
+GL_TESS_CONTROL_SUBROUTINE	src/wb_gl.h	1991;"	d
+GL_TESS_CONTROL_SUBROUTINE_UNIFORM	src/wb_gl.h	1997;"	d
+GL_TESS_CONTROL_TEXTURE	src/wb_gl.h	1930;"	d
+GL_TESS_EVALUATION_SHADER	src/wb_gl.h	1652;"	d
+GL_TESS_EVALUATION_SHADER_BIT	src/wb_gl.h	1683;"	d
+GL_TESS_EVALUATION_SUBROUTINE	src/wb_gl.h	1992;"	d
+GL_TESS_EVALUATION_SUBROUTINE_UNIFORM	src/wb_gl.h	1998;"	d
+GL_TESS_EVALUATION_TEXTURE	src/wb_gl.h	1931;"	d
+GL_TESS_GEN_MODE	src/wb_gl.h	1627;"	d
+GL_TESS_GEN_POINT_MODE	src/wb_gl.h	1630;"	d
+GL_TESS_GEN_SPACING	src/wb_gl.h	1628;"	d
+GL_TESS_GEN_VERTEX_ORDER	src/wb_gl.h	1629;"	d
+GL_TEXTURE	src/wb_gl.h	471;"	d
+GL_TEXTURE	src/wb_gl_loader.h	1293;"	d
+GL_TEXTURE0	src/wb_gl.h	901;"	d
+GL_TEXTURE0	src/wb_gl_loader.h	1708;"	d
+GL_TEXTURE1	src/wb_gl.h	902;"	d
+GL_TEXTURE1	src/wb_gl_loader.h	1709;"	d
+GL_TEXTURE10	src/wb_gl.h	911;"	d
+GL_TEXTURE10	src/wb_gl_loader.h	1718;"	d
+GL_TEXTURE11	src/wb_gl.h	912;"	d
+GL_TEXTURE11	src/wb_gl_loader.h	1719;"	d
+GL_TEXTURE12	src/wb_gl.h	913;"	d
+GL_TEXTURE12	src/wb_gl_loader.h	1720;"	d
+GL_TEXTURE13	src/wb_gl.h	914;"	d
+GL_TEXTURE13	src/wb_gl_loader.h	1721;"	d
+GL_TEXTURE14	src/wb_gl.h	915;"	d
+GL_TEXTURE14	src/wb_gl_loader.h	1722;"	d
+GL_TEXTURE15	src/wb_gl.h	916;"	d
+GL_TEXTURE15	src/wb_gl_loader.h	1723;"	d
+GL_TEXTURE16	src/wb_gl.h	917;"	d
+GL_TEXTURE16	src/wb_gl_loader.h	1724;"	d
+GL_TEXTURE17	src/wb_gl.h	918;"	d
+GL_TEXTURE17	src/wb_gl_loader.h	1725;"	d
+GL_TEXTURE18	src/wb_gl.h	919;"	d
+GL_TEXTURE18	src/wb_gl_loader.h	1726;"	d
+GL_TEXTURE19	src/wb_gl.h	920;"	d
+GL_TEXTURE19	src/wb_gl_loader.h	1727;"	d
+GL_TEXTURE2	src/wb_gl.h	903;"	d
+GL_TEXTURE2	src/wb_gl_loader.h	1710;"	d
+GL_TEXTURE20	src/wb_gl.h	921;"	d
+GL_TEXTURE20	src/wb_gl_loader.h	1728;"	d
+GL_TEXTURE21	src/wb_gl.h	922;"	d
+GL_TEXTURE21	src/wb_gl_loader.h	1729;"	d
+GL_TEXTURE22	src/wb_gl.h	923;"	d
+GL_TEXTURE22	src/wb_gl_loader.h	1730;"	d
+GL_TEXTURE23	src/wb_gl.h	924;"	d
+GL_TEXTURE23	src/wb_gl_loader.h	1731;"	d
+GL_TEXTURE24	src/wb_gl.h	925;"	d
+GL_TEXTURE24	src/wb_gl_loader.h	1732;"	d
+GL_TEXTURE25	src/wb_gl.h	926;"	d
+GL_TEXTURE25	src/wb_gl_loader.h	1733;"	d
+GL_TEXTURE26	src/wb_gl.h	927;"	d
+GL_TEXTURE26	src/wb_gl_loader.h	1734;"	d
+GL_TEXTURE27	src/wb_gl.h	928;"	d
+GL_TEXTURE27	src/wb_gl_loader.h	1735;"	d
+GL_TEXTURE28	src/wb_gl.h	929;"	d
+GL_TEXTURE28	src/wb_gl_loader.h	1736;"	d
+GL_TEXTURE29	src/wb_gl.h	930;"	d
+GL_TEXTURE29	src/wb_gl_loader.h	1737;"	d
+GL_TEXTURE3	src/wb_gl.h	904;"	d
+GL_TEXTURE3	src/wb_gl_loader.h	1711;"	d
+GL_TEXTURE30	src/wb_gl.h	931;"	d
+GL_TEXTURE30	src/wb_gl_loader.h	1738;"	d
+GL_TEXTURE31	src/wb_gl.h	932;"	d
+GL_TEXTURE31	src/wb_gl_loader.h	1739;"	d
+GL_TEXTURE4	src/wb_gl.h	905;"	d
+GL_TEXTURE4	src/wb_gl_loader.h	1712;"	d
+GL_TEXTURE5	src/wb_gl.h	906;"	d
+GL_TEXTURE5	src/wb_gl_loader.h	1713;"	d
+GL_TEXTURE6	src/wb_gl.h	907;"	d
+GL_TEXTURE6	src/wb_gl_loader.h	1714;"	d
+GL_TEXTURE7	src/wb_gl.h	908;"	d
+GL_TEXTURE7	src/wb_gl_loader.h	1715;"	d
+GL_TEXTURE8	src/wb_gl.h	909;"	d
+GL_TEXTURE8	src/wb_gl_loader.h	1716;"	d
+GL_TEXTURE9	src/wb_gl.h	910;"	d
+GL_TEXTURE9	src/wb_gl_loader.h	1717;"	d
+GL_TEXTURE_1D	src/wb_gl.h	438;"	d
+GL_TEXTURE_1D	src/wb_gl_loader.h	1247;"	d
+GL_TEXTURE_1D_ARRAY	src/wb_gl.h	1232;"	d
+GL_TEXTURE_1D_ARRAY	src/wb_gl_loader.h	2037;"	d
+GL_TEXTURE_2D	src/wb_gl.h	439;"	d
+GL_TEXTURE_2D	src/wb_gl_loader.h	1248;"	d
+GL_TEXTURE_2D_ARRAY	src/wb_gl.h	1234;"	d
+GL_TEXTURE_2D_ARRAY	src/wb_gl_loader.h	2039;"	d
+GL_TEXTURE_2D_MULTISAMPLE	src/wb_gl.h	1549;"	d
+GL_TEXTURE_2D_MULTISAMPLE	src/wb_gl_loader.h	2354;"	d
+GL_TEXTURE_2D_MULTISAMPLE_ARRAY	src/wb_gl.h	1551;"	d
+GL_TEXTURE_2D_MULTISAMPLE_ARRAY	src/wb_gl_loader.h	2356;"	d
+GL_TEXTURE_3D	src/wb_gl.h	870;"	d
+GL_TEXTURE_3D	src/wb_gl_loader.h	1677;"	d
+GL_TEXTURE_ALPHA_SIZE	src/wb_gl.h	768;"	d
+GL_TEXTURE_ALPHA_SIZE	src/wb_gl_loader.h	1263;"	d
+GL_TEXTURE_ALPHA_TYPE	src/wb_gl.h	1327;"	d
+GL_TEXTURE_ALPHA_TYPE	src/wb_gl_loader.h	2132;"	d
+GL_TEXTURE_BASE_LEVEL	src/wb_gl.h	889;"	d
+GL_TEXTURE_BASE_LEVEL	src/wb_gl_loader.h	1696;"	d
+GL_TEXTURE_BINDING_1D	src/wb_gl.h	762;"	d
+GL_TEXTURE_BINDING_1D	src/wb_gl_loader.h	1254;"	d
+GL_TEXTURE_BINDING_1D_ARRAY	src/wb_gl.h	1236;"	d
+GL_TEXTURE_BINDING_1D_ARRAY	src/wb_gl_loader.h	2041;"	d
+GL_TEXTURE_BINDING_2D	src/wb_gl.h	763;"	d
+GL_TEXTURE_BINDING_2D	src/wb_gl_loader.h	1255;"	d
+GL_TEXTURE_BINDING_2D_ARRAY	src/wb_gl.h	1237;"	d
+GL_TEXTURE_BINDING_2D_ARRAY	src/wb_gl_loader.h	2042;"	d
+GL_TEXTURE_BINDING_2D_MULTISAMPLE	src/wb_gl.h	1553;"	d
+GL_TEXTURE_BINDING_2D_MULTISAMPLE	src/wb_gl_loader.h	2358;"	d
+GL_TEXTURE_BINDING_2D_MULTISAMPLE_ARRAY	src/wb_gl.h	1554;"	d
+GL_TEXTURE_BINDING_2D_MULTISAMPLE_ARRAY	src/wb_gl_loader.h	2359;"	d
+GL_TEXTURE_BINDING_3D	src/wb_gl.h	865;"	d
+GL_TEXTURE_BINDING_3D	src/wb_gl_loader.h	1672;"	d
+GL_TEXTURE_BINDING_BUFFER	src/wb_gl.h	1450;"	d
+GL_TEXTURE_BINDING_BUFFER	src/wb_gl_loader.h	2255;"	d
+GL_TEXTURE_BINDING_CUBE_MAP	src/wb_gl.h	943;"	d
+GL_TEXTURE_BINDING_CUBE_MAP	src/wb_gl_loader.h	1750;"	d
+GL_TEXTURE_BINDING_CUBE_MAP_ARRAY	src/wb_gl.h	1587;"	d
+GL_TEXTURE_BINDING_RECTANGLE	src/wb_gl.h	1453;"	d
+GL_TEXTURE_BINDING_RECTANGLE	src/wb_gl_loader.h	2258;"	d
+GL_TEXTURE_BIT	src/wb_gl.h	520;"	d
+GL_TEXTURE_BIT	src/wb_gl_loader.h	1358;"	d
+GL_TEXTURE_BLUE_SIZE	src/wb_gl.h	767;"	d
+GL_TEXTURE_BLUE_SIZE	src/wb_gl_loader.h	1262;"	d
+GL_TEXTURE_BLUE_TYPE	src/wb_gl.h	1326;"	d
+GL_TEXTURE_BLUE_TYPE	src/wb_gl_loader.h	2131;"	d
+GL_TEXTURE_BORDER	src/wb_gl.h	695;"	d
+GL_TEXTURE_BORDER	src/wb_gl_loader.h	1569;"	d
+GL_TEXTURE_BORDER_COLOR	src/wb_gl.h	442;"	d
+GL_TEXTURE_BORDER_COLOR	src/wb_gl_loader.h	1259;"	d
+GL_TEXTURE_BUFFER	src/wb_gl.h	1448;"	d
+GL_TEXTURE_BUFFER	src/wb_gl_loader.h	2253;"	d
+GL_TEXTURE_BUFFER_DATA_STORE_BINDING	src/wb_gl.h	1451;"	d
+GL_TEXTURE_BUFFER_DATA_STORE_BINDING	src/wb_gl_loader.h	2256;"	d
+GL_TEXTURE_BUFFER_OFFSET	src/wb_gl.h	2048;"	d
+GL_TEXTURE_BUFFER_OFFSET_ALIGNMENT	src/wb_gl.h	2050;"	d
+GL_TEXTURE_BUFFER_SIZE	src/wb_gl.h	2049;"	d
+GL_TEXTURE_COMPARE_FUNC	src/wb_gl.h	1012;"	d
+GL_TEXTURE_COMPARE_FUNC	src/wb_gl_loader.h	1819;"	d
+GL_TEXTURE_COMPARE_MODE	src/wb_gl.h	1011;"	d
+GL_TEXTURE_COMPARE_MODE	src/wb_gl_loader.h	1818;"	d
+GL_TEXTURE_COMPONENTS	src/wb_gl.h	694;"	d
+GL_TEXTURE_COMPONENTS	src/wb_gl_loader.h	1568;"	d
+GL_TEXTURE_COMPRESSED	src/wb_gl.h	956;"	d
+GL_TEXTURE_COMPRESSED	src/wb_gl_loader.h	1763;"	d
+GL_TEXTURE_COMPRESSED_BLOCK_HEIGHT	src/wb_gl.h	1950;"	d
+GL_TEXTURE_COMPRESSED_BLOCK_SIZE	src/wb_gl.h	1951;"	d
+GL_TEXTURE_COMPRESSED_BLOCK_WIDTH	src/wb_gl.h	1949;"	d
+GL_TEXTURE_COMPRESSED_IMAGE_SIZE	src/wb_gl.h	955;"	d
+GL_TEXTURE_COMPRESSED_IMAGE_SIZE	src/wb_gl_loader.h	1762;"	d
+GL_TEXTURE_COMPRESSION_HINT	src/wb_gl.h	954;"	d
+GL_TEXTURE_COMPRESSION_HINT	src/wb_gl_loader.h	1761;"	d
+GL_TEXTURE_COORD_ARRAY	src/wb_gl.h	807;"	d
+GL_TEXTURE_COORD_ARRAY	src/wb_gl_loader.h	1552;"	d
+GL_TEXTURE_COORD_ARRAY_BUFFER_BINDING	src/wb_gl.h	1079;"	d
+GL_TEXTURE_COORD_ARRAY_BUFFER_BINDING	src/wb_gl_loader.h	1884;"	d
+GL_TEXTURE_COORD_ARRAY_POINTER	src/wb_gl.h	793;"	d
+GL_TEXTURE_COORD_ARRAY_POINTER	src/wb_gl_loader.h	1407;"	d
+GL_TEXTURE_COORD_ARRAY_SIZE	src/wb_gl.h	819;"	d
+GL_TEXTURE_COORD_ARRAY_SIZE	src/wb_gl_loader.h	1564;"	d
+GL_TEXTURE_COORD_ARRAY_STRIDE	src/wb_gl.h	821;"	d
+GL_TEXTURE_COORD_ARRAY_STRIDE	src/wb_gl_loader.h	1566;"	d
+GL_TEXTURE_COORD_ARRAY_TYPE	src/wb_gl.h	820;"	d
+GL_TEXTURE_COORD_ARRAY_TYPE	src/wb_gl_loader.h	1565;"	d
+GL_TEXTURE_CUBE_MAP	src/wb_gl.h	942;"	d
+GL_TEXTURE_CUBE_MAP	src/wb_gl_loader.h	1749;"	d
+GL_TEXTURE_CUBE_MAP_ARRAY	src/wb_gl.h	1586;"	d
+GL_TEXTURE_CUBE_MAP_NEGATIVE_X	src/wb_gl.h	945;"	d
+GL_TEXTURE_CUBE_MAP_NEGATIVE_X	src/wb_gl_loader.h	1752;"	d
+GL_TEXTURE_CUBE_MAP_NEGATIVE_Y	src/wb_gl.h	947;"	d
+GL_TEXTURE_CUBE_MAP_NEGATIVE_Y	src/wb_gl_loader.h	1754;"	d
+GL_TEXTURE_CUBE_MAP_NEGATIVE_Z	src/wb_gl.h	949;"	d
+GL_TEXTURE_CUBE_MAP_NEGATIVE_Z	src/wb_gl_loader.h	1756;"	d
+GL_TEXTURE_CUBE_MAP_POSITIVE_X	src/wb_gl.h	944;"	d
+GL_TEXTURE_CUBE_MAP_POSITIVE_X	src/wb_gl_loader.h	1751;"	d
+GL_TEXTURE_CUBE_MAP_POSITIVE_Y	src/wb_gl.h	946;"	d
+GL_TEXTURE_CUBE_MAP_POSITIVE_Y	src/wb_gl_loader.h	1753;"	d
+GL_TEXTURE_CUBE_MAP_POSITIVE_Z	src/wb_gl.h	948;"	d
+GL_TEXTURE_CUBE_MAP_POSITIVE_Z	src/wb_gl_loader.h	1755;"	d
+GL_TEXTURE_CUBE_MAP_SEAMLESS	src/wb_gl.h	1529;"	d
+GL_TEXTURE_CUBE_MAP_SEAMLESS	src/wb_gl_loader.h	2334;"	d
+GL_TEXTURE_DEPTH	src/wb_gl.h	872;"	d
+GL_TEXTURE_DEPTH	src/wb_gl_loader.h	1679;"	d
+GL_TEXTURE_DEPTH_SIZE	src/wb_gl.h	1010;"	d
+GL_TEXTURE_DEPTH_SIZE	src/wb_gl_loader.h	1817;"	d
+GL_TEXTURE_DEPTH_TYPE	src/wb_gl.h	1328;"	d
+GL_TEXTURE_DEPTH_TYPE	src/wb_gl_loader.h	2133;"	d
+GL_TEXTURE_ENV	src/wb_gl.h	734;"	d
+GL_TEXTURE_ENV	src/wb_gl_loader.h	1612;"	d
+GL_TEXTURE_ENV_COLOR	src/wb_gl.h	733;"	d
+GL_TEXTURE_ENV_COLOR	src/wb_gl_loader.h	1611;"	d
+GL_TEXTURE_ENV_MODE	src/wb_gl.h	732;"	d
+GL_TEXTURE_ENV_MODE	src/wb_gl_loader.h	1610;"	d
+GL_TEXTURE_FETCH_BARRIER_BIT	src/wb_gl.h	1740;"	d
+GL_TEXTURE_FILTER_CONTROL	src/wb_gl.h	1033;"	d
+GL_TEXTURE_FILTER_CONTROL	src/wb_gl_loader.h	1840;"	d
+GL_TEXTURE_FIXED_SAMPLE_LOCATIONS	src/wb_gl.h	1556;"	d
+GL_TEXTURE_FIXED_SAMPLE_LOCATIONS	src/wb_gl_loader.h	2361;"	d
+GL_TEXTURE_GATHER	src/wb_gl.h	1936;"	d
+GL_TEXTURE_GATHER_SHADOW	src/wb_gl.h	1937;"	d
+GL_TEXTURE_GEN_MODE	src/wb_gl.h	738;"	d
+GL_TEXTURE_GEN_MODE	src/wb_gl_loader.h	1616;"	d
+GL_TEXTURE_GEN_Q	src/wb_gl.h	623;"	d
+GL_TEXTURE_GEN_Q	src/wb_gl_loader.h	1473;"	d
+GL_TEXTURE_GEN_R	src/wb_gl.h	622;"	d
+GL_TEXTURE_GEN_R	src/wb_gl_loader.h	1472;"	d
+GL_TEXTURE_GEN_S	src/wb_gl.h	620;"	d
+GL_TEXTURE_GEN_S	src/wb_gl_loader.h	1470;"	d
+GL_TEXTURE_GEN_T	src/wb_gl.h	621;"	d
+GL_TEXTURE_GEN_T	src/wb_gl_loader.h	1471;"	d
+GL_TEXTURE_GREEN_SIZE	src/wb_gl.h	766;"	d
+GL_TEXTURE_GREEN_SIZE	src/wb_gl_loader.h	1261;"	d
+GL_TEXTURE_GREEN_TYPE	src/wb_gl.h	1325;"	d
+GL_TEXTURE_GREEN_TYPE	src/wb_gl_loader.h	2130;"	d
+GL_TEXTURE_HEIGHT	src/wb_gl.h	441;"	d
+GL_TEXTURE_HEIGHT	src/wb_gl_loader.h	1257;"	d
+GL_TEXTURE_IMAGE_FORMAT	src/wb_gl.h	1918;"	d
+GL_TEXTURE_IMAGE_TYPE	src/wb_gl.h	1919;"	d
+GL_TEXTURE_IMMUTABLE_FORMAT	src/wb_gl.h	1805;"	d
+GL_TEXTURE_IMMUTABLE_LEVELS	src/wb_gl.h	2055;"	d
+GL_TEXTURE_INTENSITY_SIZE	src/wb_gl.h	824;"	d
+GL_TEXTURE_INTENSITY_SIZE	src/wb_gl_loader.h	1571;"	d
+GL_TEXTURE_INTENSITY_TYPE	src/wb_gl.h	1402;"	d
+GL_TEXTURE_INTENSITY_TYPE	src/wb_gl_loader.h	2207;"	d
+GL_TEXTURE_INTERNAL_FORMAT	src/wb_gl.h	764;"	d
+GL_TEXTURE_INTERNAL_FORMAT	src/wb_gl_loader.h	1258;"	d
+GL_TEXTURE_LOD_BIAS	src/wb_gl.h	1007;"	d
+GL_TEXTURE_LOD_BIAS	src/wb_gl_loader.h	1814;"	d
+GL_TEXTURE_LUMINANCE_SIZE	src/wb_gl.h	823;"	d
+GL_TEXTURE_LUMINANCE_SIZE	src/wb_gl_loader.h	1570;"	d
+GL_TEXTURE_LUMINANCE_TYPE	src/wb_gl.h	1401;"	d
+GL_TEXTURE_LUMINANCE_TYPE	src/wb_gl_loader.h	2206;"	d
+GL_TEXTURE_MAG_FILTER	src/wb_gl.h	500;"	d
+GL_TEXTURE_MAG_FILTER	src/wb_gl_loader.h	1322;"	d
+GL_TEXTURE_MATRIX	src/wb_gl.h	605;"	d
+GL_TEXTURE_MATRIX	src/wb_gl_loader.h	1454;"	d
+GL_TEXTURE_MAX_LEVEL	src/wb_gl.h	890;"	d
+GL_TEXTURE_MAX_LEVEL	src/wb_gl_loader.h	1697;"	d
+GL_TEXTURE_MAX_LOD	src/wb_gl.h	888;"	d
+GL_TEXTURE_MAX_LOD	src/wb_gl_loader.h	1695;"	d
+GL_TEXTURE_MIN_FILTER	src/wb_gl.h	501;"	d
+GL_TEXTURE_MIN_FILTER	src/wb_gl_loader.h	1323;"	d
+GL_TEXTURE_MIN_LOD	src/wb_gl.h	887;"	d
+GL_TEXTURE_MIN_LOD	src/wb_gl_loader.h	1694;"	d
+GL_TEXTURE_PRIORITY	src/wb_gl.h	825;"	d
+GL_TEXTURE_PRIORITY	src/wb_gl_loader.h	1572;"	d
+GL_TEXTURE_RECTANGLE	src/wb_gl.h	1452;"	d
+GL_TEXTURE_RECTANGLE	src/wb_gl_loader.h	2257;"	d
+GL_TEXTURE_RED_SIZE	src/wb_gl.h	765;"	d
+GL_TEXTURE_RED_SIZE	src/wb_gl_loader.h	1260;"	d
+GL_TEXTURE_RED_TYPE	src/wb_gl.h	1324;"	d
+GL_TEXTURE_RED_TYPE	src/wb_gl_loader.h	2129;"	d
+GL_TEXTURE_RESIDENT	src/wb_gl.h	826;"	d
+GL_TEXTURE_RESIDENT	src/wb_gl_loader.h	1573;"	d
+GL_TEXTURE_SAMPLES	src/wb_gl.h	1555;"	d
+GL_TEXTURE_SAMPLES	src/wb_gl_loader.h	2360;"	d
+GL_TEXTURE_SHADOW	src/wb_gl.h	1935;"	d
+GL_TEXTURE_SHARED_SIZE	src/wb_gl.h	1242;"	d
+GL_TEXTURE_SHARED_SIZE	src/wb_gl_loader.h	2047;"	d
+GL_TEXTURE_STACK_DEPTH	src/wb_gl.h	602;"	d
+GL_TEXTURE_STACK_DEPTH	src/wb_gl_loader.h	1451;"	d
+GL_TEXTURE_STENCIL_SIZE	src/wb_gl.h	1323;"	d
+GL_TEXTURE_STENCIL_SIZE	src/wb_gl_loader.h	2128;"	d
+GL_TEXTURE_SWIZZLE_A	src/wb_gl.h	1577;"	d
+GL_TEXTURE_SWIZZLE_A	src/wb_gl_loader.h	2382;"	d
+GL_TEXTURE_SWIZZLE_B	src/wb_gl.h	1576;"	d
+GL_TEXTURE_SWIZZLE_B	src/wb_gl_loader.h	2381;"	d
+GL_TEXTURE_SWIZZLE_G	src/wb_gl.h	1575;"	d
+GL_TEXTURE_SWIZZLE_G	src/wb_gl_loader.h	2380;"	d
+GL_TEXTURE_SWIZZLE_R	src/wb_gl.h	1574;"	d
+GL_TEXTURE_SWIZZLE_R	src/wb_gl_loader.h	2379;"	d
+GL_TEXTURE_SWIZZLE_RGBA	src/wb_gl.h	1578;"	d
+GL_TEXTURE_SWIZZLE_RGBA	src/wb_gl_loader.h	2383;"	d
+GL_TEXTURE_UPDATE_BARRIER_BIT	src/wb_gl.h	1744;"	d
+GL_TEXTURE_VIEW	src/wb_gl.h	1953;"	d
+GL_TEXTURE_VIEW_MIN_LAYER	src/wb_gl.h	2053;"	d
+GL_TEXTURE_VIEW_MIN_LEVEL	src/wb_gl.h	2051;"	d
+GL_TEXTURE_VIEW_NUM_LAYERS	src/wb_gl.h	2054;"	d
+GL_TEXTURE_VIEW_NUM_LEVELS	src/wb_gl.h	2052;"	d
+GL_TEXTURE_WIDTH	src/wb_gl.h	440;"	d
+GL_TEXTURE_WIDTH	src/wb_gl_loader.h	1256;"	d
+GL_TEXTURE_WRAP_R	src/wb_gl.h	873;"	d
+GL_TEXTURE_WRAP_R	src/wb_gl_loader.h	1680;"	d
+GL_TEXTURE_WRAP_S	src/wb_gl.h	502;"	d
+GL_TEXTURE_WRAP_S	src/wb_gl_loader.h	1324;"	d
+GL_TEXTURE_WRAP_T	src/wb_gl.h	503;"	d
+GL_TEXTURE_WRAP_T	src/wb_gl_loader.h	1325;"	d
+GL_TIMEOUT_EXPIRED	src/wb_gl.h	1540;"	d
+GL_TIMEOUT_EXPIRED	src/wb_gl_loader.h	2345;"	d
+GL_TIMEOUT_IGNORED	src/wb_gl.h	1543;"	d
+GL_TIMEOUT_IGNORED	src/wb_gl_loader.h	2348;"	d
+GL_TIMESTAMP	src/wb_gl.h	1580;"	d
+GL_TIMESTAMP	src/wb_gl_loader.h	2385;"	d
+GL_TIME_ELAPSED	src/wb_gl.h	1579;"	d
+GL_TIME_ELAPSED	src/wb_gl_loader.h	2384;"	d
+GL_TOP_LEVEL_ARRAY_SIZE	src/wb_gl.h	2026;"	d
+GL_TOP_LEVEL_ARRAY_STRIDE	src/wb_gl.h	2027;"	d
+GL_TRANSFORM_BIT	src/wb_gl.h	515;"	d
+GL_TRANSFORM_BIT	src/wb_gl_loader.h	1353;"	d
+GL_TRANSFORM_FEEDBACK	src/wb_gl.h	1654;"	d
+GL_TRANSFORM_FEEDBACK_ACTIVE	src/wb_gl.h	1696;"	d
+GL_TRANSFORM_FEEDBACK_BARRIER_BIT	src/wb_gl.h	1747;"	d
+GL_TRANSFORM_FEEDBACK_BINDING	src/wb_gl.h	1657;"	d
+GL_TRANSFORM_FEEDBACK_BUFFER	src/wb_gl.h	1256;"	d
+GL_TRANSFORM_FEEDBACK_BUFFER	src/wb_gl_loader.h	2061;"	d
+GL_TRANSFORM_FEEDBACK_BUFFER_ACTIVE	src/wb_gl.h	1656;"	d
+GL_TRANSFORM_FEEDBACK_BUFFER_BINDING	src/wb_gl.h	1257;"	d
+GL_TRANSFORM_FEEDBACK_BUFFER_BINDING	src/wb_gl_loader.h	2062;"	d
+GL_TRANSFORM_FEEDBACK_BUFFER_MODE	src/wb_gl.h	1244;"	d
+GL_TRANSFORM_FEEDBACK_BUFFER_MODE	src/wb_gl_loader.h	2049;"	d
+GL_TRANSFORM_FEEDBACK_BUFFER_PAUSED	src/wb_gl.h	1655;"	d
+GL_TRANSFORM_FEEDBACK_BUFFER_SIZE	src/wb_gl.h	1248;"	d
+GL_TRANSFORM_FEEDBACK_BUFFER_SIZE	src/wb_gl_loader.h	2053;"	d
+GL_TRANSFORM_FEEDBACK_BUFFER_START	src/wb_gl.h	1247;"	d
+GL_TRANSFORM_FEEDBACK_BUFFER_START	src/wb_gl_loader.h	2052;"	d
+GL_TRANSFORM_FEEDBACK_PAUSED	src/wb_gl.h	1697;"	d
+GL_TRANSFORM_FEEDBACK_PRIMITIVES_WRITTEN	src/wb_gl.h	1250;"	d
+GL_TRANSFORM_FEEDBACK_PRIMITIVES_WRITTEN	src/wb_gl_loader.h	2055;"	d
+GL_TRANSFORM_FEEDBACK_VARYING	src/wb_gl.h	2002;"	d
+GL_TRANSFORM_FEEDBACK_VARYINGS	src/wb_gl.h	1246;"	d
+GL_TRANSFORM_FEEDBACK_VARYINGS	src/wb_gl_loader.h	2051;"	d
+GL_TRANSFORM_FEEDBACK_VARYING_MAX_LENGTH	src/wb_gl.h	1243;"	d
+GL_TRANSFORM_FEEDBACK_VARYING_MAX_LENGTH	src/wb_gl_loader.h	2048;"	d
+GL_TRANSPOSE_COLOR_MATRIX	src/wb_gl.h	965;"	d
+GL_TRANSPOSE_COLOR_MATRIX	src/wb_gl_loader.h	1772;"	d
+GL_TRANSPOSE_MODELVIEW_MATRIX	src/wb_gl.h	962;"	d
+GL_TRANSPOSE_MODELVIEW_MATRIX	src/wb_gl_loader.h	1769;"	d
+GL_TRANSPOSE_PROJECTION_MATRIX	src/wb_gl.h	963;"	d
+GL_TRANSPOSE_PROJECTION_MATRIX	src/wb_gl_loader.h	1770;"	d
+GL_TRANSPOSE_TEXTURE_MATRIX	src/wb_gl.h	964;"	d
+GL_TRANSPOSE_TEXTURE_MATRIX	src/wb_gl_loader.h	1771;"	d
+GL_TRIANGLES	src/wb_gl.h	341;"	d
+GL_TRIANGLES	src/wb_gl_loader.h	1149;"	d
+GL_TRIANGLES_ADJACENCY	src/wb_gl.h	1506;"	d
+GL_TRIANGLES_ADJACENCY	src/wb_gl_loader.h	2311;"	d
+GL_TRIANGLE_FAN	src/wb_gl.h	343;"	d
+GL_TRIANGLE_FAN	src/wb_gl_loader.h	1151;"	d
+GL_TRIANGLE_STRIP	src/wb_gl.h	342;"	d
+GL_TRIANGLE_STRIP	src/wb_gl_loader.h	1150;"	d
+GL_TRIANGLE_STRIP_ADJACENCY	src/wb_gl.h	1507;"	d
+GL_TRIANGLE_STRIP_ADJACENCY	src/wb_gl_loader.h	2312;"	d
+GL_TRUE	src/wb_gl.h	336;"	d
+GL_TRUE	src/wb_gl_loader.h	1144;"	d
+GL_TYPE	src/wb_gl.h	2008;"	d
+GL_UNDEFINED_VERTEX	src/wb_gl.h	1693;"	d
+GL_UNIFORM	src/wb_gl.h	1984;"	d
+GL_UNIFORM_ARRAY_STRIDE	src/wb_gl.h	1490;"	d
+GL_UNIFORM_ARRAY_STRIDE	src/wb_gl_loader.h	2295;"	d
+GL_UNIFORM_ATOMIC_COUNTER_BUFFER_INDEX	src/wb_gl.h	1735;"	d
+GL_UNIFORM_BARRIER_BIT	src/wb_gl.h	1739;"	d
+GL_UNIFORM_BLOCK	src/wb_gl.h	1985;"	d
+GL_UNIFORM_BLOCK_ACTIVE_UNIFORMS	src/wb_gl.h	1496;"	d
+GL_UNIFORM_BLOCK_ACTIVE_UNIFORMS	src/wb_gl_loader.h	2301;"	d
+GL_UNIFORM_BLOCK_ACTIVE_UNIFORM_INDICES	src/wb_gl.h	1497;"	d
+GL_UNIFORM_BLOCK_ACTIVE_UNIFORM_INDICES	src/wb_gl_loader.h	2302;"	d
+GL_UNIFORM_BLOCK_BINDING	src/wb_gl.h	1493;"	d
+GL_UNIFORM_BLOCK_BINDING	src/wb_gl_loader.h	2298;"	d
+GL_UNIFORM_BLOCK_DATA_SIZE	src/wb_gl.h	1494;"	d
+GL_UNIFORM_BLOCK_DATA_SIZE	src/wb_gl_loader.h	2299;"	d
+GL_UNIFORM_BLOCK_INDEX	src/wb_gl.h	1488;"	d
+GL_UNIFORM_BLOCK_INDEX	src/wb_gl_loader.h	2293;"	d
+GL_UNIFORM_BLOCK_NAME_LENGTH	src/wb_gl.h	1495;"	d
+GL_UNIFORM_BLOCK_NAME_LENGTH	src/wb_gl_loader.h	2300;"	d
+GL_UNIFORM_BLOCK_REFERENCED_BY_COMPUTE_SHADER	src/wb_gl.h	1834;"	d
+GL_UNIFORM_BLOCK_REFERENCED_BY_FRAGMENT_SHADER	src/wb_gl.h	1500;"	d
+GL_UNIFORM_BLOCK_REFERENCED_BY_FRAGMENT_SHADER	src/wb_gl_loader.h	2305;"	d
+GL_UNIFORM_BLOCK_REFERENCED_BY_GEOMETRY_SHADER	src/wb_gl.h	1499;"	d
+GL_UNIFORM_BLOCK_REFERENCED_BY_GEOMETRY_SHADER	src/wb_gl_loader.h	2304;"	d
+GL_UNIFORM_BLOCK_REFERENCED_BY_TESS_CONTROL_SHADER	src/wb_gl.h	1650;"	d
+GL_UNIFORM_BLOCK_REFERENCED_BY_TESS_EVALUATION_SHADER	src/wb_gl.h	1651;"	d
+GL_UNIFORM_BLOCK_REFERENCED_BY_VERTEX_SHADER	src/wb_gl.h	1498;"	d
+GL_UNIFORM_BLOCK_REFERENCED_BY_VERTEX_SHADER	src/wb_gl_loader.h	2303;"	d
+GL_UNIFORM_BUFFER	src/wb_gl.h	1469;"	d
+GL_UNIFORM_BUFFER	src/wb_gl_loader.h	2274;"	d
+GL_UNIFORM_BUFFER_BINDING	src/wb_gl.h	1470;"	d
+GL_UNIFORM_BUFFER_BINDING	src/wb_gl_loader.h	2275;"	d
+GL_UNIFORM_BUFFER_OFFSET_ALIGNMENT	src/wb_gl.h	1482;"	d
+GL_UNIFORM_BUFFER_OFFSET_ALIGNMENT	src/wb_gl_loader.h	2287;"	d
+GL_UNIFORM_BUFFER_SIZE	src/wb_gl.h	1472;"	d
+GL_UNIFORM_BUFFER_SIZE	src/wb_gl_loader.h	2277;"	d
+GL_UNIFORM_BUFFER_START	src/wb_gl.h	1471;"	d
+GL_UNIFORM_BUFFER_START	src/wb_gl_loader.h	2276;"	d
+GL_UNIFORM_IS_ROW_MAJOR	src/wb_gl.h	1492;"	d
+GL_UNIFORM_IS_ROW_MAJOR	src/wb_gl_loader.h	2297;"	d
+GL_UNIFORM_MATRIX_STRIDE	src/wb_gl.h	1491;"	d
+GL_UNIFORM_MATRIX_STRIDE	src/wb_gl_loader.h	2296;"	d
+GL_UNIFORM_NAME_LENGTH	src/wb_gl.h	1487;"	d
+GL_UNIFORM_NAME_LENGTH	src/wb_gl_loader.h	2292;"	d
+GL_UNIFORM_OFFSET	src/wb_gl.h	1489;"	d
+GL_UNIFORM_OFFSET	src/wb_gl_loader.h	2294;"	d
+GL_UNIFORM_SIZE	src/wb_gl.h	1486;"	d
+GL_UNIFORM_SIZE	src/wb_gl_loader.h	2291;"	d
+GL_UNIFORM_TYPE	src/wb_gl.h	1485;"	d
+GL_UNIFORM_TYPE	src/wb_gl_loader.h	2290;"	d
+GL_UNPACK_ALIGNMENT	src/wb_gl.h	428;"	d
+GL_UNPACK_ALIGNMENT	src/wb_gl_loader.h	1237;"	d
+GL_UNPACK_COMPRESSED_BLOCK_DEPTH	src/wb_gl.h	1700;"	d
+GL_UNPACK_COMPRESSED_BLOCK_HEIGHT	src/wb_gl.h	1699;"	d
+GL_UNPACK_COMPRESSED_BLOCK_SIZE	src/wb_gl.h	1701;"	d
+GL_UNPACK_COMPRESSED_BLOCK_WIDTH	src/wb_gl.h	1698;"	d
+GL_UNPACK_IMAGE_HEIGHT	src/wb_gl.h	869;"	d
+GL_UNPACK_IMAGE_HEIGHT	src/wb_gl_loader.h	1676;"	d
+GL_UNPACK_LSB_FIRST	src/wb_gl.h	424;"	d
+GL_UNPACK_LSB_FIRST	src/wb_gl_loader.h	1233;"	d
+GL_UNPACK_ROW_LENGTH	src/wb_gl.h	425;"	d
+GL_UNPACK_ROW_LENGTH	src/wb_gl_loader.h	1234;"	d
+GL_UNPACK_SKIP_IMAGES	src/wb_gl.h	868;"	d
+GL_UNPACK_SKIP_IMAGES	src/wb_gl_loader.h	1675;"	d
+GL_UNPACK_SKIP_PIXELS	src/wb_gl.h	427;"	d
+GL_UNPACK_SKIP_PIXELS	src/wb_gl_loader.h	1236;"	d
+GL_UNPACK_SKIP_ROWS	src/wb_gl.h	426;"	d
+GL_UNPACK_SKIP_ROWS	src/wb_gl_loader.h	1235;"	d
+GL_UNPACK_SWAP_BYTES	src/wb_gl.h	423;"	d
+GL_UNPACK_SWAP_BYTES	src/wb_gl_loader.h	1232;"	d
+GL_UNSIGNALED	src/wb_gl.h	1537;"	d
+GL_UNSIGNALED	src/wb_gl_loader.h	2342;"	d
+GL_UNSIGNED_BYTE	src/wb_gl.h	447;"	d
+GL_UNSIGNED_BYTE	src/wb_gl_loader.h	1268;"	d
+GL_UNSIGNED_BYTE_2_3_3_REV	src/wb_gl.h	875;"	d
+GL_UNSIGNED_BYTE_2_3_3_REV	src/wb_gl_loader.h	1682;"	d
+GL_UNSIGNED_BYTE_3_3_2	src/wb_gl.h	860;"	d
+GL_UNSIGNED_BYTE_3_3_2	src/wb_gl_loader.h	1667;"	d
+GL_UNSIGNED_INT	src/wb_gl.h	451;"	d
+GL_UNSIGNED_INT	src/wb_gl_loader.h	1272;"	d
+GL_UNSIGNED_INT_10F_11F_11F_REV	src/wb_gl.h	1239;"	d
+GL_UNSIGNED_INT_10F_11F_11F_REV	src/wb_gl_loader.h	2044;"	d
+GL_UNSIGNED_INT_10_10_10_2	src/wb_gl.h	864;"	d
+GL_UNSIGNED_INT_10_10_10_2	src/wb_gl_loader.h	1671;"	d
+GL_UNSIGNED_INT_24_8	src/wb_gl.h	1321;"	d
+GL_UNSIGNED_INT_24_8	src/wb_gl_loader.h	2126;"	d
+GL_UNSIGNED_INT_2_10_10_10_REV	src/wb_gl.h	881;"	d
+GL_UNSIGNED_INT_2_10_10_10_REV	src/wb_gl_loader.h	1688;"	d
+GL_UNSIGNED_INT_5_9_9_9_REV	src/wb_gl.h	1241;"	d
+GL_UNSIGNED_INT_5_9_9_9_REV	src/wb_gl_loader.h	2046;"	d
+GL_UNSIGNED_INT_8_8_8_8	src/wb_gl.h	863;"	d
+GL_UNSIGNED_INT_8_8_8_8	src/wb_gl_loader.h	1670;"	d
+GL_UNSIGNED_INT_8_8_8_8_REV	src/wb_gl.h	880;"	d
+GL_UNSIGNED_INT_8_8_8_8_REV	src/wb_gl_loader.h	1687;"	d
+GL_UNSIGNED_INT_ATOMIC_COUNTER	src/wb_gl.h	1736;"	d
+GL_UNSIGNED_INT_IMAGE_1D	src/wb_gl.h	1779;"	d
+GL_UNSIGNED_INT_IMAGE_1D_ARRAY	src/wb_gl.h	1785;"	d
+GL_UNSIGNED_INT_IMAGE_2D	src/wb_gl.h	1780;"	d
+GL_UNSIGNED_INT_IMAGE_2D_ARRAY	src/wb_gl.h	1786;"	d
+GL_UNSIGNED_INT_IMAGE_2D_MULTISAMPLE	src/wb_gl.h	1788;"	d
+GL_UNSIGNED_INT_IMAGE_2D_MULTISAMPLE_ARRAY	src/wb_gl.h	1789;"	d
+GL_UNSIGNED_INT_IMAGE_2D_RECT	src/wb_gl.h	1782;"	d
+GL_UNSIGNED_INT_IMAGE_3D	src/wb_gl.h	1781;"	d
+GL_UNSIGNED_INT_IMAGE_BUFFER	src/wb_gl.h	1784;"	d
+GL_UNSIGNED_INT_IMAGE_CUBE	src/wb_gl.h	1783;"	d
+GL_UNSIGNED_INT_IMAGE_CUBE_MAP_ARRAY	src/wb_gl.h	1787;"	d
+GL_UNSIGNED_INT_SAMPLER_1D	src/wb_gl.h	1291;"	d
+GL_UNSIGNED_INT_SAMPLER_1D	src/wb_gl_loader.h	2096;"	d
+GL_UNSIGNED_INT_SAMPLER_1D_ARRAY	src/wb_gl.h	1295;"	d
+GL_UNSIGNED_INT_SAMPLER_1D_ARRAY	src/wb_gl_loader.h	2100;"	d
+GL_UNSIGNED_INT_SAMPLER_2D	src/wb_gl.h	1292;"	d
+GL_UNSIGNED_INT_SAMPLER_2D	src/wb_gl_loader.h	2097;"	d
+GL_UNSIGNED_INT_SAMPLER_2D_ARRAY	src/wb_gl.h	1296;"	d
+GL_UNSIGNED_INT_SAMPLER_2D_ARRAY	src/wb_gl_loader.h	2101;"	d
+GL_UNSIGNED_INT_SAMPLER_2D_MULTISAMPLE	src/wb_gl.h	1559;"	d
+GL_UNSIGNED_INT_SAMPLER_2D_MULTISAMPLE	src/wb_gl_loader.h	2364;"	d
+GL_UNSIGNED_INT_SAMPLER_2D_MULTISAMPLE_ARRAY	src/wb_gl.h	1562;"	d
+GL_UNSIGNED_INT_SAMPLER_2D_MULTISAMPLE_ARRAY	src/wb_gl_loader.h	2367;"	d
+GL_UNSIGNED_INT_SAMPLER_2D_RECT	src/wb_gl.h	1446;"	d
+GL_UNSIGNED_INT_SAMPLER_2D_RECT	src/wb_gl_loader.h	2251;"	d
+GL_UNSIGNED_INT_SAMPLER_3D	src/wb_gl.h	1293;"	d
+GL_UNSIGNED_INT_SAMPLER_3D	src/wb_gl_loader.h	2098;"	d
+GL_UNSIGNED_INT_SAMPLER_BUFFER	src/wb_gl.h	1447;"	d
+GL_UNSIGNED_INT_SAMPLER_BUFFER	src/wb_gl_loader.h	2252;"	d
+GL_UNSIGNED_INT_SAMPLER_CUBE	src/wb_gl.h	1294;"	d
+GL_UNSIGNED_INT_SAMPLER_CUBE	src/wb_gl_loader.h	2099;"	d
+GL_UNSIGNED_INT_SAMPLER_CUBE_MAP_ARRAY	src/wb_gl.h	1592;"	d
+GL_UNSIGNED_INT_VEC2	src/wb_gl.h	1282;"	d
+GL_UNSIGNED_INT_VEC2	src/wb_gl_loader.h	2087;"	d
+GL_UNSIGNED_INT_VEC3	src/wb_gl.h	1283;"	d
+GL_UNSIGNED_INT_VEC3	src/wb_gl_loader.h	2088;"	d
+GL_UNSIGNED_INT_VEC4	src/wb_gl.h	1284;"	d
+GL_UNSIGNED_INT_VEC4	src/wb_gl_loader.h	2089;"	d
+GL_UNSIGNED_NORMALIZED	src/wb_gl.h	1329;"	d
+GL_UNSIGNED_NORMALIZED	src/wb_gl_loader.h	2134;"	d
+GL_UNSIGNED_SHORT	src/wb_gl.h	449;"	d
+GL_UNSIGNED_SHORT	src/wb_gl_loader.h	1270;"	d
+GL_UNSIGNED_SHORT_1_5_5_5_REV	src/wb_gl.h	879;"	d
+GL_UNSIGNED_SHORT_1_5_5_5_REV	src/wb_gl_loader.h	1686;"	d
+GL_UNSIGNED_SHORT_4_4_4_4	src/wb_gl.h	861;"	d
+GL_UNSIGNED_SHORT_4_4_4_4	src/wb_gl_loader.h	1668;"	d
+GL_UNSIGNED_SHORT_4_4_4_4_REV	src/wb_gl.h	878;"	d
+GL_UNSIGNED_SHORT_4_4_4_4_REV	src/wb_gl_loader.h	1685;"	d
+GL_UNSIGNED_SHORT_5_5_5_1	src/wb_gl.h	862;"	d
+GL_UNSIGNED_SHORT_5_5_5_1	src/wb_gl_loader.h	1669;"	d
+GL_UNSIGNED_SHORT_5_6_5	src/wb_gl.h	876;"	d
+GL_UNSIGNED_SHORT_5_6_5	src/wb_gl_loader.h	1683;"	d
+GL_UNSIGNED_SHORT_5_6_5_REV	src/wb_gl.h	877;"	d
+GL_UNSIGNED_SHORT_5_6_5_REV	src/wb_gl_loader.h	1684;"	d
+GL_UPPER_LEFT	src/wb_gl.h	1173;"	d
+GL_UPPER_LEFT	src/wb_gl_loader.h	1978;"	d
+GL_V2F	src/wb_gl.h	846;"	d
+GL_V2F	src/wb_gl_loader.h	1639;"	d
+GL_V3F	src/wb_gl.h	847;"	d
+GL_V3F	src/wb_gl_loader.h	1640;"	d
+GL_VALIDATE_STATUS	src/wb_gl.h	1160;"	d
+GL_VALIDATE_STATUS	src/wb_gl_loader.h	1965;"	d
+GL_VENDOR	src/wb_gl.h	490;"	d
+GL_VENDOR	src/wb_gl_loader.h	1312;"	d
+GL_VERSION	src/wb_gl.h	492;"	d
+GL_VERSION	src/wb_gl_loader.h	1314;"	d
+GL_VERTEX_ARRAY	src/wb_gl.h	803;"	d
+GL_VERTEX_ARRAY	src/wb_gl_loader.h	1548;"	d
+GL_VERTEX_ARRAY_BINDING	src/wb_gl.h	1437;"	d
+GL_VERTEX_ARRAY_BINDING	src/wb_gl_loader.h	2242;"	d
+GL_VERTEX_ARRAY_BUFFER_BINDING	src/wb_gl.h	1075;"	d
+GL_VERTEX_ARRAY_BUFFER_BINDING	src/wb_gl_loader.h	1880;"	d
+GL_VERTEX_ARRAY_POINTER	src/wb_gl.h	789;"	d
+GL_VERTEX_ARRAY_POINTER	src/wb_gl_loader.h	1403;"	d
+GL_VERTEX_ARRAY_SIZE	src/wb_gl.h	809;"	d
+GL_VERTEX_ARRAY_SIZE	src/wb_gl_loader.h	1554;"	d
+GL_VERTEX_ARRAY_STRIDE	src/wb_gl.h	811;"	d
+GL_VERTEX_ARRAY_STRIDE	src/wb_gl_loader.h	1556;"	d
+GL_VERTEX_ARRAY_TYPE	src/wb_gl.h	810;"	d
+GL_VERTEX_ARRAY_TYPE	src/wb_gl_loader.h	1555;"	d
+GL_VERTEX_ATTRIB_ARRAY_BARRIER_BIT	src/wb_gl.h	1737;"	d
+GL_VERTEX_ATTRIB_ARRAY_BUFFER_BINDING	src/wb_gl.h	1057;"	d
+GL_VERTEX_ATTRIB_ARRAY_BUFFER_BINDING	src/wb_gl_loader.h	1862;"	d
+GL_VERTEX_ATTRIB_ARRAY_DIVISOR	src/wb_gl.h	1566;"	d
+GL_VERTEX_ATTRIB_ARRAY_DIVISOR	src/wb_gl_loader.h	2371;"	d
+GL_VERTEX_ATTRIB_ARRAY_ENABLED	src/wb_gl.h	1098;"	d
+GL_VERTEX_ATTRIB_ARRAY_ENABLED	src/wb_gl_loader.h	1903;"	d
+GL_VERTEX_ATTRIB_ARRAY_INTEGER	src/wb_gl.h	1225;"	d
+GL_VERTEX_ATTRIB_ARRAY_INTEGER	src/wb_gl_loader.h	2030;"	d
+GL_VERTEX_ATTRIB_ARRAY_LONG	src/wb_gl.h	1807;"	d
+GL_VERTEX_ATTRIB_ARRAY_NORMALIZED	src/wb_gl.h	1128;"	d
+GL_VERTEX_ATTRIB_ARRAY_NORMALIZED	src/wb_gl_loader.h	1933;"	d
+GL_VERTEX_ATTRIB_ARRAY_POINTER	src/wb_gl.h	1104;"	d
+GL_VERTEX_ATTRIB_ARRAY_POINTER	src/wb_gl_loader.h	1909;"	d
+GL_VERTEX_ATTRIB_ARRAY_SIZE	src/wb_gl.h	1099;"	d
+GL_VERTEX_ATTRIB_ARRAY_SIZE	src/wb_gl_loader.h	1904;"	d
+GL_VERTEX_ATTRIB_ARRAY_STRIDE	src/wb_gl.h	1100;"	d
+GL_VERTEX_ATTRIB_ARRAY_STRIDE	src/wb_gl_loader.h	1905;"	d
+GL_VERTEX_ATTRIB_ARRAY_TYPE	src/wb_gl.h	1101;"	d
+GL_VERTEX_ATTRIB_ARRAY_TYPE	src/wb_gl_loader.h	1906;"	d
+GL_VERTEX_ATTRIB_BINDING	src/wb_gl.h	2056;"	d
+GL_VERTEX_ATTRIB_RELATIVE_OFFSET	src/wb_gl.h	2057;"	d
+GL_VERTEX_BINDING_BUFFER	src/wb_gl.h	2063;"	d
+GL_VERTEX_BINDING_DIVISOR	src/wb_gl.h	2058;"	d
+GL_VERTEX_BINDING_OFFSET	src/wb_gl.h	2059;"	d
+GL_VERTEX_BINDING_STRIDE	src/wb_gl.h	2060;"	d
+GL_VERTEX_PROGRAM_POINT_SIZE	src/wb_gl.h	1103;"	d
+GL_VERTEX_PROGRAM_POINT_SIZE	src/wb_gl_loader.h	1908;"	d
+GL_VERTEX_PROGRAM_TWO_SIDE	src/wb_gl.h	1177;"	d
+GL_VERTEX_PROGRAM_TWO_SIDE	src/wb_gl_loader.h	1982;"	d
+GL_VERTEX_SHADER	src/wb_gl.h	1131;"	d
+GL_VERTEX_SHADER	src/wb_gl_loader.h	1936;"	d
+GL_VERTEX_SHADER_BIT	src/wb_gl.h	1679;"	d
+GL_VERTEX_SUBROUTINE	src/wb_gl.h	1990;"	d
+GL_VERTEX_SUBROUTINE_UNIFORM	src/wb_gl.h	1996;"	d
+GL_VERTEX_TEXTURE	src/wb_gl.h	1929;"	d
+GL_VIEWPORT	src/wb_gl.h	407;"	d
+GL_VIEWPORT	src/wb_gl_loader.h	1215;"	d
+GL_VIEWPORT_BIT	src/wb_gl.h	514;"	d
+GL_VIEWPORT_BIT	src/wb_gl_loader.h	1352;"	d
+GL_VIEWPORT_BOUNDS_RANGE	src/wb_gl.h	1690;"	d
+GL_VIEWPORT_INDEX_PROVOKING_VERTEX	src/wb_gl.h	1692;"	d
+GL_VIEWPORT_SUBPIXEL_BITS	src/wb_gl.h	1689;"	d
+GL_VIEW_CLASS_128_BITS	src/wb_gl.h	1968;"	d
+GL_VIEW_CLASS_16_BITS	src/wb_gl.h	1974;"	d
+GL_VIEW_CLASS_24_BITS	src/wb_gl.h	1973;"	d
+GL_VIEW_CLASS_32_BITS	src/wb_gl.h	1972;"	d
+GL_VIEW_CLASS_48_BITS	src/wb_gl.h	1971;"	d
+GL_VIEW_CLASS_64_BITS	src/wb_gl.h	1970;"	d
+GL_VIEW_CLASS_8_BITS	src/wb_gl.h	1975;"	d
+GL_VIEW_CLASS_96_BITS	src/wb_gl.h	1969;"	d
+GL_VIEW_CLASS_BPTC_FLOAT	src/wb_gl.h	1983;"	d
+GL_VIEW_CLASS_BPTC_UNORM	src/wb_gl.h	1982;"	d
+GL_VIEW_CLASS_RGTC1_RED	src/wb_gl.h	1980;"	d
+GL_VIEW_CLASS_RGTC2_RG	src/wb_gl.h	1981;"	d
+GL_VIEW_CLASS_S3TC_DXT1_RGB	src/wb_gl.h	1976;"	d
+GL_VIEW_CLASS_S3TC_DXT1_RGBA	src/wb_gl.h	1977;"	d
+GL_VIEW_CLASS_S3TC_DXT3_RGBA	src/wb_gl.h	1978;"	d
+GL_VIEW_CLASS_S3TC_DXT5_RGBA	src/wb_gl.h	1979;"	d
+GL_VIEW_COMPATIBILITY_CLASS	src/wb_gl.h	1954;"	d
+GL_WAIT_FAILED	src/wb_gl.h	1542;"	d
+GL_WAIT_FAILED	src/wb_gl_loader.h	2347;"	d
+GL_WEIGHT_ARRAY_BUFFER_BINDING	src/wb_gl.h	1083;"	d
+GL_WEIGHT_ARRAY_BUFFER_BINDING	src/wb_gl_loader.h	1888;"	d
+GL_WRITE_ONLY	src/wb_gl.h	1059;"	d
+GL_WRITE_ONLY	src/wb_gl_loader.h	1864;"	d
+GL_XOR	src/wb_gl.h	461;"	d
+GL_XOR	src/wb_gl_loader.h	1283;"	d
+GL_ZERO	src/wb_gl.h	353;"	d
+GL_ZERO	src/wb_gl_loader.h	1161;"	d
+GL_ZOOM_X	src/wb_gl.h	640;"	d
+GL_ZOOM_X	src/wb_gl_loader.h	1490;"	d
+GL_ZOOM_Y	src/wb_gl.h	641;"	d
+GL_ZOOM_Y	src/wb_gl_loader.h	1491;"	d
+GLbitfield	src/wb_gl.h	/^typedef unsigned int  GLbitfield;$/;"	t
+GLbitfield	src/wb_gl_loader.h	/^typedef uint32_t      GLbitfield;$/;"	t
+GLbitfield	src/wb_gl_loader.h	/^typedef unsigned int  GLbitfield;$/;"	t
+GLboolean	src/wb_gl.h	/^typedef unsigned char GLboolean;$/;"	t
+GLboolean	src/wb_gl_loader.h	/^typedef uint8_t       GLboolean;$/;"	t
+GLboolean	src/wb_gl_loader.h	/^typedef unsigned char GLboolean;$/;"	t
+GLbyte	src/wb_gl.h	/^typedef char          GLbyte;$/;"	t
+GLbyte	src/wb_gl_loader.h	/^typedef char          GLbyte;$/;"	t
+GLbyte	src/wb_gl_loader.h	/^typedef int8_t        GLbyte;$/;"	t
+GLchar	src/wb_gl.h	/^typedef char          GLchar;$/;"	t
+GLchar	src/wb_gl_loader.h	/^typedef char          GLchar;$/;"	t
+GLchar	src/wb_gl_loader.h	/^typedef char        GLchar;$/;"	t
+GLclampf	src/wb_gl.h	/^typedef float         GLclampf;$/;"	t
+GLclampf	src/wb_gl_loader.h	/^typedef float         GLclampf;$/;"	t
+GLdouble	src/wb_gl.h	/^typedef double        GLdouble;$/;"	t
+GLdouble	src/wb_gl_loader.h	/^typedef double        GLdouble;$/;"	t
+GLenum	src/wb_gl.h	/^typedef unsigned int  GLenum;$/;"	t
+GLenum	src/wb_gl_loader.h	/^typedef uint32_t      GLenum;$/;"	t
+GLenum	src/wb_gl_loader.h	/^typedef unsigned int  GLenum;$/;"	t
+GLfloat	src/wb_gl.h	/^typedef float         GLfloat;$/;"	t
+GLfloat	src/wb_gl_loader.h	/^typedef float         GLfloat;$/;"	t
+GLint	src/wb_gl.h	/^typedef int           GLint;$/;"	t
+GLint	src/wb_gl_loader.h	/^typedef int           GLint;$/;"	t
+GLint	src/wb_gl_loader.h	/^typedef int32_t       GLint;$/;"	t
+GLint64	src/wb_gl.h	/^typedef ptrdiff_t     GLint64;$/;"	t
+GLint64	src/wb_gl_loader.h	/^typedef int64_t       GLint64;$/;"	t
+GLintptr	src/wb_gl.h	/^typedef ptrdiff_t     GLintptr;$/;"	t
+GLintptr	src/wb_gl_loader.h	/^typedef ptrdiff_t     GLintptr;$/;"	t
+GLshort	src/wb_gl.h	/^typedef short int     GLshort;$/;"	t
+GLshort	src/wb_gl_loader.h	/^typedef int16_t       GLshort;$/;"	t
+GLshort	src/wb_gl_loader.h	/^typedef short int              GLshort;$/;"	t
+GLshort	src/wb_gl_loader.h	/^typedef unsigned short int     GLshort;$/;"	t
+GLsizei	src/wb_gl.h	/^typedef int           GLsizei;$/;"	t
+GLsizei	src/wb_gl_loader.h	/^typedef int           GLsizei;$/;"	t
+GLsizei	src/wb_gl_loader.h	/^typedef int32_t       GLsizei;$/;"	t
+GLsizeiptr	src/wb_gl.h	/^typedef ptrdiff_t     GLsizeiptr;$/;"	t
+GLsizeiptr	src/wb_gl_loader.h	/^typedef ptrdiff_t     GLsizeiptr;$/;"	t
+GLsync	src/wb_gl.h	/^typedef struct __GLsync *GLsync;$/;"	t	typeref:struct:__GLsync
+GLsync	src/wb_gl_loader.h	/^typedef void *GLsync;$/;"	t
+GLubyte	src/wb_gl.h	/^typedef unsigned char GLubyte;$/;"	t
+GLubyte	src/wb_gl_loader.h	/^typedef uint8_t       GLubyte;$/;"	t
+GLubyte	src/wb_gl_loader.h	/^typedef unsigned char GLubyte;$/;"	t
+GLuint	src/wb_gl.h	/^typedef unsigned int  GLuint;$/;"	t
+GLuint	src/wb_gl_loader.h	/^typedef uint32_t      GLuint;$/;"	t
+GLuint	src/wb_gl_loader.h	/^typedef unsigned int  GLuint;$/;"	t
+GLuint64	src/wb_gl.h	/^typedef unsigned long long GLuint64;$/;"	t
+GLuint64	src/wb_gl_loader.h	/^typedef uint64_t GLuint64;$/;"	t
+GLuint64	src/wb_gl_loader.h	/^typedef unsigned long long GLuint64;$/;"	t
+GLushort	src/wb_gl.h	/^typedef unsigned short int     GLushort;$/;"	t
+GLushort	src/wb_gl_loader.h	/^typedef uint16_t      GLushort;$/;"	t
+GLvoid	src/wb_gl.h	/^typedef void          GLvoid;$/;"	t
+GLvoid	src/wb_gl_loader.h	/^typedef void          GLvoid;$/;"	t
+Game	src/main.cc	/^} Game;$/;"	v	typeref:struct:__anon1
+HW_MEMSIZE	src/wb_alloc.h	742;"	d
+HW_PAGESIZE	src/wb_alloc.h	740;"	d
+HW_PHYSMEM	src/wb_alloc.h	741;"	d
+LPSYSTEM_INFO	src/wb_alloc.h	/^} SYSTEM_INFO, *LPSYSTEM_INFO;$/;"	t	typeref:struct:_SYSTEM_INFO
+LPVOID	src/wb_alloc.h	/^typedef void* LPVOID;$/;"	t
+Light	src/main.c	/^} Light;$/;"	t	typeref:struct:__anon1	file:
+MAP_ANON	src/wb_alloc.h	676;"	d
+MAP_ANON	src/wb_alloc.h	699;"	d
+MAP_FIXED	src/wb_alloc.h	675;"	d
+MAP_FIXED	src/wb_alloc.h	698;"	d
+MAP_PRIVATE	src/wb_alloc.h	674;"	d
+MAP_PRIVATE	src/wb_alloc.h	697;"	d
+MAP_SHARED	src/wb_alloc.h	673;"	d
+MAP_SHARED	src/wb_alloc.h	696;"	d
+MEM_COMMIT	src/wb_alloc.h	570;"	d
+MEM_DECOMMIT	src/wb_alloc.h	580;"	d
+MEM_RELEASE	src/wb_alloc.h	581;"	d
+MEM_RESERVE	src/wb_alloc.h	571;"	d
+MS_ASYNC	src/wb_alloc.h	678;"	d
+MS_ASYNC	src/wb_alloc.h	701;"	d
+MS_INVALIDATE	src/wb_alloc.h	679;"	d
+MS_INVALIDATE	src/wb_alloc.h	702;"	d
+MS_SYNC	src/wb_alloc.h	677;"	d
+MS_SYNC	src/wb_alloc.h	700;"	d
+Math_DegToRad	src/render.c	1;"	d	file:
+Math_DegToRad	src/render_util.c	1;"	d	file:
+MemoryArena	src/wb_alloc.h	/^struct MemoryArena$/;"	s
+MemoryArena	src/wb_alloc.h	/^typedef struct MemoryArena MemoryArena;$/;"	t	typeref:struct:MemoryArena
+MemoryInfo	src/wb_alloc.h	/^struct MemoryInfo$/;"	s
+MemoryInfo	src/wb_alloc.h	/^typedef struct MemoryInfo MemoryInfo;$/;"	t	typeref:struct:MemoryInfo
+MemoryPool	src/wb_alloc.h	/^struct MemoryPool$/;"	s
+MemoryPool	src/wb_alloc.h	/^typedef struct MemoryPool MemoryPool;$/;"	t	typeref:struct:MemoryPool
+None	src/wb_alloc.h	224;"	d
+PAGE_EXECUTE	src/wb_alloc.h	572;"	d
+PAGE_EXECUTE_READ	src/wb_alloc.h	573;"	d
+PAGE_EXECUTE_READWRITE	src/wb_alloc.h	574;"	d
+PAGE_EXECUTE_WRITECOPY	src/wb_alloc.h	575;"	d
+PAGE_NOACCESS	src/wb_alloc.h	576;"	d
+PAGE_READONLY	src/wb_alloc.h	577;"	d
+PAGE_READWRITE	src/wb_alloc.h	578;"	d
+PAGE_WRITECOPY	src/wb_alloc.h	579;"	d
+PROT_EXEC	src/wb_alloc.h	672;"	d
+PROT_EXEC	src/wb_alloc.h	694;"	d
+PROT_NONE	src/wb_alloc.h	669;"	d
+PROT_NONE	src/wb_alloc.h	695;"	d
+PROT_READ	src/wb_alloc.h	670;"	d
+PROT_READ	src/wb_alloc.h	692;"	d
+PROT_WRITE	src/wb_alloc.h	671;"	d
+PROT_WRITE	src/wb_alloc.h	693;"	d
+PULONGLONG	src/wb_alloc.h	/^typedef unsigned long long* PULONGLONG;$/;"	t
+Read	src/wb_alloc.h	225;"	d
+STB_IMAGE_IMPLEMENTATION	src/main.c	27;"	d	file:
+STB_IMAGE_IMPLEMENTATION	src/main.cc	8;"	d	file:
+STB_IMAGE_ONLY_PNG	src/main.c	28;"	d	file:
+STB_IMAGE_ONLY_PNG	src/main.cc	9;"	d	file:
+SYSTEM_INFO	src/wb_alloc.h	/^} SYSTEM_INFO, *LPSYSTEM_INFO;$/;"	t	typeref:struct:_SYSTEM_INFO
+Shader	src/render.c	/^struct Shader $/;"	s	file:
+Shader	src/render.c	/^typedef struct Shader Shader;$/;"	t	typeref:struct:Shader	file:
+Shader	src/render_util.c	/^struct Shader $/;"	s	file:
+Shader	src/render_util.c	/^typedef struct Shader Shader;$/;"	t	typeref:struct:Shader	file:
+TaggedHeap	src/wb_alloc.h	/^struct TaggedHeap$/;"	s
+TaggedHeap	src/wb_alloc.h	/^typedef struct TaggedHeap TaggedHeap;$/;"	t	typeref:struct:TaggedHeap
+Texture	src/render.c	/^struct Texture$/;"	s	file:
+Texture	src/render.c	/^typedef struct Texture Texture;$/;"	t	typeref:struct:Texture	file:
+Texture	src/render_util.c	/^struct Texture$/;"	s	file:
+Texture	src/render_util.c	/^typedef struct Texture Texture;$/;"	t	typeref:struct:Texture	file:
+WBGL_API	src/wb_gl.h	10;"	d
+WBGL_LOAD_PROC_NAME	src/wb_gl.h	14;"	d
+WBGL_MAX_ERRORS	src/wb_gl.h	2975;"	d
+WB_GL_GLPROC_API	src/wb_gl_loader.h	101;"	d
+WB_GL_GLPROC_API	src/wb_gl_loader.h	92;"	d
+WB_GL_LOADER_API	src/wb_gl_loader.h	104;"	d
+WB_GL_LOADER_API	src/wb_gl_loader.h	95;"	d
+WB_GL_LOADER_IMPLEMENTATION	src/main.c	36;"	d	file:
+WB_GL_LOADER_IMPLEMENTATION	src/main.cc	14;"	d	file:
+WB_GL_MAX_ERRORS	src/wb_gl_loader.h	160;"	d
+WB_GL_SDL	src/main.c	35;"	d	file:
+WB_GL_SDL	src/main.cc	13;"	d	file:
+WB_GL_USE_ALL_VERSIONS	src/main.c	37;"	d	file:
+WB_GL_USE_ALL_VERSIONS	src/main.cc	15;"	d	file:
+WB_GL_USE_COMPAT	src/wb_gl_loader.h	84;"	d
+WB_GL_USE_CORE	src/wb_gl_loader.h	85;"	d
+WB_GL_USE_LEGACY	src/wb_gl_loader.h	83;"	d
+WB_GL_USE_MODERN	src/wb_gl_loader.h	86;"	d
+WB_GL__GLPROC	src/wb_gl_loader.h	1066;"	d
+WB_GL__GLPROC	src/wb_gl_loader.h	1082;"	d
+WB_GL__GLPROC	src/wb_gl_loader.h	1086;"	d
+WB_GL__GLPROC	src/wb_gl_loader.h	1101;"	d
+WB_GL__GLPROC	src/wb_gl_loader.h	1118;"	d
+WB_GL__PROC_LIST_COMPAT	src/wb_gl_loader.h	564;"	d
+WB_GL__PROC_LIST_CORE	src/wb_gl_loader.h	663;"	d
+WB_GL__PROC_LIST_LEGACY	src/wb_gl_loader.h	360;"	d
+WB_GL__PROC_LIST_MODERN	src/wb_gl_loader.h	743;"	d
+WB_GL__WGLPROC	src/wb_gl_loader.h	216;"	d
+WB_GL__WGLPROC	src/wb_gl_loader.h	218;"	d
+WB_GL__WGLPROC	src/wb_gl_loader.h	288;"	d
+WB_GL__WGLPROC	src/wb_gl_loader.h	290;"	d
+WB_GL__WGL_PROC_LIST	src/wb_gl_loader.h	211;"	d
+WGL_ACCELERATION_ARB	src/wb_gl_loader.h	221;"	d
+WGL_ACCELERATION_ARB	src/wb_gl_loader.h	222;"	d
+WGL_COLOR_BITS_ARB	src/wb_gl_loader.h	231;"	d
+WGL_CONTEXT_COMPATIBILITY_PROFILE_BIT_ARB	src/wb_gl_loader.h	229;"	d
+WGL_CONTEXT_CORE_PROFILE_BIT_ARB	src/wb_gl_loader.h	228;"	d
+WGL_CONTEXT_FLAGS_ARB	src/wb_gl_loader.h	236;"	d
+WGL_CONTEXT_MAJOR_VERSION_ARB	src/wb_gl_loader.h	234;"	d
+WGL_CONTEXT_MINOR_VERSION_ARB	src/wb_gl_loader.h	235;"	d
+WGL_CONTEXT_PROFILE_MASK_ARB	src/wb_gl_loader.h	237;"	d
+WGL_DEPTH_BITS_ARB	src/wb_gl_loader.h	232;"	d
+WGL_DOUBLE_BUFFER_ARB	src/wb_gl_loader.h	225;"	d
+WGL_DRAW_TO_WINDOW_ARB	src/wb_gl_loader.h	220;"	d
+WGL_FULL_ACCELERATION_ARB	src/wb_gl_loader.h	223;"	d
+WGL_PIXEL_TYPE_ARB	src/wb_gl_loader.h	226;"	d
+WGL_SAMPLE_BUFFERS_ARB	src/wb_gl_loader.h	230;"	d
+WGL_STENCIL_BITS_ARB	src/wb_gl_loader.h	233;"	d
+WGL_SUPPORT_OPENGL_ARB	src/wb_gl_loader.h	224;"	d
+WGL_TYPE_RGBA_ARB	src/wb_gl_loader.h	227;"	d
+WINAPI	src/wb_alloc.h	509;"	d
+WORD	src/wb_alloc.h	/^typedef unsigned short WORD;$/;"	t
+Write	src/wb_alloc.h	226;"	d
+_In_	src/wb_alloc.h	512;"	d
+_In_opt_	src/wb_alloc.h	514;"	d
+_Out_	src/wb_alloc.h	513;"	d
+_SC_PAGESIZE	src/wb_alloc.h	683;"	d
+_SC_PAGESIZE	src/wb_alloc.h	706;"	d
+_SYSTEM_INFO	src/wb_alloc.h	/^typedef struct _SYSTEM_INFO {$/;"	s
+_f	src/wb_alloc.h	/^	char _f[20-2*sizeof(long)-sizeof(int)];$/;"	m	struct:sysinfo
+addLight	src/main.c	/^void addLight(f32 x, f32 y, f32 z, f32 r, f32 g, f32 b)$/;"	f
+align	src/wb_alloc.h	/^	isize align;$/;"	m	struct:MemoryArena
+align	src/wb_alloc.h	/^	usize arenaSize, align;$/;"	m	struct:TaggedHeap
+alignTo	src/wb_alloc.h	/^isize alignTo(usize x, usize align)$/;"	f
+alloc	src/wb_alloc.h	/^	MemoryArena* alloc;$/;"	m	struct:MemoryPool
+arenaBootstrap	src/wb_alloc.h	/^MemoryArena* arenaBootstrap(MemoryInfo info, isize flags)$/;"	f
+arenaClear	src/wb_alloc.h	/^void arenaClear(MemoryArena* arena)$/;"	f
+arenaDestroy	src/wb_alloc.h	/^void arenaDestroy(MemoryArena* arena)$/;"	f
+arenaEndTemp	src/wb_alloc.h	/^void arenaEndTemp(MemoryArena* arena)$/;"	f
+arenaFixedSizeBootstrap	src/wb_alloc.h	/^MemoryArena* arenaFixedSizeBootstrap(void* buffer, usize size,$/;"	f
+arenaFixedSizeInit	src/wb_alloc.h	/^void arenaFixedSizeInit(MemoryArena* arena, $/;"	f
+arenaInit	src/wb_alloc.h	/^void arenaInit(MemoryArena* arena, MemoryInfo info, isize flags)$/;"	f
+arenaPop	src/wb_alloc.h	/^void arenaPop(MemoryArena* arena)$/;"	f
+arenaPush	src/wb_alloc.h	/^T* arenaPush(MemoryArena* arena)$/;"	f
+arenaPush	src/wb_alloc.h	/^void* arenaPush(MemoryArena* arena, isize size)$/;"	f
+arenaPushEx	src/wb_alloc.h	/^T* arenaPushEx(MemoryArena* arena, $/;"	f
+arenaPushEx	src/wb_alloc.h	/^void* arenaPushEx(MemoryArena* arena, isize size, $/;"	f
+arenaSize	src/wb_alloc.h	/^	usize arenaSize, align;$/;"	m	struct:TaggedHeap
+arenaStartTemp	src/wb_alloc.h	/^void arenaStartTemp(MemoryArena* arena)$/;"	f
+arenas	src/wb_alloc.h	/^	wbi__TaggedHeapArena* arenas[ALLOC_TAGGEDHEAP_MAX_TAG_COUNT];$/;"	m	struct:TaggedHeap
+brng	src/tilemap.c	/^float brng()$/;"	f
+buffer	src/wb_alloc.h	/^	char buffer;$/;"	m	struct:wbi__TaggedHeapArena
+bufferMemory	src/wb_alloc.h	/^	wbi__u64 bufferMemory;$/;"	m	struct:sysinfo
+buildModelFromMeshesRecursively	src/wb_fbx.cc	/^void buildModelFromMeshesRecursively($/;"	f	file:
+calcTaggedHeapSize	src/wb_alloc.h	/^isize calcTaggedHeapSize(isize arenaSize, isize arenaCount,$/;"	f
+capacity	src/wb_alloc.h	/^	isize count, capacity;$/;"	m	struct:MemoryPool
+clamp	src/vmath.c	55;"	d	file:
+clearMatrix4	src/render.c	/^void clearMatrix4(f32* matrix)$/;"	f	file:
+clearMatrix4	src/render_util.c	/^void clearMatrix4(f32* matrix)$/;"	f	file:
+color	src/main.c	/^	float color[4];$/;"	m	struct:__anon1	file:
+commitFlags	src/wb_alloc.h	/^	isize commitFlags;$/;"	m	struct:MemoryInfo
+commitSize	src/wb_alloc.h	/^	usize totalMemory, commitSize, pageSize;$/;"	m	struct:MemoryInfo
+count	src/wb_alloc.h	/^	isize count, capacity;$/;"	m	struct:MemoryPool
+count	src/wb_fbx.cc	/^	ptrdiff_t count;$/;"	m	struct:__anon4	file:
+countMeshesRecursively	src/wb_fbx.cc	/^void countMeshesRecursively(FbxNode* node, isize* meshCount)$/;"	f	file:
+createShader	src/render.c	/^void createShader(Shader* shader, string vertSrc, string fragSrc)$/;"	f
+createShader	src/render_util.c	/^void createShader(Shader* shader, string vertSrc, string fragSrc)$/;"	f
+diffuse	src/wb_fbx.cc	/^	unsigned int diffuse, normal, pbr, emissive;$/;"	m	struct:__anon3	file:
+disabled	windows.mak	/^disabled=\/wd4477\\$/;"	m
+dwActiveProcessorMask	src/wb_alloc.h	/^  DWORD_PTR dwActiveProcessorMask;$/;"	m	struct:_SYSTEM_INFO
+dwAllocationGranularity	src/wb_alloc.h	/^  DWORD     dwAllocationGranularity;$/;"	m	struct:_SYSTEM_INFO
+dwNumberOfProcessors	src/wb_alloc.h	/^  DWORD     dwNumberOfProcessors;$/;"	m	struct:_SYSTEM_INFO
+dwOemId	src/wb_alloc.h	/^    DWORD  dwOemId;$/;"	m	union:_SYSTEM_INFO::__anon1
+dwPageSize	src/wb_alloc.h	/^  DWORD     dwPageSize;$/;"	m	struct:_SYSTEM_INFO
+dwProcessorType	src/wb_alloc.h	/^  DWORD     dwProcessorType;$/;"	m	struct:_SYSTEM_INFO
+elementSize	src/wb_alloc.h	/^	usize elementSize; $/;"	m	struct:MemoryPool
+emissive	src/wb_fbx.cc	/^	unsigned int diffuse, normal, pbr, emissive;$/;"	m	struct:__anon3	file:
+end	src/wb_alloc.h	/^	void *head, *end;$/;"	m	struct:wbi__TaggedHeapArena
+end	src/wb_alloc.h	/^	void *start, *head, *end;$/;"	m	struct:MemoryArena
+error_count	src/wb_gl.h	/^	int error_count;$/;"	m	struct:wbgl_ErrorContext
+error_count	src/wb_gl_loader.h	/^	int error_count;$/;"	m	struct:wbgl_ErrorContext
+f32	src/main.c	/^typedef float f32;$/;"	t	file:
+f32	src/main.cc	/^typedef float f32;$/;"	t	file:
+f32	src/wb_fbx.cc	/^typedef float f32;$/;"	t	file:
+f64	src/main.cc	/^typedef double f64;$/;"	t	file:
+failed	src/wb_gl.h	/^	const char* failed[WBGL_MAX_ERRORS];$/;"	m	struct:wbgl_ErrorContext
+failed	src/wb_gl_loader.h	/^	const char* failed[WB_GL_MAX_ERRORS];$/;"	m	struct:wbgl_ErrorContext
+failed_size	src/wb_gl.h	/^	int failed_size;$/;"	m	struct:wbgl_ErrorContext
+failed_size	src/wb_gl_loader.h	/^	int failed_size;$/;"	m	struct:wbgl_ErrorContext
+fbxsdkinclude	windows.mak	/^fbxsdkinclude="C:\\Program Files\\Autodesk\\FBX\\FBX SDK\\2019.0\\include"$/;"	m
+fbxsdklib	windows.mak	/^fbxsdklib="C:\\Program Files\\Autodesk\\FBX\\FBX SDK\\2019.0\\lib\\vs2015\\x64\\release"$/;"	m
+filename	src/render.c	/^	string filename;$/;"	m	struct:Texture	file:
+filename	src/render_util.c	/^	string filename;$/;"	m	struct:Texture	file:
+flags	src/wb_alloc.h	/^	isize flags;$/;"	m	struct:MemoryArena
+flags	src/wb_alloc.h	/^	isize flags;$/;"	m	struct:MemoryPool
+flags	src/wb_alloc.h	/^	isize flags;$/;"	m	struct:TaggedHeap
+frag	src/render.c	/^	u32 program, vert, frag;$/;"	m	struct:Shader	file:
+frag	src/render_util.c	/^	u32 program, vert, frag;$/;"	m	struct:Shader	file:
+frag3d	src/shaders.h	/^const char* frag3d = "" "#version 330\\n"$/;"	v
+fragSrc	src/render.c	/^	string vertSrc, fragSrc;$/;"	m	struct:Shader	file:
+fragSrc	src/render_util.c	/^	string vertSrc, fragSrc;$/;"	m	struct:Shader	file:
+freeHigh	src/wb_alloc.h	/^	wbi__u64 freeHigh;$/;"	m	struct:sysinfo
+freeList	src/wb_alloc.h	/^	void** freeList;$/;"	m	struct:MemoryPool
+freeMemory	src/wb_alloc.h	/^	wbi__u64 freeMemory;$/;"	m	struct:sysinfo
+freeSwap	src/wb_alloc.h	/^	wbi__u64 freeSwap;$/;"	m	struct:sysinfo
+getMemoryInfo	src/wb_alloc.h	/^MemoryInfo getMemoryInfo()$/;"	f
+glattr	src/main.c	163;"	d	file:
+glattr	src/main.cc	102;"	d	file:
+grassRects	src/tilemap.c	/^rect2 grassRects[] = {$/;"	v
+h	src/render.c	/^	i32 w, h;$/;"	m	struct:Texture	file:
+h	src/render_util.c	/^	i32 w, h;$/;"	m	struct:Texture	file:
+h	src/vmath.c	/^	f32 x, y, w, h;$/;"	m	struct:rect2	file:
+head	src/wb_alloc.h	/^	void *head, *end;$/;"	m	struct:wbi__TaggedHeapArena
+head	src/wb_alloc.h	/^	void *start, *head, *end;$/;"	m	struct:MemoryArena
+height	src/main.cc	/^	f32 width, height;$/;"	m	struct:__anon1	file:
+height	src/wb_fbx.cc	/^	int width, height;$/;"	m	struct:__anon3	file:
+i16	src/main.cc	/^typedef int16_t i16;$/;"	t	file:
+i32	src/main.c	/^typedef int32_t i32;$/;"	t	file:
+i32	src/main.cc	/^typedef int32_t i32;$/;"	t	file:
+i64	src/main.cc	/^typedef int64_t i64;$/;"	t	file:
+i8	src/main.cc	/^typedef int8_t i8;$/;"	t	file:
+id	src/render.c	/^	u32 id;$/;"	m	struct:Texture	file:
+id	src/render_util.c	/^	u32 id;$/;"	m	struct:Texture	file:
+identityMatrix4	src/render.c	/^void identityMatrix4(f32* matrix)$/;"	f	file:
+identityMatrix4	src/render_util.c	/^void identityMatrix4(f32* matrix)$/;"	f	file:
+indexCounts	src/wb_fbx.cc	/^	ptrdiff_t* indexCounts;$/;"	m	struct:__anon4	file:
+indices	src/wb_fbx.cc	/^	unsigned int** indices;$/;"	m	struct:__anon4	file:
+info	src/wb_alloc.h	/^	MemoryInfo info;$/;"	m	struct:MemoryArena
+info	src/wb_alloc.h	/^	MemoryInfo info;$/;"	m	struct:TaggedHeap
+isize	src/main.c	/^typedef ptrdiff_t isize;$/;"	t	file:
+isize	src/main.cc	/^typedef ptrdiff_t isize;$/;"	t	file:
+isize	src/wb_alloc.h	/^typedef isize isize;$/;"	t
+isize	src/wb_alloc.h	/^typedef ptrdiff_t isize;$/;"	t
+isize	src/wb_fbx.cc	/^typedef ptrdiff_t isize;$/;"	t	file:
+lastFilled	src/wb_alloc.h	/^	isize lastFilled;$/;"	m	struct:MemoryPool
+lightCount	src/main.c	/^	int lightCount;$/;"	m	struct:__anon2	file:
+lights	src/main.c	/^	Light lights[16];$/;"	m	struct:__anon2	file:
+loadTexture	src/render.c	/^Texture* loadTexture(string filename)$/;"	f
+loadTexture	src/render_util.c	/^Texture* loadTexture(string filename)$/;"	f
+loads	src/wb_alloc.h	/^	wbi__u64 loads[3];$/;"	m	struct:sysinfo
+lpMaximumApplicationAddress	src/wb_alloc.h	/^  LPVOID    lpMaximumApplicationAddress;$/;"	m	struct:_SYSTEM_INFO
+lpMinimumApplicationAddress	src/wb_alloc.h	/^  LPVOID    lpMinimumApplicationAddress;$/;"	m	struct:_SYSTEM_INFO
+main	src/main.c	/^int main(int argc, char** argv)$/;"	f
+main	src/main.cc	/^int main(int argc, char** argv)$/;"	f
+makeCamera	src/render.c	/^void makeCamera(Camera* cam, vec3 pos, vec3 target, vec3 up)$/;"	f	file:
+makeCamera	src/render_util.c	/^void makeCamera(Camera* cam, vec3 pos, vec3 target, vec3 up)$/;"	f	file:
+mapColors	src/tilemap.c	/^vec3 mapColors[] = {$/;"	v
+mapTexPos	src/tilemap.c	/^vec2 mapTexPos[] = {$/;"	v
+materials	src/wb_fbx.cc	/^	wfbxMaterialTexture* materials;$/;"	m	struct:__anon4	file:
+memUnit	src/wb_alloc.h	/^	wbi__u32 memUnit;$/;"	m	struct:sysinfo
+meshSizes	src/wb_fbx.cc	/^	ptrdiff_t* meshSizes;$/;"	m	struct:__anon4	file:
+meshes	src/wb_fbx.cc	/^	wfbxVertex** meshes;$/;"	m	struct:__anon4	file:
+mmax	src/vmath.c	54;"	d	file:
+mmin	src/vmath.c	53;"	d	file:
+name	src/wb_alloc.h	/^	const char* name;$/;"	m	struct:MemoryArena
+name	src/wb_alloc.h	/^	const char* name;$/;"	m	struct:MemoryPool
+name	src/wb_alloc.h	/^	const char* name;$/;"	m	struct:TaggedHeap
+next	src/wb_alloc.h	/^	wbi__TaggedHeapArena *next;$/;"	m	struct:wbi__TaggedHeapArena
+normal	src/wb_fbx.cc	/^	float normal[4];$/;"	m	struct:__anon1	file:
+normal	src/wb_fbx.cc	/^	unsigned int diffuse, normal, pbr, emissive;$/;"	m	struct:__anon3	file:
+off_t	src/wb_alloc.h	/^typedef usize off_t;$/;"	t
+orthoMatrix4	src/render.c	/^void orthoMatrix4(f32* matrix, f32 w, f32 h)$/;"	f	file:
+orthoMatrix4	src/render_util.c	/^void orthoMatrix4(f32* matrix, f32 w, f32 h)$/;"	f	file:
+pad	src/wb_alloc.h	/^	wbi__u16 pad;$/;"	m	struct:sysinfo
+pageSize	src/wb_alloc.h	/^	usize totalMemory, commitSize, pageSize;$/;"	m	struct:MemoryInfo
+pbr	src/wb_fbx.cc	/^	unsigned int diffuse, normal, pbr, emissive;$/;"	m	struct:__anon3	file:
+perspectiveMatrix4	src/render.c	/^void perspectiveMatrix4(f32* matrix, f32 aspect, f32 fov, f32 nearPlane, f32 farPlane)$/;"	f	file:
+perspectiveMatrix4	src/render_util.c	/^void perspectiveMatrix4(f32* matrix, f32 aspect, f32 fov, f32 nearPlane, f32 farPlane)$/;"	f	file:
+pixels	src/render.c	/^	u8* pixels;$/;"	m	struct:Texture	file:
+pixels	src/render_util.c	/^	u8* pixels;$/;"	m	struct:Texture	file:
+pool	src/wb_alloc.h	/^	MemoryPool pool;$/;"	m	struct:TaggedHeap
+poolBootstrap	src/wb_alloc.h	/^MemoryPool* poolBootstrap(MemoryInfo info, $/;"	f
+poolBootstrap	src/wb_alloc.h	/^MemoryPool* poolBootstrap(MemoryInfo info,$/;"	f
+poolFixedSizeBootstrap	src/wb_alloc.h	/^MemoryPool* poolFixedSizeBootstrap($/;"	f
+poolInit	src/wb_alloc.h	/^void poolInit($/;"	f
+poolInit	src/wb_alloc.h	/^void poolInit(MemoryPool* pool, MemoryArena* alloc, $/;"	f
+poolRelease	src/wb_alloc.h	/^void poolRelease(MemoryPool* pool, T* ptr)$/;"	f
+poolRelease	src/wb_alloc.h	/^void poolRelease(MemoryPool* pool, void* ptr)$/;"	f
+poolRetrieve	src/wb_alloc.h	/^T* poolRetrieve(MemoryPool* pool)$/;"	f
+poolRetrieve	src/wb_alloc.h	/^void* poolRetrieve(MemoryPool* pool)$/;"	f
+pos	src/main.c	/^	float pos[4];$/;"	m	struct:__anon1	file:
+pos	src/render.c	/^	vec3 pos, target, up;$/;"	m	struct:Camera	file:
+pos	src/render_util.c	/^	vec3 pos, target, up;$/;"	m	struct:Camera	file:
+pos	src/wb_fbx.cc	/^	float pos[4];$/;"	m	struct:__anon1	file:
+printGLProgramError	src/render.c	/^void printGLProgramError(u32 program, string header)$/;"	f
+printGLProgramError	src/render_util.c	/^void printGLProgramError(u32 program, string header)$/;"	f
+printShaderError	src/render.c	/^void printShaderError(u32 shader, string header)$/;"	f
+printShaderError	src/render_util.c	/^void printShaderError(u32 shader, string header)$/;"	f
+procs	src/wb_alloc.h	/^	wbi__u16 procs;$/;"	m	struct:sysinfo
+program	src/render.c	/^	u32 program, vert, frag;$/;"	m	struct:Shader	file:
+program	src/render_util.c	/^	u32 program, vert, frag;$/;"	m	struct:Shader	file:
+r2	src/vmath.c	/^rect2 r2(vec2 pos, f32 w, f32 h)$/;"	f
+r2bl	src/vmath.c	87;"	d	file:
+r2br	src/vmath.c	88;"	d	file:
+r2tl	src/vmath.c	85;"	d	file:
+r2tr	src/vmath.c	86;"	d	file:
+rect2	src/vmath.c	/^struct rect2$/;"	s	file:
+rect2	src/vmath.c	/^typedef struct rect2 rect2;$/;"	t	typeref:struct:rect2	file:
+rect2x1	src/vmath.c	80;"	d	file:
+rect2x2	src/vmath.c	81;"	d	file:
+rect2y1	src/vmath.c	82;"	d	file:
+rect2y2	src/vmath.c	83;"	d	file:
+renderMap	src/tilemap.c	/^void renderMap(RenderContext* ctx, i32 width, i32 height, string map, vec3 offset, f32 scale)$/;"	f
+renderMapCards	src/tilemap.c	/^void renderMapCards(RenderContext* kc, i32 width, i32 height, string map, vec3 offset, f32 scale)$/;"	f
+rng	src/tilemap.c	/^float rng()$/;"	f
+rotation	src/wb_fbx.cc	/^	float rotation[3];$/;"	m	struct:__anon2	file:
+rrange	src/tilemap.c	/^i32 rrange(i32 a, i32 b)$/;"	f
+scale	src/wb_fbx.cc	/^	float scale[3];$/;"	m	struct:__anon2	file:
+scene	src/main.c	/^} scene;$/;"	v	typeref:struct:__anon2
+sharedMemory	src/wb_alloc.h	/^	wbi__u64 sharedMemory;$/;"	m	struct:sysinfo
+slots	src/wb_alloc.h	/^	void* slots;$/;"	m	struct:MemoryPool
+start	src/wb_alloc.h	/^	void *start, *head, *end;$/;"	m	struct:MemoryArena
+string	src/main.c	/^typedef const char* string;$/;"	t	file:
+string	src/main.cc	/^typedef const char* string;$/;"	t	file:
+sysinfo	src/wb_alloc.h	/^int __cdecl sysinfo(struct sysinfo* info)$/;"	f
+sysinfo	src/wb_alloc.h	/^struct sysinfo $/;"	s
+tag	src/wb_alloc.h	/^	isize tag;$/;"	m	struct:wbi__TaggedHeapArena
+taggedAlloc	src/wb_alloc.h	/^T* taggedAlloc(TaggedHeap* heap, isize tag)$/;"	f
+taggedAlloc	src/wb_alloc.h	/^void* taggedAlloc(TaggedHeap* heap, isize tag, usize size)$/;"	f
+taggedBootstrap	src/wb_alloc.h	/^TaggedHeap* taggedBootstrap(MemoryInfo info, $/;"	f
+taggedFixedSizeBootstrap	src/wb_alloc.h	/^TaggedHeap* taggedFixedSizeBootstrap($/;"	f
+taggedFree	src/wb_alloc.h	/^void taggedFree(TaggedHeap* heap, isize tag)$/;"	f
+taggedInit	src/wb_alloc.h	/^void taggedInit(TaggedHeap* heap, MemoryArena* arena, $/;"	f
+target	src/render.c	/^	vec3 pos, target, up;$/;"	m	struct:Camera	file:
+target	src/render_util.c	/^	vec3 pos, target, up;$/;"	m	struct:Camera	file:
+tempHead	src/wb_alloc.h	/^	void *tempStart, *tempHead;$/;"	m	struct:MemoryArena
+tempStart	src/wb_alloc.h	/^	void *tempStart, *tempHead;$/;"	m	struct:MemoryArena
+tilemap	src/tilemap.c	/^string tilemap = $/;"	v
+totalHigh	src/wb_alloc.h	/^	wbi__u64 totalHigh;$/;"	m	struct:sysinfo
+totalMemory	src/wb_alloc.h	/^	usize totalMemory, commitSize, pageSize;$/;"	m	struct:MemoryInfo
+totalSwap	src/wb_alloc.h	/^	wbi__u64 totalSwap;$/;"	m	struct:sysinfo
+totalram	src/wb_alloc.h	/^	wbi__u64 totalram;$/;"	m	struct:sysinfo
+transforms	src/wb_fbx.cc	/^	wfbxTransform* transforms;$/;"	m	struct:__anon4	file:
+translate	src/render.c	/^	vec3 xaxis, yaxis, zaxis, translate;$/;"	m	struct:Camera	file:
+translate	src/render_util.c	/^	vec3 xaxis, yaxis, zaxis, translate;$/;"	m	struct:Camera	file:
+translation	src/wb_fbx.cc	/^	float translation[3];$/;"	m	struct:__anon2	file:
+u16	src/main.cc	/^typedef uint16_t u16;$/;"	t	file:
+u32	src/main.c	/^typedef uint32_t u32;$/;"	t	file:
+u32	src/main.cc	/^typedef uint32_t u32;$/;"	t	file:
+u32	src/wb_fbx.cc	/^typedef unsigned int u32;$/;"	t	file:
+u64	src/main.cc	/^typedef uint64_t u64;$/;"	t	file:
+u8	src/main.c	/^typedef uint8_t u8;$/;"	t	file:
+u8	src/main.cc	/^typedef uint8_t u8;$/;"	t	file:
+up	src/render.c	/^	vec3 pos, target, up;$/;"	m	struct:Camera	file:
+up	src/render_util.c	/^	vec3 pos, target, up;$/;"	m	struct:Camera	file:
+uploadTextureToGpu	src/render.c	/^void uploadTextureToGpu(Texture* texture)$/;"	f
+uploadTextureToGpu	src/render_util.c	/^void uploadTextureToGpu(Texture* texture)$/;"	f
+uptime	src/wb_alloc.h	/^	wbi__i64 uptime;$/;"	m	struct:sysinfo
+usize	src/main.cc	/^typedef size_t usize;$/;"	t	file:
+usize	src/wb_alloc.h	/^typedef size_t usize;$/;"	t
+uv	src/wb_fbx.cc	/^	float uv[2];$/;"	m	struct:__anon1	file:
+v2	src/vmath.c	/^vec2 v2(f32 x, f32 y)$/;"	f
+v3	src/render.c	/^vec3 v3(f32 x, f32 y, f32 z)$/;"	f	file:
+v3	src/render_util.c	/^vec3 v3(f32 x, f32 y, f32 z)$/;"	f	file:
+v3Add	src/vmath.c	/^vec3 v3Add(vec3 a, vec3 b)$/;"	f
+v3AddScaled	src/vmath.c	/^vec3 v3AddScaled(vec3 a, vec3 b, f32 s)$/;"	f
+v3Cross	src/render.c	/^vec3 v3Cross(vec3 a, vec3 b)$/;"	f	file:
+v3Cross	src/render_util.c	/^vec3 v3Cross(vec3 a, vec3 b)$/;"	f	file:
+v3Dot	src/render.c	/^f32 v3Dot(vec3 a, vec3 b)$/;"	f	file:
+v3Dot	src/render_util.c	/^f32 v3Dot(vec3 a, vec3 b)$/;"	f	file:
+v3Normalize	src/render.c	/^vec3 v3Normalize(vec3 v)$/;"	f	file:
+v3Normalize	src/render_util.c	/^vec3 v3Normalize(vec3 v)$/;"	f	file:
+v3Print	src/vmath.c	/^void v3Print(string name, vec3 v, string suffix)$/;"	f
+v3Scale	src/vmath.c	/^vec3 v3Scale(vec3 a, f32 s)$/;"	f
+v3ScaleClamp	src/vmath.c	/^vec3 v3ScaleClamp(vec3 a, f32 s)$/;"	f
+v3Sub	src/render.c	/^vec3 v3Sub(vec3 a, vec3 b)$/;"	f	file:
+v3Sub	src/render_util.c	/^vec3 v3Sub(vec3 a, vec3 b)$/;"	f	file:
+v3Sub	src/vmath.c	/^vec3 v3Sub(vec3 a, vec3 b)$/;"	f
+v3SwapYZ	src/vmath.c	/^vec3 v3SwapYZ(vec3 a)$/;"	f
+vec2	src/vmath.c	/^struct vec2$/;"	s	file:
+vec2	src/vmath.c	/^typedef struct vec2 vec2;$/;"	t	typeref:struct:vec2	file:
+vec3	src/render.c	/^struct vec3$/;"	s	file:
+vec3	src/render.c	/^typedef struct vec3 vec3;$/;"	t	typeref:struct:vec3	file:
+vec3	src/render_util.c	/^struct vec3$/;"	s	file:
+vec3	src/render_util.c	/^typedef struct vec3 vec3;$/;"	t	typeref:struct:vec3	file:
+vec3	src/vmath.c	/^typedef struct vec3 vec3;$/;"	t	typeref:struct:vec3	file:
+vert	src/render.c	/^	u32 program, vert, frag;$/;"	m	struct:Shader	file:
+vert	src/render_util.c	/^	u32 program, vert, frag;$/;"	m	struct:Shader	file:
+vertSrc	src/render.c	/^	string vertSrc, fragSrc;$/;"	m	struct:Shader	file:
+vertSrc	src/render_util.c	/^	string vertSrc, fragSrc;$/;"	m	struct:Shader	file:
+viewMatrix4	src/render.c	/^void viewMatrix4(f32* matrix, Camera* cam)$/;"	f	file:
+viewMatrix4	src/render_util.c	/^void viewMatrix4(f32* matrix, Camera* cam)$/;"	f	file:
+voffset	src/main.c	269;"	d	file:
+voffset	src/main.cc	198;"	d	file:
+w	src/render.c	/^	i32 w, h;$/;"	m	struct:Texture	file:
+w	src/render_util.c	/^	i32 w, h;$/;"	m	struct:Texture	file:
+w	src/vmath.c	/^	f32 x, y, w, h;$/;"	m	struct:rect2	file:
+wProcessorArchitecture	src/wb_alloc.h	/^      WORD wProcessorArchitecture;$/;"	m	struct:_SYSTEM_INFO::__anon1::__anon2
+wProcessorLevel	src/wb_alloc.h	/^  WORD      wProcessorLevel;$/;"	m	struct:_SYSTEM_INFO
+wProcessorRevision	src/wb_alloc.h	/^  WORD      wProcessorRevision;$/;"	m	struct:_SYSTEM_INFO
+wReserved	src/wb_alloc.h	/^      WORD wReserved;$/;"	m	struct:_SYSTEM_INFO::__anon1::__anon2
+wbgl_ErrorContext	src/wb_gl.h	/^struct wbgl_ErrorContext$/;"	s
+wbgl_ErrorContext	src/wb_gl_loader.h	/^struct wbgl_ErrorContext$/;"	s
+wbgl_GLPROC	src/wb_gl.h	2814;"	d
+wbgl_GLPROC	src/wb_gl.h	2891;"	d
+wbgl_GLPROC	src/wb_gl.h	2895;"	d
+wbgl_GLPROC	src/wb_gl.h	2971;"	d
+wbgl_GLPROC	src/wb_gl.h	3060;"	d
+wbgl_USE_GL_VERSION_1_0	src/wb_gl.h	103;"	d
+wbgl_USE_GL_VERSION_1_0	src/wb_gl.h	160;"	d
+wbgl_USE_GL_VERSION_1_0	src/wb_gl.h	226;"	d
+wbgl_USE_GL_VERSION_1_0	src/wb_gl.h	64;"	d
+wbgl_USE_GL_VERSION_1_1	src/wb_gl.h	100;"	d
+wbgl_USE_GL_VERSION_1_1	src/wb_gl.h	157;"	d
+wbgl_USE_GL_VERSION_1_1	src/wb_gl.h	202;"	d
+wbgl_USE_GL_VERSION_1_1	src/wb_gl.h	232;"	d
+wbgl_USE_GL_VERSION_1_1	src/wb_gl.h	61;"	d
+wbgl_USE_GL_VERSION_1_2	src/wb_gl.h	154;"	d
+wbgl_USE_GL_VERSION_1_2	src/wb_gl.h	205;"	d
+wbgl_USE_GL_VERSION_1_2	src/wb_gl.h	238;"	d
+wbgl_USE_GL_VERSION_1_2	src/wb_gl.h	58;"	d
+wbgl_USE_GL_VERSION_1_2	src/wb_gl.h	97;"	d
+wbgl_USE_GL_VERSION_1_3	src/wb_gl.h	151;"	d
+wbgl_USE_GL_VERSION_1_3	src/wb_gl.h	208;"	d
+wbgl_USE_GL_VERSION_1_3	src/wb_gl.h	244;"	d
+wbgl_USE_GL_VERSION_1_3	src/wb_gl.h	55;"	d
+wbgl_USE_GL_VERSION_1_3	src/wb_gl.h	94;"	d
+wbgl_USE_GL_VERSION_1_4	src/wb_gl.h	148;"	d
+wbgl_USE_GL_VERSION_1_4	src/wb_gl.h	211;"	d
+wbgl_USE_GL_VERSION_1_4	src/wb_gl.h	250;"	d
+wbgl_USE_GL_VERSION_1_4	src/wb_gl.h	52;"	d
+wbgl_USE_GL_VERSION_1_4	src/wb_gl.h	91;"	d
+wbgl_USE_GL_VERSION_1_5	src/wb_gl.h	145;"	d
+wbgl_USE_GL_VERSION_1_5	src/wb_gl.h	214;"	d
+wbgl_USE_GL_VERSION_1_5	src/wb_gl.h	256;"	d
+wbgl_USE_GL_VERSION_1_5	src/wb_gl.h	49;"	d
+wbgl_USE_GL_VERSION_1_5	src/wb_gl.h	88;"	d
+wbgl_USE_GL_VERSION_2_0	src/wb_gl.h	142;"	d
+wbgl_USE_GL_VERSION_2_0	src/wb_gl.h	217;"	d
+wbgl_USE_GL_VERSION_2_0	src/wb_gl.h	262;"	d
+wbgl_USE_GL_VERSION_2_0	src/wb_gl.h	46;"	d
+wbgl_USE_GL_VERSION_2_0	src/wb_gl.h	85;"	d
+wbgl_USE_GL_VERSION_2_1	src/wb_gl.h	139;"	d
+wbgl_USE_GL_VERSION_2_1	src/wb_gl.h	220;"	d
+wbgl_USE_GL_VERSION_2_1	src/wb_gl.h	268;"	d
+wbgl_USE_GL_VERSION_2_1	src/wb_gl.h	43;"	d
+wbgl_USE_GL_VERSION_2_1	src/wb_gl.h	82;"	d
+wbgl_USE_GL_VERSION_3_0	src/wb_gl.h	136;"	d
+wbgl_USE_GL_VERSION_3_0	src/wb_gl.h	166;"	d
+wbgl_USE_GL_VERSION_3_0	src/wb_gl.h	274;"	d
+wbgl_USE_GL_VERSION_3_0	src/wb_gl.h	79;"	d
+wbgl_USE_GL_VERSION_3_1	src/wb_gl.h	133;"	d
+wbgl_USE_GL_VERSION_3_1	src/wb_gl.h	169;"	d
+wbgl_USE_GL_VERSION_3_1	src/wb_gl.h	280;"	d
+wbgl_USE_GL_VERSION_3_1	src/wb_gl.h	76;"	d
+wbgl_USE_GL_VERSION_3_2	src/wb_gl.h	130;"	d
+wbgl_USE_GL_VERSION_3_2	src/wb_gl.h	172;"	d
+wbgl_USE_GL_VERSION_3_2	src/wb_gl.h	286;"	d
+wbgl_USE_GL_VERSION_3_2	src/wb_gl.h	73;"	d
+wbgl_USE_GL_VERSION_3_3	src/wb_gl.h	127;"	d
+wbgl_USE_GL_VERSION_3_3	src/wb_gl.h	175;"	d
+wbgl_USE_GL_VERSION_3_3	src/wb_gl.h	292;"	d
+wbgl_USE_GL_VERSION_3_3	src/wb_gl.h	70;"	d
+wbgl_USE_GL_VERSION_4_0	src/wb_gl.h	124;"	d
+wbgl_USE_GL_VERSION_4_0	src/wb_gl.h	181;"	d
+wbgl_USE_GL_VERSION_4_0	src/wb_gl.h	298;"	d
+wbgl_USE_GL_VERSION_4_1	src/wb_gl.h	121;"	d
+wbgl_USE_GL_VERSION_4_1	src/wb_gl.h	184;"	d
+wbgl_USE_GL_VERSION_4_1	src/wb_gl.h	304;"	d
+wbgl_USE_GL_VERSION_4_2	src/wb_gl.h	118;"	d
+wbgl_USE_GL_VERSION_4_2	src/wb_gl.h	187;"	d
+wbgl_USE_GL_VERSION_4_2	src/wb_gl.h	310;"	d
+wbgl_USE_GL_VERSION_4_3	src/wb_gl.h	115;"	d
+wbgl_USE_GL_VERSION_4_3	src/wb_gl.h	190;"	d
+wbgl_USE_GL_VERSION_4_3	src/wb_gl.h	316;"	d
+wbgl_USE_GL_VERSION_4_4	src/wb_gl.h	112;"	d
+wbgl_USE_GL_VERSION_4_4	src/wb_gl.h	193;"	d
+wbgl_USE_GL_VERSION_4_4	src/wb_gl.h	322;"	d
+wbgl_USE_GL_VERSION_4_5	src/wb_gl.h	109;"	d
+wbgl_USE_GL_VERSION_4_5	src/wb_gl.h	196;"	d
+wbgl_USE_GL_VERSION_4_5	src/wb_gl.h	328;"	d
+wbgl__GLPROC_LIST_GL_VERSION_1_0	src/wb_gl.h	2066;"	d
+wbgl__GLPROC_LIST_GL_VERSION_1_1	src/wb_gl.h	2117;"	d
+wbgl__GLPROC_LIST_GL_VERSION_1_2	src/wb_gl.h	2133;"	d
+wbgl__GLPROC_LIST_GL_VERSION_1_3	src/wb_gl.h	2140;"	d
+wbgl__GLPROC_LIST_GL_VERSION_1_4	src/wb_gl.h	2152;"	d
+wbgl__GLPROC_LIST_GL_VERSION_1_5	src/wb_gl.h	2164;"	d
+wbgl__GLPROC_LIST_GL_VERSION_2_0	src/wb_gl.h	2186;"	d
+wbgl__GLPROC_LIST_GL_VERSION_2_1	src/wb_gl.h	2282;"	d
+wbgl__GLPROC_LIST_GL_VERSION_3_0	src/wb_gl.h	2291;"	d
+wbgl__GLPROC_LIST_GL_VERSION_3_1	src/wb_gl.h	2378;"	d
+wbgl__GLPROC_LIST_GL_VERSION_3_2	src/wb_gl.h	2393;"	d
+wbgl__GLPROC_LIST_GL_VERSION_3_3	src/wb_gl.h	2415;"	d
+wbgl__GLPROC_LIST_GL_VERSION_4_0	src/wb_gl.h	2476;"	d
+wbgl__GLPROC_LIST_GL_VERSION_4_1	src/wb_gl.h	2525;"	d
+wbgl__GLPROC_LIST_GL_VERSION_4_2	src/wb_gl.h	2616;"	d
+wbgl__GLPROC_LIST_GL_VERSION_4_3	src/wb_gl.h	2631;"	d
+wbgl__GLPROC_LIST_GL_VERSION_4_4	src/wb_gl.h	2677;"	d
+wbgl__GLPROC_LIST_GL_VERSION_4_5	src/wb_gl.h	2689;"	d
+wbgl__load_proc	src/wb_gl.h	/^static void* wbgl__load_proc(const char* name, struct wbgl_ErrorContext* ctx, void* userdata) $/;"	f
+wbgl__load_proc	src/wb_gl.h	/^static void* wbgl__load_proc(const char* name, struct wbgl_ErrorContext* ctx, void* userdata)$/;"	f
+wbgl__load_proc	src/wb_gl_loader.h	/^void* wbgl__load_proc(const char* name, struct wbgl_ErrorContext* ctx, void* userdata)$/;"	f
+wbgl__load_proc_error	src/wb_gl.h	/^static void wbgl__load_proc_error(const char* name, struct wbgl_ErrorContext* ctx)$/;"	f
+wbgl__load_proc_error	src/wb_gl_loader.h	/^static void wbgl__load_proc_error(const char* name, struct wbgl_ErrorContext* ctx)$/;"	f
+wbgl_load	src/wb_gl.h	/^int wbgl_load(struct wbgl_ErrorContext* in_ctx)$/;"	f
+wbgl_load_all	src/wb_gl_loader.h	/^int wbgl_load_all(struct wbgl_ErrorContext* in_ctx)$/;"	f
+wbgl_win32_create_context	src/wb_gl_loader.h	/^HGLRC wbgl_win32_create_context(HDC windowDC, int major, int minor, int core)$/;"	f
+wbi__SystemExtern	src/wb_alloc.h	501;"	d
+wbi__SystemExtern	src/wb_alloc.h	503;"	d
+wbi__TaggedHeapArena	src/wb_alloc.h	/^struct wbi__TaggedHeapArena$/;"	s
+wbi__TaggedHeapArena	src/wb_alloc.h	/^typedef struct wbi__TaggedHeapArena wbi__TaggedHeapArena;$/;"	t	typeref:struct:wbi__TaggedHeapArena
+wbi__TaggedHeapSearchSize	src/wb_alloc.h	247;"	d
+wbi__allocateVirtualSpace	src/wb_alloc.h	/^void* wbi__allocateVirtualSpace(usize size)$/;"	f
+wbi__arenaSize	src/wb_alloc.h	1337;"	d
+wbi__arenaSize	src/wb_alloc.h	1352;"	d
+wbi__commitMemory	src/wb_alloc.h	/^void* wbi__commitMemory(void* addr, usize size, isize flags)$/;"	f
+wbi__decommitMemory	src/wb_alloc.h	/^void wbi__decommitMemory(void* addr, usize size)$/;"	f
+wbi__freeAddressSpace	src/wb_alloc.h	/^void wbi__freeAddressSpace(void* addr, usize size)$/;"	f
+wbi__i64	src/wb_alloc.h	/^typedef long int wbi__i64;$/;"	t
+wbi__taggedArenaInit	src/wb_alloc.h	/^void wbi__taggedArenaInit(TaggedHeap* heap, $/;"	f
+wbi__taggedArenaSortBySize	src/wb_alloc.h	/^void wbi__taggedArenaSortBySize(wbi__TaggedHeapArena** array, isize count)$/;"	f
+wbi__u16	src/wb_alloc.h	/^typedef short unsigned int wbi__u16;$/;"	t
+wbi__u32	src/wb_alloc.h	/^typedef unsigned int wbi__u32;$/;"	t
+wbi__u64	src/wb_alloc.h	/^typedef unsigned long int wbi__u64;$/;"	t
+wfbxFree	src/wb_fbx.cc	72;"	d	file:
+wfbxLoadModelFromFile	src/wb_fbx.cc	/^wfbxModel* wfbxLoadModelFromFile($/;"	f
+wfbxMalloc	src/wb_fbx.cc	71;"	d	file:
+wfbxMaterialTexture	src/wb_fbx.cc	/^} wfbxMaterialTexture;$/;"	t	typeref:struct:__anon3	file:
+wfbxModel	src/wb_fbx.cc	/^} wfbxModel;$/;"	t	typeref:struct:__anon4	file:
+wfbxNew	src/wb_fbx.cc	74;"	d	file:
+wfbxNewArray	src/wb_fbx.cc	75;"	d	file:
+wfbxTransform	src/wb_fbx.cc	/^} wfbxTransform;$/;"	t	typeref:struct:__anon2	file:
+wfbxVertex	src/wb_fbx.cc	/^} wfbxVertex;$/;"	t	typeref:struct:__anon1	file:
+width	src/main.cc	/^	f32 width, height;$/;"	m	struct:__anon1	file:
+width	src/wb_fbx.cc	/^	int width, height;$/;"	m	struct:__anon3	file:
+x	src/render.c	/^	f32 x, y, z;$/;"	m	struct:vec3	file:
+x	src/render_util.c	/^	f32 x, y, z;$/;"	m	struct:vec3	file:
+x	src/vmath.c	/^	f32 x, y, w, h;$/;"	m	struct:rect2	file:
+x	src/vmath.c	/^	f32 x, y;$/;"	m	struct:vec2	file:
+xaxis	src/render.c	/^	vec3 xaxis, yaxis, zaxis, translate;$/;"	m	struct:Camera	file:
+xaxis	src/render_util.c	/^	vec3 xaxis, yaxis, zaxis, translate;$/;"	m	struct:Camera	file:
+y	src/render.c	/^	f32 x, y, z;$/;"	m	struct:vec3	file:
+y	src/render_util.c	/^	f32 x, y, z;$/;"	m	struct:vec3	file:
+y	src/vmath.c	/^	f32 x, y, w, h;$/;"	m	struct:rect2	file:
+y	src/vmath.c	/^	f32 x, y;$/;"	m	struct:vec2	file:
+yaxis	src/render.c	/^	vec3 xaxis, yaxis, zaxis, translate;$/;"	m	struct:Camera	file:
+yaxis	src/render_util.c	/^	vec3 xaxis, yaxis, zaxis, translate;$/;"	m	struct:Camera	file:
+z	src/render.c	/^	f32 x, y, z;$/;"	m	struct:vec3	file:
+z	src/render_util.c	/^	f32 x, y, z;$/;"	m	struct:vec3	file:
+zaxis	src/render.c	/^	vec3 xaxis, yaxis, zaxis, translate;$/;"	m	struct:Camera	file:
+zaxis	src/render_util.c	/^	vec3 xaxis, yaxis, zaxis, translate;$/;"	m	struct:Camera	file:
